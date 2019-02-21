@@ -71,6 +71,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 //       .attr("fill","purple")
 
 
+
   d3.csv("programs.csv", function(data) {
     svg.selectAll("circle")
       .data(data)
@@ -110,5 +111,30 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       });
 
 
+    // svg.selectAll("rect")
+    // 	.attr("class", "rect")
+    // 	.attr("x", function(d) {
+    // 		return projection([d.fields.Longitude, d.fields.Latitude])[0];
+    // 	})
+    // 	.attr("y", function(d) {
+    // 		return projection([d.fields.Longitude, d.fields.Latitude])[1];
+    // 	})
+    // 	.attr("width", "12")
+    //   .attr("height", "12")
+    // .on("mouseover", function(d) {
+    //
+    //    div.transition()
+    //      .duration(200)
+    //      .style("opacity", .9);
+    //
+    //    div.html(d.fields.Name + " " + d.fields.City)
+    //      .style("left", (d3.event.pageX) + "px")
+    //      .style("top", (d3.event.pageY - 28) + "px");
+    //    })
+    //  .on("mouseout", function(d) {
+    //    div.transition()
+    //      .duration(500)
+    //      .style("opacity", 0);
+    //    });
   });
 });

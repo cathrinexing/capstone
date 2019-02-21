@@ -1,22 +1,53 @@
 <html>
   <head>
   	<script src="https://d3js.org/d3.v4.min.js"></script>
+
     <link rel="stylesheet" href="master.css">
 
 </head>
 <body>
-  <div class="div1">
+  <section class="header">
     <h1>Where Can People get UX Graduate Program?</h1>
-  </div>
+  </section>
 
-	<div id="map">
-    Click to see your desirable programs!
+  <section class="navigation">
+    <h3>select your criteria</h3>
+    <div class="buttons">
+        <div class="button" >
+          <div >Property</div>
+          <div class="button1"  id="private">private</div>
+          <div class="button1"id="public">public</div>
+        </div>
+
+        <div class="button">
+          <div >Campus Setting</div>
+          <div class="button1"  id="urban">Urban</div>
+          <div class="button1"id="suburban">Suburban</div>
+          <div class="button1"id="rural">Rural</div>
+        </div>
+
+        <div class="button">Graduate Programs</div>
+        <div class="button">Length</div>
+        <div class="button">
+          <div >Specilization</div>
+          <div class="button1"  id="urban">UX/Interaction Design</div>
+          <div class="button1" id="suburban">Data Viz</div>
+          <div class="button1" id="rural">Game</div>
+        </div>
+
+        <div class="button">Tuition</div>
+      </div>
+<!-- end of button grid -->
+</section>
+<!--     end of navigatin section -->
 
 
-	</div>
+
+<!-- interacitve map -->
+	<div id="map"></div>
 
 
-
+<!-- loding script -->
   <script type="text/javascript" src="script.js" > </script>
 
 
