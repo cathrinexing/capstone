@@ -1,10 +1,12 @@
 <html>
-  <head>
+
+<head>
 
 
-    <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="master.css">
 
 </head>
+
 <body>
   <section class="header">
     <h1>Where Can People get UX Graduate Program?</h1>
@@ -13,49 +15,75 @@
   <section class="navigation">
     <h1>Select Your Criteria</h1>
     <div class="buttons">
-        <div class="button" >
-          <div >Property</div>
-          <div class="button1"  id="private">private</div>
-          <div class="button1"id="public">public</div>
-        </div>
 
-        <div class="button">
-          <div >Campus Setting</div>
-          <div class="button1"  id="urban">Urban</div>
-          <div class="button1"id="suburban">Suburban</div>
-          <div class="button1"id="rural">Rural</div>
-        </div>
-
-        <div class="button">Graduate Programs</div>
-        <div class="button">Length</div>
-        <div class="button">
-          <div >Specilization</div>
-          <div class="button1"  id="urban">UX/Interaction Design</div>
-          <div class="button1" id="suburban">Data Viz</div>
-          <div class="button1" id="rural">Game</div>
-        </div>
-
-        <div class="button">Tuition</div>
+      <div class="button">
+        <h3>Property</h3>
+        <div class="button1" id="private">private</div>
+        <div class="button1" id="public">public</div>
       </div>
-<!-- end of button grid -->
-</section>
-<!--     end of navigatin section -->
+
+      <div class="button">
+        <h3>Campus Setting</h3>
+        <div class="button1" id="urban">Urban</div>
+        <div class="button1" id="suburban">Suburban</div>
+        <div class="button1" id="rural">Rural</div>
+      </div>
+
+      <div class="button">
+        <h3>Graduate Programs</h3>
+        <div class="button1" id="master">Master</div>
+        <div class="button1" id="phd">PhD</div>
+      </div>
+
+
+      <div class="button">
+        <h3>Program Length</h3>
+        <div class="button1" id="one">length ≤ 1 year</div>
+        <div class="button1" id="onefive">1 year < length ≤  1.5 years</div>
+        <div class="button1" id="two">length ≥ 2years</div>
+      </div>
+
+
+      <div  class="button">
+        <h3>Specilization</h3>
+
+        <div class="button1" id="ux">UX/Interaction Design</div>
+        <div class="button1" id="hci">HCI</div>
+        <div class="button1" id="dataviz">Data Viz</div>
+        <div class="button1" id="computing">Interactive Computing Technology</div>
+        <div class="button1" id="game">Game</div>
+        <div class="button1" id="information">Information Technology</div>
+        <div class="button1" id="congnitive">Congnitive Science</div>
+        <div class="button1" id="human">Human Factor</div>
+      </div>
+
+      <div class="button">
+        <h3>Tuition</h3>
+        <div class="button1" id="five">tutuition ≤ 50,000</div>
+        <div class="button1" id="ten">50,000 < tutuition ≤  100,000</div>
+        <div class="button1" id="tenmore">tutuition ≥ 100,000</div>
+      </div>
+
+    </div>
+    <!-- end of button grid -->
+  </section>
+  <!--     end of navigatin section -->
 
 
 
-<!-- interacitve map -->
-	<div id="map"></div>
+  <!-- interacitve map -->
+  <div id="map"></div>
 
   <div id="beeswarm">
     <h1>tuition overview</h1>
 
- <svg width="960" height="450"></svg>
-</div>
+    <svg width="960" height="450"></svg>
+  </div>
 
 
 
 
-<!--   <section id="tuitionbar">
+  <!--   <section id="tuitionbar">
   <h1>tuition details</h1>
   <p>in state & out of state</p>
   <div id="buttons_1">
@@ -69,13 +97,14 @@
  -->
 
 
-<!-- loding script -->
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="map.js" > </script>
-<!--  <script type="text/javascript" src="tuition.js" > </script> -->
-<!-- <script type="text/javascript" src="beeswarm.js"></script> -->
+  <!-- loding script -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="map.js"> </script>
+  <!--  <script type="text/javascript" src="tuition.js" > </script> -->
+  <!-- <script type="text/javascript" src="beeswarm.js"></script> -->
 
 
 </body>
+
 </html>

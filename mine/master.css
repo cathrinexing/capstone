@@ -8,7 +8,6 @@
   justify-content: center;
 }
 
-
 .circle {
   fill: #4fbba9;
   opacity: .5;
@@ -19,35 +18,46 @@
 }
 
 div.tooltip {
-    position: absolute;
-    text-align: center;
-    width: 60px;
-    height: 28px;
-    padding: 2px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
 }
 
 .buttons {
-  grid-template-columns: 220px 220px 220px 220px 220px 220px;
+  grid-template-columns: 220px 220px 220px 220px 440px 220px;
+/*   grid-template-areas: "nav header header " "nav content sidebar"; */
   display: grid;
   margin: 10px;
 }
 
+/* .specilization{
+  grid-template-columns: 220px 220px;
+
+  display: grid;
+  margin: 10px;
+} */
+
 .button {
+  text-align: center;
   display: block;
-  width: 200px;
+/* width: 200px; */
   background-color: orange;
   margin: 10px;
 }
 
+
 .button1 {
+  text-align: center;
   display: block;
-  width: 150px;
-  height: 45px;
+/* width: 150px; */
+  height: 35px;
   background-color: lightpink;
   /* border: 2px solid red; */
   border-radius: 10px;
@@ -62,8 +72,6 @@ div.tooltip {
   border-radius: 10px;
   margin: 10px;
 } */
-
-
 /* beeswarm chart */
 .axis path,
 .axis line {
