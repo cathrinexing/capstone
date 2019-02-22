@@ -88,7 +88,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 //click functions
 
 
-      // var priv = [];
+      // var private = [];
       // var public = [];
       //
       // data.forEach(function(d) {
@@ -97,11 +97,11 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       //   }
       //
       //   if (d.property == 'Private') {
-      //     priv.push(d.lon);
+      //     private.push(d.lon);
       //   }
       // });
       //
-      // console.log(priv,public);
+      // console.log(private,public);
       //
       //    $("#private").click(function(){
       //      priv.forEach(function(p) {
