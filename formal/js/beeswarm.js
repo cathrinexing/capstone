@@ -35,7 +35,7 @@ d3.csv("data/tuition.csv", type, function(error, data) {
   var simulation = d3.forceSimulation(data)
       .force("x", d3.forceX(function(d) { return x(d.value); }).strength(1))
       .force("y", d3.forceY(height/2))
-      .force("collide", d3.forceCollide(20))
+      .force("collide", d3.forceCollide(18))
       .stop();
 
   for (var i = 0; i < 120; ++i) simulation.tick();
