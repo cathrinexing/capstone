@@ -1,0 +1,15 @@
+#under-construction {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 40px;
+  }
+
+  circle {
+    stroke-width: 1.5px;
+  }
+
+  line {
+    stroke: lightGrey;
+  }

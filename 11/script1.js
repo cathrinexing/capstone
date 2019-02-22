@@ -3,7 +3,7 @@ var width = 1145;
 var height = 641;
 
 // D3 Projection
-var projection = d3.geoAlbersUsa()
+var projection = d3.geoAlbers()
   .translate([width / 2, height / 2])
   .scale(1425);
 
@@ -73,6 +73,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 
 
   d3.csv("programs.csv", function(data) {
+
     svg.selectAll("circle")
       .data(data)
       .enter()
@@ -87,6 +88,10 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       .attr("r", "6")
       .attr("opacity", "0.2")
       .attr("fill", "purple")
+      .attr("id",function(d){
+        return
+
+      })
 
 
       // mouse hover function
@@ -96,7 +101,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
           .duration(200)
           .style("opacity", .9);
 
-        div.html(d.fields.Name + " " + d.fields.City)
+        div.html(d.universiy + " " + d.location)
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
       })

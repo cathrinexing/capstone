@@ -3,7 +3,7 @@ var width = 1145;
 var height = 641;
 
 // D3 Projection
-var projection = d3.geoAlbersUsa()
+var projection = d3.geoAlbers()
   .translate([width / 2, height / 2])
   .scale(1425);
 
@@ -40,38 +40,8 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 
 
   //project circles
-
-
-// d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7033e83/raw/aafb03b49f258cbfeec816a7bf5c92288a06193c/data.json", function(data) {
-// 		svg.selectAll(".shapes")
-// 			.data(data.records)
-// 			.enter()
-// 			.append(function(d){
-//          console.log(d);
-//          if (d.fields.Name.indexOf("DataRescue") != -1) {
-//          return document.createElementNS('http://www.w3.org/2000/svg', "circle");
-//          } else {
-//            return document.createElementNS('http://www.w3.org/2000/svg', "rect");
-//          }
-//       })
-//       .attr("class", "shapes")
-//
-//
-//
-//     svg.selectAll("circle")
-// 			.attr("class", "circle")
-// 			.attr("cx", function(d) {
-// 				return projection([d.fields.Longitude, d.fields.Latitude])[0];
-// 			})
-// 			.attr("cy", function(d) {
-// 				return projection([d.fields.Longitude, d.fields.Latitude])[1];
-// 			})
-// 			.attr("r", "6")
-//       .attr("opacity","0.2")
-//       .attr("fill","purple")
-
-
   d3.csv("programs.csv", function(data) {
+
     svg.selectAll("circle")
       .data(data)
       .enter()
@@ -83,9 +53,13 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       .attr("cy", function(d) {
         return projection([d.lon, d.lat])[1];
       })
-      .attr("r", "6")
+      .attr("r", "10")
       .attr("opacity", "0.2")
       .attr("fill", "purple")
+      .attr("id",function(d){
+        return
+
+      })
 
 
       // mouse hover function
@@ -95,7 +69,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
           .duration(200)
           .style("opacity", .9);
 
-        div.html(d.fields.Name + " " + d.fields.City)
+        div.html(d.university + " " + d.location)
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
       })

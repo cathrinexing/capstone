@@ -35,7 +35,7 @@ div.tooltip {
   text-align: center;
   width: 200px;
   height: 80px;
-  padding: 2px;
+  buttons_1 <button id="y1990">1990</button>padding: 2px;
   font: 16px sans-serif;
   background: yellow;
   border: 0px;
@@ -52,7 +52,7 @@ div.tooltip {
 .button {
   display: block;
   width: 200px;
-  background-color:orange;
+  background-color: orange;
   margin: 10px;
 }
 
@@ -62,6 +62,15 @@ div.tooltip {
   height: 45px;
   background-color: lightpink;
   /* border: 2px solid red; */
-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#y1960, #y1990, #y2015 {
+  display: inline;
+  width: 150px;
+  height: 45px;
+  background-color: lightblue;
+  border-radius: 10px;
   margin: 10px;
 }
