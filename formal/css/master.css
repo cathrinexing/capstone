@@ -15,6 +15,7 @@ text-align: center;
 }
 
 
+
 .circle {
   fill: #4fbba9;
   opacity: .5;
@@ -37,19 +38,13 @@ div.tooltip {
   pointer-events: none;
 }
 
-.buttons {
+.navigation1{
   grid-template-columns: 220px 220px 220px 220px 440px 220px;
 /*   grid-template-areas: "nav header header " "nav content sidebar"; */
   display: grid;
   margin: 10px;
 }
 
-/* .specilization{
-  grid-template-columns: 220px 220px;
-
-  display: grid;
-  margin: 10px;
-} */
 
 .button {
   text-align: center;
@@ -78,7 +73,9 @@ div.tooltip {
   background-color: lightblue;
   border-radius: 10px;
   margin: 10px;
-} */
+}
+
+
 /* beeswarm chart */
 .axis path,
 .axis line {
