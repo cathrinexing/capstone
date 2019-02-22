@@ -1,6 +1,13 @@
+//Width and height of map
+var width = 960;
+var height = 450;
 
+var svg = d3.select("#beeswarm")
+  .append("svg")
+  .attr("width", width)
+  .attr("height", height)
 
-var svg= d3.select("svg"),
+    svg= d3.select("svg"),
     margin = {top: 40, right: 40, bottom: 40, left: 40},
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom;

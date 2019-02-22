@@ -2,6 +2,7 @@
 var width = 1145;
 var height = 641;
 
+
 // D3 Projection
 var projection = d3.geoAlbers()
   .translate([width / 2, height / 2])

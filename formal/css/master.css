@@ -8,9 +8,11 @@
   justify-content: center;
 }
 .title{
-font-size: 20px;
+font-size: 25px;
 color:lightblue;
 text-align: center;
+font-style: oblique;
+font-weight: 500;
 
 }
 
