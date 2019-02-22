@@ -21,7 +21,7 @@ text-align: center;
 }
 
 .circle:hover {
-  fill: grey;
+  fill: darkred;
 }
 
 div.tooltip {
