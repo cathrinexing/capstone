@@ -17,7 +17,7 @@ var x = d3.scaleLog()
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("flare.csv", type, function(error, data) {
+d3.csv("data/tuition.csv", type, function(error, data) {
   if (error) throw error;
 
   x.domain(d3.extent(data, function(d) { return d.value; }));

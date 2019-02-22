@@ -40,7 +40,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 
 
   //project circles
-  d3.csv("programs.csv", function(data) {
+  d3.csv("data/programs.csv", function(data) {
 
     svg.selectAll("circle")
       .data(data)
