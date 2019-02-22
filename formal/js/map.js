@@ -85,5 +85,30 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       });
 
 
+//click functions
+
+
+      // var priv = [];
+      // var public = [];
+      //
+      // data.forEach(function(d) {
+      //   if (d.property == 'Public') {
+      //     public.push(d.lon);
+      //   }
+      //
+      //   if (d.property == 'Private') {
+      //     priv.push(d.lon);
+      //   }
+      // });
+      //
+      // console.log(priv,public);
+      //
+      //    $("#private").click(function(){
+      //      priv.forEach(function(p) {
+      //        $("#"+p).
+      //      })
+      //    })
+
+
   });
 });
