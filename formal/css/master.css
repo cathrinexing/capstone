@@ -7,6 +7,13 @@
   align-items: center;
   justify-content: center;
 }
+.title{
+font-size: 20px;
+color:lightblue;
+text-align: center;
+
+}
+
 
 .circle {
   fill: #4fbba9;
