@@ -19,6 +19,11 @@ font-weight: 500;
 
 
 /* map style */
+#map{
+  text-align: center;
+  height: 700px;
+  margin-top: -80px;
+}
 
 #mapnav{
   width: 1200px;
