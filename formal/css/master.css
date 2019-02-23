@@ -18,9 +18,15 @@ font-weight: 500;
 }
 
 
+/* map style */
 
-
-
+#mapnav{
+  width: 1200px;
+  text-align: center;
+  margin:auto;
+align-items: center;
+justify-content: center;
+  }
 .circle {
   fill: #4fbba9;
   opacity: .5;
@@ -43,13 +49,12 @@ div.tooltip {
   pointer-events: none;
 }
 
+/* mapnavs */
 .navigation1{
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr;
-/*   grid-template-areas: "nav header header " "nav content sidebar"; */
   display: grid;
   margin: 30px;
 }
-
 
 .button {
   text-align: center;
@@ -58,7 +63,6 @@ div.tooltip {
   background-color: lightblue;
   margin: 10px;
 }
-
 
 .button1 {
   text-align: center;
@@ -80,11 +84,6 @@ div.tooltip {
   margin:5px;
 }
 
-#map,
-#beeswarm{
-  text-align: center;
-  height: 700px;
-}
 
 /* #y1960, #y1990, #y2015 {
   display: inline;
@@ -96,7 +95,14 @@ div.tooltip {
 }
 
 
+
 /* beeswarm chart */
+
+#beeswarm{
+  text-align: center;
+  height: 700px;
+}
+
 .axis path,
 .axis line {
   fill: none;
@@ -116,6 +122,11 @@ div.tooltip {
 .cells circle:hover {
   fill: red;
 }
+
+
+
+
+
 
 
 /* factsheet chart */

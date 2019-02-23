@@ -1,12 +1,15 @@
+
+(function(){
+
 //Width and height of map
 var width = 1145;
-var height = 641;
+var height = 660;
 
 
 // D3 Projection
 var projection = d3.geoAlbers()
   .translate([width / 2, height / 2])
-  .scale(1425);
+  .scale(1100);
 
 // Define path generator
 var path = d3.geoPath()
@@ -110,5 +113,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       //    })
 
 
-  });
-});
+  });//end of programs data
+});//end of projection
+
+})();//end of initial function

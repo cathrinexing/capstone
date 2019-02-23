@@ -1,5 +1,9 @@
+
+
+(function(){
+
 //Width and height of map
-var width = 960;
+var width = 900;
 var height = 450;
 // var width = 1145;
 // var height = 641;
@@ -93,7 +97,6 @@ d3.csv("data/tuition.csv", type, function(error, data) {
 
   // cell.append("path")
   //     .attr("d", function(d) { return "M" + d.join("L") + "Z"; });
-
   cell.append("title")
       .text(function(d) { return d.data.id + "\n" + formatValue(d.data.value); });
 });
@@ -102,4 +105,6 @@ function type(d) {
   if (!d.value) return;
   d.value = +d.value;
   return d;
-}
+}// end of draw function
+
+})();//end of initial f
