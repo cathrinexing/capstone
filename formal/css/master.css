@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .title{
 font-size: 25px;
 color:lightblue;
@@ -54,7 +55,7 @@ div.tooltip {
   text-align: center;
   display: block;
 /* width: 200px; */
-  background-color: orange;
+  background-color: lightblue;
   margin: 10px;
 }
 
@@ -64,9 +65,9 @@ div.tooltip {
   display: block;
 /* width: 150px; */
   height: 35px;
-  background-color: lightpink;
+  background-color: lightgrey;
   /* border: 2px solid red; */
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px;
 }
 
@@ -114,4 +115,56 @@ div.tooltip {
 
 .cells circle:hover {
   fill: red;
+}
+
+
+/* factsheet chart */
+.factnav{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.nested2{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.factbutton{
+  text-align: center;
+  display: block;
+  height: 30px;
+/* width: 200px; */
+  background-color: lightblue;
+  margin: 10px;
+
+}
+
+.ms{
+    background-color: lightgreen;
+}
+
+
+.factnav h3{
+  align-items: center;
+  margin: auto;
+}
+
+/* .factbutton p{
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  display: inline-block;
+  background-color: grey;
+  display: inline;
+} */
+
+#factsheet,
+#major,
+#track{
+  width: 950px;
+  text-align: center;
+  margin:auto;
+
+align-items: center;
+justify-content: center;
 }
