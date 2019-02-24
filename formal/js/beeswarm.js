@@ -59,6 +59,7 @@ d3.csv("data/tuition.csv", type, function(error, data) {
           .attr("transform", "translate(0,0)")
           .call(d3.axisTop(x).ticks(20, ".0s"))
 
+
   var cell = g.append("g")
       .attr("class", "cells")
     .selectAll("g").data(d3.voronoi()

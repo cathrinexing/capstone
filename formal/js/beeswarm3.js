@@ -21,13 +21,13 @@ svg.append("line", 'svg')
 	.attr("stroke-width", 1.5)
 	.attr("stroke", "#A3A0A6");
 
-	svg.append("g")
-			.attr("class", "axis axis--x")
-			.attr("x1", 0)
-			.attr("y1", height/2)
-			.attr("x2", width)
-			.attr("y2", height/2)
-			// .attr("transform", "translate(0," + height + ")")
+
+
+
+		  // var scale = d3.scaleLinear()
+		  //                 .domain([d3.min(data), d3.max(data)])
+		  //                 .range([height/2, 0]);
+
 
 
 var x = d3.scaleLinear()
@@ -36,9 +36,6 @@ var x = d3.scaleLinear()
 
 
 var data_set = 'one';
-
-
-
 
 d3.json('data/beeswarm3.json', function(data){
 
@@ -103,9 +100,20 @@ d3.json('data/beeswarm3.json', function(data){
 		.alpha(0.12)
 		.on('tick', tick)
 
+//add scalebar
+		for (var i = 0; i < 120; ++i) simulation.tick();
+
+	 svg.append("g")
+				.attr("class", "axis axis--x")
+				.attr("transform", "translate(0," + height + ")")
+				.call(d3.axisBottom(x).ticks(20, ".0s"))
 
 
-
+	svg.append("g")
+		 				.attr("class", "axis axis--x")
+		 				.attr("transform", "translate(0," + height + ")")
+		 				.call(d3.axisTop(x).ticks(20, ".0s"))
+//init
 	var init_decay;
 	init_decay = setTimeout(function(){
 		console.log('init alpha decay')

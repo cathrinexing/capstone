@@ -105,7 +105,7 @@ div.tooltip {
 
 #beeswarm{
   text-align: center;
-  height: 700px;
+  height: 800px;
 }
 
 .axis path,
@@ -145,6 +145,7 @@ div.tooltip {
   height: 35px;
   width: 100px;
   background-color: yellow;
+  margin: 30px;
 }
 
 /* factsheet chart */
