@@ -1,6 +1,6 @@
 var width = 900,
 	height = 400,
-	radius = 10;
+	radius = 13;
   var circ;
 
 var svg = d3.select('#beeswarm').append('svg')

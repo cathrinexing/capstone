@@ -52,12 +52,12 @@ d3.csv("data/tuition.csv", type, function(error, data) {
   g.append("g")
       .attr("class", "axis axis--x")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(20, ".0s"))
+      .call(d3.axisBottom(x).ticks(6, ".0s"))
 
     g.append("g")
           .attr("class", "axis axis--x")
           .attr("transform", "translate(0,0)")
-          .call(d3.axisTop(x).ticks(20, ".0s"))
+          .call(d3.axisTop(x).ticks(6 ".0s"))
 
 
   var cell = g.append("g")
