@@ -40,6 +40,8 @@
         thisButton.classed("selected", true);
 
       });
+
+
     d3.select("#y1990")
       .on("click", function(d, i) {
         selected = "1990"

@@ -4,6 +4,7 @@
 //Width and height of map
 var width = 1145;
 var height = 660;
+var selected;
 
 
 // D3 Projection
@@ -113,6 +114,42 @@ data.forEach(function(d) {
 
 console.log(priv);
 
+
+// d3.select("#y1960")
+//   .on("click", function(d, i) {
+//     selected = "1960"
+//     dataset = drawGraph(data, selected);
+//     redraw(dataset, selected);
+//     var thisButton = d3.select(this);
+//     d3.selectAll("#buttons_1 button").classed("selected", false);
+//     thisButton.classed("selected", true);
+//
+//   });
+
+
+
+  d3.select("#private")
+    .on("click",function(d,i){
+      priv.forEach(function(p){
+        selected=[priv]
+
+        d3.select(this)
+
+
+        var thisButton=d3.select(this);
+        d3.selectAll("#navigation1 div .button1").classed("selected",false);
+        thisButton.classed("selected",true);
+      });
+
+
+ });     //end of selecting private button
+
+// var buttons=
+// buttons.on("click",function)(d){
+// d3.select(this)
+//
+// }
+
 //click jqury
 
   $(document).ready(function() {
@@ -124,7 +161,7 @@ console.log(priv);
      //
      // })
    })
-     });
+ }); // end of  document.ready function
 
 
   });//end of programs data
