@@ -31,7 +31,7 @@ svg.append("line", 'svg')
 
 
 var x = d3.scaleLinear()
-			.range([0, width])
+			.range([10, width*0.95])
 			.domain([0, 120000]);
 
 
@@ -112,7 +112,7 @@ d3.json('data/beeswarm3.json', function(data){
 	svg.append("g")
 		 				.attr("class", "axis axis--x")
 		 				.attr("transform", "translate(0," + height + ")")
-		 				.call(d3.axisTop(x).ticks(20, ".0s"))
+		 				.call(d3.axisTop(x).ticks(6, ".0s"))
 //init
 	var init_decay;
 	init_decay = setTimeout(function(){
