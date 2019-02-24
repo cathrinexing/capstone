@@ -124,15 +124,28 @@ div.tooltip {
   pointer-events: all;
 }
 
-.cells circle:hover {
+ .circ:hover {
   fill: red;
 }
 
+/* .d_sel{
+  background: grey;
+} */
+
+.circ {
+  fill: #bc53ff;
+  fill-opacity: 0.6;
+  stroke: black;
+
+  cursor: pointer;
+}
 
 
-
-
-
+.d_sel{
+  height: 35px;
+  width: 100px;
+  background-color: yellow;
+}
 
 /* factsheet chart */
 .factnav{

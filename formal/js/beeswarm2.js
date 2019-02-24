@@ -31,7 +31,42 @@ var x = d3.scaleLog()
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+
+
 d3.csv("data/tuition.csv", type, function(error, data) {
+//buttons
+// var selected = instate;
+// var dataset = drawGraph(data, selected);
+// console.log(colomn,dataset);
+// redraw(dataset,select);
+//
+//
+// d3.select("button#binstate").classed("selected", true);
+//
+//       d3.select("#binstate")
+//           .on("click", function(d,i) {
+//               selected = "instate"
+//               dataset = drawGraph(data, selected);
+//               redraw(dataset, selected);
+//               var thisButton = d3.select(this);
+//               d3.selectAll("#buttons_1 button").classed("selected", false);
+//               thisButton.classed("selected", true);
+//
+//           });
+//
+//       d3.select("#boutstate")
+//           .on("click", function(d,i) {
+//               selected = "1990"
+//               dataset = drawGraph(data, selected);
+//               redraw(dataset, selected);
+//               var thisButton = d3.select(this);
+//               d3.selectAll("#buttons_1 button").classed("selected", false);
+//               thisButton.classed("selected", true);
+//           });
+//
+
+
   if (error) throw error;
 
   x.domain(d3.extent(data, function(d) { return d.value; }));
@@ -92,7 +127,6 @@ d3.csv("data/tuition.csv", type, function(error, data) {
         .duration(500)
         .style("opacity", 0);
     });
-
 
 
 

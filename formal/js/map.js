@@ -91,26 +91,40 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
 //click functions
 
 
-      // var private = [];
-      // var public = [];
-      //
-      // data.forEach(function(d) {
-      //   if (d.property == 'Public') {
-      //     public.push(d.lon);
-      //   }
-      //
-      //   if (d.property == 'Private') {
-      //     private.push(d.lon);
-      //   }
-      // });
-      //
-      // console.log(private,public);
-      //
-      //    $("#private").click(function(){
-      //      priv.forEach(function(p) {
-      //        $("#"+p).
-      //      })
-      //    })
+var priv = [];
+var public = [];
+var urban = [];
+var suburban = [];
+
+
+data.forEach(function(d) {
+  if (d.property == 'Public') {
+    public.push(d.id);
+  }
+
+  if (d.property == 'Private') {
+    priv.push(d.id);
+  }
+
+  if (d.campussetting == 'Urban') {
+    urban.push(d.id);
+  }
+});
+
+console.log(priv);
+
+//click jqury
+
+  $(document).ready(function() {
+
+   $("#private").click(function(){
+
+
+     // priv.forEach(function(p) {
+     //
+     // })
+   })
+     });
 
 
   });//end of programs data
