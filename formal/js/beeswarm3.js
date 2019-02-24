@@ -105,20 +105,20 @@ d3.json('data/beeswarm3.json', function(data){
 
 	 svg.append("g")
 				.attr("class", "axis axis--x")
-				.attr("transform", "translate(0," + height + ")")
-				.call(d3.axisBottom(x).ticks(20, ".0s"))
+				.attr("transform", "translate(0,-1)")
+				.call(d3.axisBottom(x).ticks(6, ".0s"))
 
 
 	svg.append("g")
 		 				.attr("class", "axis axis--x")
-		 				.attr("transform", "translate(0," + height + ")")
+		 				.attr("transform", "translate(0,400)")
 		 				.call(d3.axisTop(x).ticks(6, ".0s"))
 //init
 	var init_decay;
 	init_decay = setTimeout(function(){
 		console.log('init alpha decay')
 		simulation.alphaDecay(0.1);
-	}, 4000);
+	}, 2000);
 
 	var buttons = d3.select('#beeswarm').append('div');
 	buttons.append('button').text('In-State').attr('value', 'one').classed('d_sel', true)
