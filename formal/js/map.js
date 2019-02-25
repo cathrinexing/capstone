@@ -62,9 +62,9 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
       .attr("opacity", "0.2")
       .attr("fill", "purple")
       .attr("id",function(d){
-        return
+        return d.id;
 
-      })
+     })
 
 
       // mouse hover function
@@ -112,7 +112,7 @@ data.forEach(function(d) {
   }
 });
 
-console.log(priv);
+// console.log(priv);
 
 
 // d3.select("#y1960")
@@ -129,17 +129,50 @@ console.log(priv);
 
 
   d3.select("#private")
-    .on("click",function(d,i){
-      priv.forEach(function(p){
-        selected=[priv]
+    .on("click",function(){
 
+      priv.forEach(function(p) {
         d3.select(this)
+        .attr("opacity", "1")
+        .attr("fill", "yellow")
+      })
+
+      console.log(priv);
 
 
-        var thisButton=d3.select(this);
-        d3.selectAll("#navigation1 div .button1").classed("selected",false);
-        thisButton.classed("selected",true);
-      });
+
+      // data.forEach(function(d) {
+      //
+      //   if (d.property == 'Private') {
+      //     d3.select(d.id).attr("visibility", "visible");
+      //   }else{
+      //       d3.select(d.id).attr("visibility", "hidden");
+      //   }
+      //
+      // });
+
+      //console.log(priv);
+
+      // priv.forEach(function(element){
+      //   console.log(element);
+      //
+      //   // all university vs private
+      // })
+
+      // priv.forEach(function(p){
+      //   selected=[priv]
+      //
+      //   d3.select(this)
+      //
+      //
+      //   var thisButton=d3.select(this);
+      //   d3.selectAll("#navigation1 div .button1").classed("selected",false);
+      //   thisButton.classed("selected",true);
+      // });
+
+      //console.log("private");
+
+
 
 
  });     //end of selecting private button

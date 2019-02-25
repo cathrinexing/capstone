@@ -191,6 +191,16 @@ div.tooltip {
   display: inline;
 } */
 
+.factPic{
+  width: 300px;
+  height: auto;
+  display: inline-block;
+}
+
+.factPicImages{
+  width: 300px;
+}
+
 #factsheet,
 #major,
 #track{
