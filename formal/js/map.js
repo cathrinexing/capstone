@@ -131,78 +131,65 @@ data.forEach(function(d) {
   d3.select("#private")
     .on("click",function(){
 
+      //reset color to default
+      d3.selectAll(".button1")
+      .style("background-color","yellow")
+
+  //hide all current points
       d3.selectAll("circle")
       .style("opacity","0")
 
-      // .button1.style("opacity","0")
 
       priv.forEach(function(p) {
-
+// change points color
         d3.select("#"+p)
         .style("opacity", "1")
         .style("fill", "yellow")
-      })
 
+
+//Change button color
+        d3.select("#private")
+          .style("background-color","red")
+
+      })
 
 
       console.log(priv);
 
 
-
-      // data.forEach(function(d) {
-      //
-      //   if (d.property == 'Private') {
-      //     d3.select(d.id).attr("visibility", "visible");
-      //   }else{
-      //       d3.select(d.id).attr("visibility", "hidden");
-      //   }
-      //
-      // });
-
-      //console.log(priv);
-
-      // priv.forEach(function(element){
-      //   console.log(element);
-      //
-      //   // all university vs private
-      // })
-
-      // priv.forEach(function(p){
-      //   selected=[priv]
-      //
-      //   d3.select(this)
-      //
-      //
-      //   var thisButton=d3.select(this);
-      //   d3.selectAll("#navigation1 div .button1").classed("selected",false);
-      //   thisButton.classed("selected",true);
-      // });
-
-      //console.log("private");
-
-
-
-
  });     //end of selecting private button
 
-// var buttons=
-// buttons.on("click",function)(d){
-// d3.select(this)
-//
-// }
+ d3.select("#public")
+   .on("click",function(){
 
-//click jqury
+     //reset color to default
+     d3.selectAll(".button1")
+     .style("background-color","yellow")
 
-  $(document).ready(function() {
+ //hide all current points
+     d3.selectAll("circle")
+     .style("opacity","0")
 
-   $("#private").click(function(){
+
+     public.forEach(function(p) {
+// change points color
+       d3.select("#"+p)
+       .style("opacity", "1")
+       .style("fill", "yellow")
+
+//Change button color
+       d3.select("#public")
+         .style("background-color","red")
+     })
+
+     // console.log(public);
+
+});     //end of selecting public button
 
 
-     // priv.forEach(function(p) {
-     //
-     // })
-   })
- }); // end of  document.ready function
+
+
+
 
 
   });//end of programs data
