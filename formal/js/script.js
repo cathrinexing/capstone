@@ -11,7 +11,13 @@
     // $(".factPic").html("");
     // container1 = false;
     //$(".factbutton").css("background","green");
-    
+    $("#reset").click(function(){
+      $(".factPic").html("");
+       container1 = false;
+       $(".factbutton").css("background","green");
+
+    });
+
 
 
 
