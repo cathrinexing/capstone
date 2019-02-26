@@ -141,22 +141,6 @@ d3.json('data/beeswarm3.json', function(data) {
 
 
 
-    // .on("mouseover", function(d) {
-    // 	div.transition()
-    // 		.duration(200)
-    // 		.style("opacity", .9);
-    //
-    // 	div.html(d.id + " ")
-    // 		.style("left", (d3.event.pageX) + "px")
-    // 		.style("top", (d3.event.pageY - 28) + "px");
-    // })
-    //
-    //
-    // .on("mouseout", function(d) {
-    // 	div.transition()
-    // 		.duration(500)
-    // 		.style("opacity", 0);
-    // });
 
 
     simulation.force('x', d3.forceX(function(d) {
