@@ -139,11 +139,25 @@ d3.json('data/beeswarm3.json', function(data) {
     console.log(data_set);
 
     d3.selectAll("button")
-       .style("background-color","yellow")
-   // d3.select(this)
-   //   button.style("background-color","red")
-   d3.select("this.button")
-   .style("background-color","red")
+       .style("background-color","lightblue")
+
+    if (this.value == 'one') {
+
+          d3.selectAll("#instate")
+             .style("background-color","yellow");
+    }
+
+    if (this.value == 'two') {
+      d3.selectAll("#outstate")
+         .style("background-color","yellow");
+    }
+
+
+
+
+   //
+   // d3.select("this.button")
+   // .style("background-color","red")
 
 
 
