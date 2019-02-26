@@ -80,7 +80,7 @@ d3.json('data/beeswarm3.json', function(data) {
         .duration(200)
         .style("opacity", .9);
 
-      div.html(d.id+"<br>"+"Instate" + d.one+ "<br>"+"outstate" + d.two)
+      div.html(d.id + "<br>" + "Instate" + d.one)
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 28) + "px");
     })
@@ -90,6 +90,7 @@ d3.json('data/beeswarm3.json', function(data) {
       div.transition()
         .duration(500)
         .style("opacity", 0);
+
     });
 
 
@@ -127,8 +128,8 @@ d3.json('data/beeswarm3.json', function(data) {
   }, 1000);
 
   var buttons = d3.select('#beeswarm').append('div');
-  buttons.append('button').text('In-State').attr('value', 'one').classed('d_sel', true).attr("id","instate")
-  buttons.append('button').text('Out of State').attr('value', 'two').classed('d_sel', true).attr("id","outstate")
+  buttons.append('button').text('In-State').attr('value', 'one').classed('d_sel', true).attr("id", "instate")
+  buttons.append('button').text('Out of State').attr('value', 'two').classed('d_sel', true).attr("id", "outstate")
 
 
 
@@ -139,25 +140,79 @@ d3.json('data/beeswarm3.json', function(data) {
     console.log(data_set);
 
     d3.selectAll("button")
-       .style("background-color","lightblue")
+      .style("background-color", "lightblue")
 
     if (this.value == 'one') {
 
-          d3.selectAll("#instate")
-             .style("background-color","yellow");
+      d3.selectAll("#instate")
+        .style("background-color", "yellow")
+
+      d3.selectAll('.circ')
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", 0);
+
+            div.html("");
+        })
+
+      d3.selectAll('.circ')
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+          div.html(d.id + "<br>" + "Instate" + d.one)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+
+
+        .on("mouseout", function(d) {
+          div.transition()
+            .duration(500)
+            .style("opacity", 0);
+        })
     }
 
     if (this.value == 'two') {
       d3.selectAll("#outstate")
-         .style("background-color","yellow");
+        .style("background-color", "yellow");
+
+      d3.selectAll('.circ')
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", 0);
+
+          div.html("");
+        })
+
+      d3.selectAll('.circ')
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+          div.html(d.id + "<br>" + "Outstate" + d.two)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+
+
+        .on("mouseout", function(d) {
+          div.transition()
+            .duration(500)
+            .style("opacity", 0);
+        })
     }
 
 
 
 
-   //
-   // d3.select("this.button")
-   // .style("background-color","red")
+    //
+    // d3.select("this.button")
+    // .style("background-color","red")
 
 
 
@@ -176,7 +231,7 @@ d3.json('data/beeswarm3.json', function(data) {
       console.log('init alpha decay');
       simulation.alphaDecay(0.1);
     }, 8000);
-  })//end of onclick function
+  }) //end of onclick function
 
 
 

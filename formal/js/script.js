@@ -15,7 +15,6 @@
     //reset button functiobn
     $("#reset").click(function() {
       $(".factPic").html("");
-      
       container1 = false;
       container2 = false;
       container3 = false;
