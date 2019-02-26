@@ -118,7 +118,7 @@ data.forEach(function(d) {
 
       //reset color to default
       d3.selectAll(".button1")
-      .style("background-color","yellow")
+      .style("background-color","lightgrey")
 
   //hide all current points
       d3.selectAll("circle")
@@ -150,7 +150,7 @@ data.forEach(function(d) {
 
      //reset color to default
      d3.selectAll(".button1")
-     .style("background-color","yellow")
+     .style("background-color","lightgrey")
 
  //hide all current points
      d3.selectAll("circle")

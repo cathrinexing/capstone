@@ -39,8 +39,7 @@ var data_set = 'one';
 d3.json('data/beeswarm3.json', function(data) {
 
 
-  console.log(data);
-
+  // console.log(data);
 
 
   function tick() {
@@ -123,13 +122,13 @@ d3.json('data/beeswarm3.json', function(data) {
   //init
   var init_decay;
   init_decay = setTimeout(function() {
-    console.log('init alpha decay')
+    // console.log('init alpha decay')
     simulation.alphaDecay(0.1);
   }, 1000);
 
   var buttons = d3.select('#beeswarm').append('div');
-  buttons.append('button').text('In-State').attr('value', 'one').classed('d_sel', true)
-  buttons.append('button').text('Out of State').attr('value', 'two').classed('d_sel', true)
+  buttons.append('button').text('In-State').attr('value', 'one').classed('d_sel', true).attr("id","instate")
+  buttons.append('button').text('Out of State').attr('value', 'two').classed('d_sel', true).attr("id","outstate")
 
 
 
@@ -137,7 +136,16 @@ d3.json('data/beeswarm3.json', function(data) {
 
     data_set = this.value;
 
-    console.log(data_set)
+    console.log(data_set);
+
+    d3.selectAll("button")
+       .style("background-color","yellow")
+   // d3.select(this)
+   //   button.style("background-color","red")
+   d3.select("this.button")
+   .style("background-color","red")
+
+
 
     simulation.force('x', d3.forceX(function(d) {
       return x(d[data_set])
