@@ -5,7 +5,7 @@
 
     var container1 = false;
     var container2 = false;
-    var container3 = false;
+    // var container3 = false;
 
     // reset button. click
     // $(".factPic").html("");
@@ -17,7 +17,7 @@
       $(".factPic").html("");
       container1 = false;
       container2 = false;
-      container3 = false;
+      // container3 = false;
       $(".factbutton").css("background", "green");
     });
 
@@ -37,11 +37,12 @@
         $("#factpic2").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
         $("#um").css("background", "yellow");
         container2 = true;
-      } else if (container3 == false) {
-        $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
-        $("#um").css("background", "yellow");
-        container3 = true;
       }
+      //  else if (container3 == false) {
+      //   $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+      //   $("#um").css("background", "yellow");
+      //   container3 = true;
+      // }
     });
 
 
@@ -56,11 +57,12 @@
         $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="250">');
         $("#parson").css("background", "yellow");
         container2 = true;
-      } else if (container3 == false) {
-        $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="450" width="250">');
-        $("#parson").css("background", "yellow");
-        container3 = true;
       }
+      // else if (container3 == false) {
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="450" width="250">');
+      //   $("#parson").css("background", "yellow");
+      //   container3 = true;
+      // }
 
     });
 
@@ -76,11 +78,12 @@
         $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
         $("#visual").css("background", "yellow");
         container2 = true;
-      } else if (container3 == false) {
-        $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
-        $("#visual").css("background", "yellow");
-        container3 = true;
       }
+      // else if (container3 == false) {
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+      //   $("#visual").css("background", "yellow");
+      //   container3 = true;
+      // }
 
     });
 
