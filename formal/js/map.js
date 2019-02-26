@@ -121,7 +121,7 @@ data.forEach(function(d) {
       .style("background-color","lightgrey")
 
   //hide all current points
-      d3.selectAll("circle")
+      d3.selectAll(".circle")
       .style("opacity","0")
 
 
@@ -153,7 +153,7 @@ data.forEach(function(d) {
      .style("background-color","lightgrey")
 
  //hide all current points
-     d3.selectAll("circle")
+     d3.selectAll(".circle")
      .style("opacity","0")
 
 
