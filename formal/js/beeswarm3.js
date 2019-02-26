@@ -23,7 +23,6 @@ var div = d3.select("body").append("div")
 
 
 
-
 // var scale = d3.scaleLinear()
 //                 .domain([d3.min(data), d3.max(data)])
 //                 .range([height/2, 0]);
@@ -120,6 +119,7 @@ d3.json('data/beeswarm3.json', function(data) {
     .attr("class", "axis axis--x")
     .attr("transform", "translate(0,400)")
     .call(d3.axisTop(x).ticks(6, ".0s"))
+
   //init
   var init_decay;
   init_decay = setTimeout(function() {
@@ -139,10 +139,6 @@ d3.json('data/beeswarm3.json', function(data) {
 
     console.log(data_set)
 
-
-
-
-
     simulation.force('x', d3.forceX(function(d) {
       return x(d[data_set])
     }))
@@ -158,10 +154,8 @@ d3.json('data/beeswarm3.json', function(data) {
       console.log('init alpha decay');
       simulation.alphaDecay(0.1);
     }, 8000);
-  })
+  })//end of onclick function
 
 
 
-
-
-})
+}) //end of loading json dataset
