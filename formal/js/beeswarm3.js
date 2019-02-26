@@ -82,7 +82,7 @@ d3.json('data/beeswarm3.json', function(data) {
         .duration(200)
         .style("opacity", .9);
 
-      div.html(d.id+"Instate" + d.one+ "outstate" + d.two)
+      div.html(d.id+"<br>"+"Instate" + d.one+ "<br>"+"outstate" + d.two)
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 28) + "px");
     })

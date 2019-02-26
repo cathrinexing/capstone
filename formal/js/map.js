@@ -112,21 +112,6 @@ data.forEach(function(d) {
   }
 });
 
-// console.log(priv);
-
-
-// d3.select("#y1960")
-//   .on("click", function(d, i) {
-//     selected = "1960"
-//     dataset = drawGraph(data, selected);
-//     redraw(dataset, selected);
-//     var thisButton = d3.select(this);
-//     d3.selectAll("#buttons_1 button").classed("selected", false);
-//     thisButton.classed("selected", true);
-//
-//   });
-
-
 
   d3.select("#private")
     .on("click",function(){
@@ -158,6 +143,7 @@ data.forEach(function(d) {
 
 
  });     //end of selecting private button
+
 
  d3.select("#public")
    .on("click",function(){
