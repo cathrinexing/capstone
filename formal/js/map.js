@@ -74,7 +74,7 @@ d3.json("https://gist.githubusercontent.com/anonymous/9f6a63841a74562a4a7173b9f7
           .duration(200)
           .style("opacity", .9);
 
-        div.html(d.university + " " + d.location)
+        div.html(d.university +"<br>"  + d.location)
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
       })
@@ -131,11 +131,19 @@ data.forEach(function(d) {
   d3.select("#private")
     .on("click",function(){
 
+      d3.selectAll("circle")
+      .style("opacity","0")
+
+      // .button1.style("opacity","0")
+
       priv.forEach(function(p) {
-        d3.select(this)
-        .attr("opacity", "1")
-        .attr("fill", "yellow")
+
+        d3.select("#"+p)
+        .style("opacity", "1")
+        .style("fill", "yellow")
       })
+
+
 
       console.log(priv);
 
