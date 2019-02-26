@@ -200,7 +200,11 @@ div.tooltip {
 .factPicImages{
   width: 300px;
 }
-
+#reset{
+  height:100px;
+  width:100px;
+  background-color: red;
+}
 #factsheet,
 #major,
 #track{
