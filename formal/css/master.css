@@ -195,6 +195,7 @@ div.tooltip {
   width: 300px;
   height: auto;
   display: inline-block;
+  background-color: grey;
 }
 
 .factPicImages{

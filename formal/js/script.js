@@ -11,11 +11,12 @@
     // $(".factPic").html("");
     // container1 = false;
     //$(".factbutton").css("background","green");
+
+    //reset button functiobn
     $("#reset").click(function(){
       $(".factPic").html("");
        container1 = false;
        $(".factbutton").css("background","green");
-
     });
 
 
