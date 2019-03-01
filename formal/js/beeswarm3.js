@@ -36,7 +36,7 @@ var x = d3.scaleLinear()
 
 var data_set = 'one';
 
-d3.json('data/beeswarm3.json', function(data) {
+d3.json('data/tuition.json', function(data) {
 
 
   // console.log(data);
