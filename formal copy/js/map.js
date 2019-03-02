@@ -109,6 +109,8 @@
               if (d.campussetting == 'Urban') {
                 urban.push(d.id);
               }
+
+              
             });
 
             //onclick resetmap
@@ -190,6 +192,35 @@
                   // console.log(public);
 
                 }); //end of selecting public button
+
+
+                d3.select("#urban")
+                .on("click", function() {
+
+                  //reset color to default
+                  d3.selectAll(".button1")
+                    .style("background-color", "lightgrey")
+
+                  //hide all current points
+                  d3.selectAll(".circle")
+                    .style("opacity", "0")
+
+
+                  public.forEach(function(p) {
+                    // change points color
+                    d3.select("#" + p)
+                      .style("opacity", "1")
+                      .style("fill", "yellow")
+
+                    //Change button color
+                    d3.select("#urban")
+                      .style("background-color", "red")
+                  })
+
+                  // console.log(public);
+
+                }); //end of selecting urban button
+
 
 
 
