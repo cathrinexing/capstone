@@ -44,11 +44,11 @@ justify-content: center;
 div.tooltip {
   position: absolute;
   text-align: center;
-  width: 200px;
+  width: 250px;
   height: 100px;
   padding: 2px;
   font: 15px sans-serif;
-  background: lightsteelblue;
+  background: rgba(255,0,0,.5);
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
