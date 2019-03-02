@@ -57,7 +57,7 @@
               .attr("cy", function(d) {
                 return projection([d.lon, d.lat])[1];
               })
-              .attr("r", "10")
+              .attr("r", "5")
               .attr("opacity", "0.2")
               .attr("fill", "purple")
               .attr("id", function(d) {
