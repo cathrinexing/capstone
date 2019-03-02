@@ -149,7 +149,7 @@
                   priv.forEach(function(p) {
                     // change points color
                     d3.select("#" + p)
-                      .style("opacity", "1")
+                      .style("opacity", "0.8")
                       .style("fill", "yellow")
 
                     //Change button color
@@ -181,7 +181,7 @@
                   public.forEach(function(p) {
                     // change points color
                     d3.select("#" + p)
-                      .style("opacity", "1")
+                      .style("opacity", "0.8")
                       .style("fill", "yellow")
 
                     //Change button color
@@ -209,7 +209,7 @@
                   public.forEach(function(p) {
                     // change points color
                     d3.select("#" + p)
-                      .style("opacity", "1")
+                      .style("opacity", "0.8")
                       .style("fill", "yellow")
 
                     //Change button color
