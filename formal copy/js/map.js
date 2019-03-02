@@ -115,9 +115,12 @@
             d3.select("#resetmap")
               .on("click", function() {
 
-              console.log("wwww");
+              // console.log("wwww");
               d3.selectAll(".button1")
                 .style("background-color", "lightgrey")
+
+                // d3.selectAll("input")
+                // .attr('checked',false)
 
                 d3.selectAll(".circle")
                 .style("opacity", "0.5")
@@ -134,6 +137,8 @@
                   //reset color to default
                   d3.selectAll(".button1")
                     .style("background-color", "lightgrey")
+
+
 
                   //hide all current points
                   d3.selectAll(".circle")
