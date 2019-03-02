@@ -44,7 +44,7 @@
 
 
         //project circles
-        d3.csv("data/programs.csv", function(data) {
+        d3.json("data/programs.json", function(data) {
 
             svg.selectAll("circle")
               .data(data)
