@@ -56,7 +56,7 @@ div.tooltip {
 
 /* mapnavs */
 #navigation1{
-  grid-template-columns: 1fr 1fr 1fr  2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr  2fr 1fr 1fr;
   display: grid;
   margin: 30px;
 }
