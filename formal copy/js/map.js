@@ -110,7 +110,7 @@
                 urban.push(d.id);
               }
 
-              
+
             });
 
             //onclick resetmap
