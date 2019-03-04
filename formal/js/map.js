@@ -99,6 +99,8 @@
       var tuitiontenmorein = [];
 
 
+
+
       data.forEach(function(d) {
         if (d.property == 'Public') {
           public.push(d.id);
@@ -125,7 +127,7 @@
           .data(data)
           .enter()
           .filter(function(d) {
-            if (d.tuitionin > 10000) {
+            if (d.tuitionin > 100000) {
               tuitiontenmorein.push(d.id);
             }
           });
