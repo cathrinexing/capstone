@@ -165,7 +165,8 @@
             .style("background-color", "lightgrey")
 
           // d3.selectAll("input")
-          // .attr('checked',false)
+          //   .attr("checked", false)
+          //
 
           d3.selectAll(".circle")
             .style("opacity", "0.5")
