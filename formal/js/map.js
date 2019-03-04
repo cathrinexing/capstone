@@ -95,8 +95,10 @@
       var public = [];
       var urban = [];
       var suburban = [];
-      var shci = [];
+      var hci = [];
       var tuitiontenmorein = [];
+      var humanfactor = [];
+        var game = [];
 
 
 
@@ -120,7 +122,17 @@
         }
 
         if (d.shci == "Yes") {
-          shci.push(d.id);
+          hci.push(d.id);
+
+        }
+
+        if (d.shuman == "Yes") {
+        humanfactor.push(d.id);
+
+        }
+
+        if (d.sgame == "Yes") {
+        game.push(d.id);
 
         }
 
@@ -135,7 +147,7 @@
             if (+d.tuitionin > 10000) {
               tuitiontenmorein.push(d.id);
             }
-          });//
+          });
 
 
 
@@ -263,9 +275,9 @@
             .style("opacity", "0")
 
 
-          shci.forEach(function(hci) {
+          hci.forEach(function(d) {
             // change points color
-            d3.select("#" + hci)
+            d3.select("#" + d)
               .style("opacity", "0.8")
               .style("fill", "yellow")
 
@@ -275,10 +287,69 @@
           })
 
 
-          // console.log(shci);
+           console.log(hci);
 
 
         }); //end of selecting hci button
+
+
+        d3.select("#game")
+          .on("click", function() {
+            console.log("game");
+            //reset color to default
+            d3.selectAll(".button1")
+              .style("background-color", "lightgrey")
+            //hide all current points
+            d3.selectAll(".circle")
+              .style("opacity", "0")
+
+
+            game.forEach(function(d) {
+               console.log(game);
+              // change points color
+              d3.select("#" + d)
+                .style("opacity", "0.8")
+                .style("fill", "yellow")
+
+              //Change button color
+              // d3.select("")
+              //   .style("background-color", "red")
+            })
+
+
+
+
+          }); //end of selecting hci button
+
+
+        d3.select("#human")
+          .on("click", function() {
+            console.log("human");
+            //reset color to default
+            d3.selectAll(".button1")
+              .style("background-color", "lightgrey")
+            //hide all current points
+            d3.selectAll(".circle")
+              .style("opacity", "0")
+
+
+            humanfactor.forEach(function(d) {
+
+              // change points color
+              d3.select("#" + d)
+                .style("opacity", "0.8")
+                .style("fill", "yellow")
+
+              // //Change button color
+              // d3.select("")
+              //   .style("background-color", "red")
+            })
+
+            console.log(humanfactor);
+
+          }); //end of selecting humanfactor button
+
+
 
       d3.select("#tenmorein")
         .on("click", function() {
@@ -292,19 +363,26 @@
 
 
           tuitiontenmorein.forEach(function(d) {
+              console.log(tuitiontenmorein);
             // change points color
             d3.select("#" + d)
               .style("opacity", "0.8")
               .style("fill", "yellow")
 
-            //Change button color
-            d3.select("")
-              .style("background-color", "red")
+            // //Change button color
+            // d3.select("")
+            //   .style("background-color", "red")
           })
 
-          console.log(tuitiontenmorein);
+            console.log(tuitiontenmorein);
+
+
 
         }); //end of selecting tuitionin 100000 button
+
+
+
+
 
 
 
