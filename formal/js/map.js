@@ -102,6 +102,11 @@
 
 
       data.forEach(function(d) {
+        d.tuitionin = +d.tuitionin;
+        d.tuitionout = +d.tuitionout;
+        d.length = +d.length;
+
+
         if (d.property == 'Public') {
           public.push(d.id);
         }
@@ -119,7 +124,7 @@
 
         }
 
-        // if (d.tuitionin > 100000) {
+        // if (+d.tuitionin > "100000") {
         //   tuitiontenmorein.push(d.id);
         // }
 
@@ -127,14 +132,15 @@
           .data(data)
           .enter()
           .filter(function(d) {
-            if (d.tuitionin > 100000) {
+            if (+d.tuitionin > 10000) {
               tuitiontenmorein.push(d.id);
             }
-          });
+          });//
 
 
 
       }); //end of filter data
+
 
 
 
@@ -269,7 +275,7 @@
           })
 
 
-          // console.log(priv);
+          // console.log(shci);
 
 
         }); //end of selecting hci button
@@ -296,7 +302,7 @@
               .style("background-color", "red")
           })
 
-          // console.log(priv);
+          console.log(tuitiontenmorein);
 
         }); //end of selecting tuitionin 100000 button
 
