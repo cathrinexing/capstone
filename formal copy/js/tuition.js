@@ -145,7 +145,7 @@ d3.json('data/tuition.json', function(data) {
     if (this.value == 'one') {
 
       d3.selectAll("#instate")
-        .style("background-color", "yellow")
+        .style("background-color", "rgba(153,153,255,.5)")
 
       d3.selectAll('.circ')
         .on("mouseover", function(d) {
@@ -177,7 +177,7 @@ d3.json('data/tuition.json', function(data) {
 
     if (this.value == 'two') {
       d3.selectAll("#outstate")
-        .style("background-color", "yellow");
+        .style("background-color", "rgba(153,153,255,.5)");
 
       d3.selectAll('.circ')
         .on("mouseover", function(d) {
