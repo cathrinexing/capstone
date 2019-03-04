@@ -44,7 +44,7 @@
 
 
         //project circles
-        d3.csv("data/programs.csv", function(data) {
+        d3.json("data/programs.json", function(data) {
 
             svg.selectAll("circle")
               .data(data)
@@ -57,7 +57,7 @@
               .attr("cy", function(d) {
                 return projection([d.lon, d.lat])[1];
               })
-              .attr("r", "10")
+              .attr("r", "5")
               .attr("opacity", "0.2")
               .attr("fill", "purple")
               .attr("id", function(d) {
@@ -73,7 +73,7 @@
                   .duration(200)
                   .style("opacity", .9);
 
-                div.html(d.university + "<br>" + d.location)
+                div.html(d.university + "<br>"+ d.major+"<br>"+d.degree+"<br>"+ d.location)
                   .style("left", (d3.event.pageX) + "px")
                   .style("top", (d3.event.pageY - 28) + "px");
               })
@@ -109,15 +109,20 @@
               if (d.campussetting == 'Urban') {
                 urban.push(d.id);
               }
+
+
             });
 
             //onclick resetmap
             d3.select("#resetmap")
               .on("click", function() {
 
-              console.log("wwww");
+              // console.log("wwww");
               d3.selectAll(".button1")
                 .style("background-color", "lightgrey")
+
+                // d3.selectAll("input")
+                // .attr('checked',false)
 
                 d3.selectAll(".circle")
                 .style("opacity", "0.5")
@@ -135,6 +140,8 @@
                   d3.selectAll(".button1")
                     .style("background-color", "lightgrey")
 
+
+
                   //hide all current points
                   d3.selectAll(".circle")
                     .style("opacity", "0")
@@ -142,7 +149,7 @@
                   priv.forEach(function(p) {
                     // change points color
                     d3.select("#" + p)
-                      .style("opacity", "1")
+                      .style("opacity", "0.8")
                       .style("fill", "yellow")
 
                     //Change button color
@@ -174,7 +181,7 @@
                   public.forEach(function(p) {
                     // change points color
                     d3.select("#" + p)
-                      .style("opacity", "1")
+                      .style("opacity", "0.8")
                       .style("fill", "yellow")
 
                     //Change button color
@@ -185,6 +192,35 @@
                   // console.log(public);
 
                 }); //end of selecting public button
+
+
+                d3.select("#urban")
+                .on("click", function() {
+
+                  //reset color to default
+                  d3.selectAll(".button1")
+                    .style("background-color", "lightgrey")
+
+                  //hide all current points
+                  d3.selectAll(".circle")
+                    .style("opacity", "0")
+
+
+                  public.forEach(function(p) {
+                    // change points color
+                    d3.select("#" + p)
+                      .style("opacity", "0.8")
+                      .style("fill", "yellow")
+
+                    //Change button color
+                    d3.select("#urban")
+                      .style("background-color", "red")
+                  })
+
+                  // console.log(public);
+
+                }); //end of selecting urban button
+
 
 
 

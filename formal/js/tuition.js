@@ -1,5 +1,5 @@
 var width = 900,
-  height = 400,
+  height = 350,
   radius = 13;
 var circ;
 
@@ -30,7 +30,7 @@ var div = d3.select("body").append("div")
 
 
 var x = d3.scaleLinear()
-  .range([10, width * 0.95])
+  .range([100, width * 0.95])
   .domain([0, 120000]);
 
 
@@ -80,7 +80,7 @@ d3.json('data/tuition.json', function(data) {
         .duration(200)
         .style("opacity", .9);
 
-      div.html(d.id + "<br>" + "Instate" + d.one)
+      div.html(d.id + "<br>"+d.major+"<br>" + "Instate" + d.one)
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 28) + "px");
     })
@@ -111,13 +111,13 @@ d3.json('data/tuition.json', function(data) {
 
   svg.append("g")
     .attr("class", "axis axis--x")
-    .attr("transform", "translate(0,-1)")
+    .attr("transform", "translate(0,0)")
     .call(d3.axisBottom(x).ticks(6, ".0s"))
 
 
   svg.append("g")
     .attr("class", "axis axis--x")
-    .attr("transform", "translate(0,400)")
+    .attr("transform", "translate(0,300)")
     .call(d3.axisTop(x).ticks(6, ".0s"))
 
   //init
@@ -145,7 +145,7 @@ d3.json('data/tuition.json', function(data) {
     if (this.value == 'one') {
 
       d3.selectAll("#instate")
-        .style("background-color", "yellow")
+        .style("background-color", "rgba(153,153,255,.5)")
 
       d3.selectAll('.circ')
         .on("mouseover", function(d) {
@@ -162,7 +162,7 @@ d3.json('data/tuition.json', function(data) {
             .duration(200)
             .style("opacity", .9);
 
-          div.html(d.id + "<br>" + "Instate" + d.one)
+          div.html(d.id + "<br>" +d.major+"<br>" + "Instate" + d.one)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
         })
@@ -177,7 +177,7 @@ d3.json('data/tuition.json', function(data) {
 
     if (this.value == 'two') {
       d3.selectAll("#outstate")
-        .style("background-color", "yellow");
+        .style("background-color", "rgba(153,153,255,.5)");
 
       d3.selectAll('.circ')
         .on("mouseover", function(d) {
@@ -194,7 +194,7 @@ d3.json('data/tuition.json', function(data) {
             .duration(200)
             .style("opacity", .9);
 
-          div.html(d.id + "<br>" + "Outstate" + d.two)
+          div.html(d.id + "<br>" +d.major+"<br>" + "Outstate" + d.two)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
         })
