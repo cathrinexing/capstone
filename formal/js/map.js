@@ -139,7 +139,7 @@ for var i in programs.json{
       var hci = [];
       var tuitiontenmorein = [];
       var humanfactor = [];
-        var game = [];
+      var game = [];
 
 
 
@@ -299,8 +299,7 @@ for var i in programs.json{
 
       d3.select("#hci")
         .on("click", function() {
-          console.log("hci");
-          //reset color to default
+          console.log("hci");          //reset color to default
           d3.selectAll(".button1")
             .style("background-color", "lightgrey")
           //hide all current points
