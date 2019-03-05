@@ -1,9 +1,45 @@
+
+// any time you press button, adds to jsonobject,  loop through json file, check vs array
+// searchobject = {property:Private, campus: urban}
+// loop through jsonfile
+// loop through selection array
+/*
+
+for var i in programs.json{
+    for var i in college{
+      for var objectKey in searchobject{
+            if(searchobject[objectkey] == college[objectKey]){
+            addCollege = true;
+          }else{
+
+          addCollege = false;
+          break;
+        }
+      }
+      if(addCollege == true){
+      add to a array/object
+      addCollege = false;
+    }
+    }
+
+  }
+}
+
+if (json row data == jsonobject[property]){
+
+}
+
+*/
+
 (function() {
 
   //Width and height of map
   var width = 1145;
   var height = 660;
   var selected;
+  var college;
+
+  var searchobject = {};
 
 
   // D3 Projection
@@ -172,7 +208,7 @@
           d3.selectAll(".circle")
             .style("opacity", "0.5")
             .style("fill", " #4fbba9")
-            // .attr("hover", "green")
+            // .attr("hover", "grey")
 
         });
 
@@ -194,7 +230,7 @@
             // change points color
             d3.select("#" + p)
               .style("opacity", "0.8")
-              .style("fill", "green")
+              .style("fill", "grey")
 
 
             //Change button color
@@ -205,6 +241,8 @@
 
 
           // console.log(priv);
+          searchobject.property = "private";
+
 
 
         }); //end of selecting private button
@@ -228,7 +266,7 @@
             // change points color
             d3.select("#" + pub)
               .style("opacity", "0.8")
-              .style("fill", "green")
+              .style("fill", "grey")
 
             //Change button color
             d3.select("#public")
@@ -256,14 +294,14 @@
             // change points color
             d3.select("#" + urb)
               .style("opacity", "0.8")
-              .style("fill", "green")
+              .style("fill", "grey")
 
             //Change button color
             d3.select("#urban")
               .style("background-color", "red")
           })
 
-
+          searchobject.campussetting = "urban";
 
         }); //end of selecting urban button
 
@@ -284,7 +322,7 @@
             // change points color
             d3.select("#" + d)
               .style("opacity", "0.8")
-              .style("fill", "green")
+              .style("fill", "grey")
 
             //Change button color
             d3.select("#hci")
@@ -314,7 +352,7 @@
               // change points color
               d3.select("#" + d)
                 .style("opacity", "0.8")
-                .style("fill", "green")
+                .style("fill", "grey")
 
               // Change button color
               d3.select("#game")
@@ -343,7 +381,7 @@
               // change points color
               d3.select("#" + d)
                 .style("opacity", "0.8")
-                .style("fill", "green")
+                .style("fill", "grey")
 
               //Change button color
               d3.select("#human")
@@ -372,7 +410,7 @@
             // change points color
             d3.select("#" + d)
               .style("opacity", "0.8")
-              .style("fill", "green")
+              .style("fill", "grey")
 
             //Change button color
             d3.select("#tenmorein")

@@ -177,10 +177,10 @@ div.tooltip {
 
 }
 
-.ms{
+/* .ms{
     background-color: lightgreen;
 }
-
+ */
 
 .factnav h3{
   align-items: center;
@@ -198,7 +198,7 @@ div.tooltip {
 
 .factPic{
   width:290px;
-  height: auto;
+  height: 500px;
   display: inline-block;
   background-color: grey;
   margin:10px;

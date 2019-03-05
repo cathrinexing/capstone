@@ -18,7 +18,7 @@
       container1 = false;
       container2 = false;
       // container3 = false;
-      $(".factbutton").css("background", "green");
+      $(".factbutton").css("background", "grey");
     });
 
 
@@ -30,16 +30,18 @@
       // what do you want to do when you click um image
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+        
+
+        $("#factpic1").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+        $("#factpic2").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
         container2 = true;
       }
       //  else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+      //   $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="500" width="250">');
       //   $("#um").css("background", "yellow");
       //   container3 = true;
       // }
@@ -50,16 +52,16 @@
     $("#parson").click(function() {
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/parson.jpg"  alt="parsons" class="factPicImages" height="450" width="250">');
+        $("#factpic1").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" height="500" width="250">');
         $("#parson").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="250">');
+        $("#factpic2").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" height="500" width="250">');
         $("#parson").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="450" width="250">');
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="500" width="250">');
       //   $("#parson").css("background", "yellow");
       //   container3 = true;
       // }
@@ -71,16 +73,16 @@
     $("#visual").click(function() {
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/parson.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+        $("#factpic1").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" height="500" width="500">');
         $("#visual").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+        $("#factpic2").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" height="500" width="500">');
         $("#visual").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="500" width="500">');
       //   $("#visual").css("background", "yellow");
       //   container3 = true;
       // }
