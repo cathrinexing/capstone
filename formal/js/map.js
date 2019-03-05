@@ -92,6 +92,7 @@
           div.transition()
             .duration(500)
             .style("opacity", 0);
+
             d3.select(this)
               .style("fill", "blue");
         });
@@ -171,7 +172,7 @@
           d3.selectAll(".circle")
             .style("opacity", "0.5")
             .style("fill", " #4fbba9")
-            // .attr("hover", "yellow")
+            // .attr("hover", "green")
 
         });
 
@@ -193,7 +194,7 @@
             // change points color
             d3.select("#" + p)
               .style("opacity", "0.8")
-              .style("fill", "yellow")
+              .style("fill", "green")
 
 
             //Change button color
@@ -227,7 +228,7 @@
             // change points color
             d3.select("#" + pub)
               .style("opacity", "0.8")
-              .style("fill", "yellow")
+              .style("fill", "green")
 
             //Change button color
             d3.select("#public")
@@ -255,7 +256,7 @@
             // change points color
             d3.select("#" + urb)
               .style("opacity", "0.8")
-              .style("fill", "yellow")
+              .style("fill", "green")
 
             //Change button color
             d3.select("#urban")
@@ -283,7 +284,7 @@
             // change points color
             d3.select("#" + d)
               .style("opacity", "0.8")
-              .style("fill", "yellow")
+              .style("fill", "green")
 
             //Change button color
             d3.select("#hci")
@@ -313,7 +314,7 @@
               // change points color
               d3.select("#" + d)
                 .style("opacity", "0.8")
-                .style("fill", "yellow")
+                .style("fill", "green")
 
               // Change button color
               d3.select("#game")
@@ -342,7 +343,7 @@
               // change points color
               d3.select("#" + d)
                 .style("opacity", "0.8")
-                .style("fill", "yellow")
+                .style("fill", "green")
 
               //Change button color
               d3.select("#human")
@@ -371,7 +372,7 @@
             // change points color
             d3.select("#" + d)
               .style("opacity", "0.8")
-              .style("fill", "yellow")
+              .style("fill", "green")
 
             //Change button color
             d3.select("#tenmorein")
