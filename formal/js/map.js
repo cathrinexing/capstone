@@ -25,10 +25,6 @@ for var i in programs.json{
   }
 }
 
-if (json row data == jsonobject[property]){
-
-}
-
 */
 
 (function() {
@@ -37,8 +33,7 @@ if (json row data == jsonobject[property]){
   var width = 1145;
   var height = 660;
   var selected;
-  var college;
-
+  var college=[];
   var searchobject = {};
 
 
@@ -201,14 +196,9 @@ if (json row data == jsonobject[property]){
           d3.selectAll(".button1")
             .style("background-color", "lightgrey")
 
-          // d3.selectAll("input")
-          //   .attr("checked", false)
-          //
-
           d3.selectAll(".circle")
             .style("opacity", "0.5")
             .style("fill", " #4fbba9")
-            // .attr("hover", "grey")
 
         });
 
