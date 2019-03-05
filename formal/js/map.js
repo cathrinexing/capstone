@@ -136,18 +136,9 @@
 
         }
 
-        // if (+d.tuitionin > "100000") {
-        //   tuitiontenmorein.push(d.id);
-        // }
-
-        svg.selectAll(".circle")
-          .data(data)
-          .enter()
-          .filter(function(d) {
-            if (+d.tuitionin > 10000) {
-              tuitiontenmorein.push(d.id);
-            }
-          });
+        if (+d.tuitionin > 100000) {
+          tuitiontenmorein.push(d.id);
+        }
 
 
 
