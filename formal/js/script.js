@@ -15,10 +15,14 @@
     //reset button functiobn
     $("#reset").click(function() {
       // $(".factPic").html("");
-      $("#factpic1").html("");
-      $("#factpic2").html("");
-      $("#facttext1").html("");
-      $("#facttext2").html("");
+ $(".text").html("");
+ $(".picture").html("");
+
+      // $("#factpic1").html("");
+      // $("#factpic2").html("");
+
+      // $("#facttext1").html("");
+      // $("#facttext2").html("");
 
       container1 = false;
       container2 = false;
@@ -35,17 +39,17 @@
       // what do you want to do when you click um image
 
       if (container1 == false) {
-        // $("#facttext1").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
+
         $("#facttext1").html('<a href="https://interactive.miami.edu">University of Miami</a>');
         $("#factpic1").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        // $("#facttext2").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
-        $("#facttext2").html('<a href="https://interactive.miami.edu">University of Miami</a>');
+        $("#facttext2").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
+
 
         $("#factpic2").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
-        $("#um").css("background", "yellow");
+        $("#um").css("backgrxound", "yellow");
         container2 = true;
       }
       //  else if (container3 == false) {

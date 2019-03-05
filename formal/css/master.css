@@ -200,7 +200,7 @@ div.tooltip {
   width:290px;
   height: 500px;
   display: inline-block;
-  background-color: grey;
+background-color: grey;
   margin:10px;
 }
 
