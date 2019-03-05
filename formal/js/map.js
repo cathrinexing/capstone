@@ -171,10 +171,10 @@
       d3.select("#private")
         .on("click", function() {
           console.log("wwww");
-          //reset color to default
-          d3.selectAll(".button1")
-            .style("background-color", "lightgrey")
-          //hide all current points
+          // //reset color to default
+          // d3.selectAll(".button1")
+          //   .style("background-color", "lightgrey")
+          // //hide all current points
           d3.selectAll(".circle")
             .style("opacity", "0")
 
@@ -185,9 +185,11 @@
               .style("opacity", "0.8")
               .style("fill", "yellow")
 
+
             //Change button color
             d3.select(".button1")
               .style("background-color", "red")
+
           })
 
 
@@ -202,9 +204,9 @@
       d3.select("#public")
         .on("click", function() {
 
-          //reset color to default
-          d3.selectAll(".button1")
-            .style("background-color", "lightgrey")
+          // //reset color to default
+          // d3.selectAll(".button1")
+          //   .style("background-color", "lightgrey")
 
           //hide all current points
           d3.selectAll(".circle")
@@ -288,10 +290,10 @@
         d3.select("#game")
           .on("click", function() {
             console.log("game");
-            //reset color to default
-            d3.selectAll(".button1")
-              .style("background-color", "lightgrey")
-            //hide all current points
+            // //reset color to default
+            // d3.selectAll(".button1")
+            //   .style("background-color", "lightgrey")
+            // //hide all current points
             d3.selectAll(".circle")
               .style("opacity", "0")
 
@@ -303,9 +305,9 @@
                 .style("opacity", "0.8")
                 .style("fill", "yellow")
 
-              //Change button color
-              // d3.select("")
-              //   .style("background-color", "red")
+              // Change button color
+              d3.select("#game")
+                .style("background-color", "red")
             })
 
 
@@ -318,8 +320,8 @@
           .on("click", function() {
             console.log("human");
             //reset color to default
-            d3.selectAll(".button1")
-              .style("background-color", "lightgrey")
+            // d3.selectAll(".button1")
+            //   .style("background-color", "lightgrey")
             //hide all current points
             d3.selectAll(".circle")
               .style("opacity", "0")
@@ -332,9 +334,9 @@
                 .style("opacity", "0.8")
                 .style("fill", "yellow")
 
-              // //Change button color
-              // d3.select("")
-              //   .style("background-color", "red")
+              //Change button color
+              d3.select("#human")
+                .style("background-color", "red")
             })
 
             console.log(humanfactor);
@@ -361,9 +363,9 @@
               .style("opacity", "0.8")
               .style("fill", "yellow")
 
-            // //Change button color
-            // d3.select("")
-            //   .style("background-color", "red")
+            //Change button color
+            d3.select("#tenmorein")
+              .style("background-color", "red")
           })
 
             console.log(tuitiontenmorein);
