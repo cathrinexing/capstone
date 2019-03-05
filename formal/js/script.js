@@ -14,7 +14,12 @@
 
     //reset button functiobn
     $("#reset").click(function() {
-      $(".factPic").html("");
+      // $(".factPic").html("");
+      $("#factpic1").html("");
+      $("#factpic2").html("");
+      $("#facttext1").html("");
+      $("#facttext2").html("");
+
       container1 = false;
       container2 = false;
       // container3 = false;
@@ -31,7 +36,7 @@
 
       if (container1 == false) {
         // $("#facttext1").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
-  $("#facttext1").html('uuuuuuuu');
+  $("#facttext1").html('<a href="https://interactive.miami.edu">University of Miami</a>');
 
 
         $("#factpic1").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
@@ -39,7 +44,7 @@
         container1 = true;
       } else if (container2 == false) {
         // $("#facttext2").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
-          $("#facttext2").html('uuuuuuuu');
+          $("#facttext2").html('<a href="https://interactive.miami.edu">University of Miami</a>');
 
         $("#factpic2").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
@@ -57,10 +62,13 @@
     $("#parson").click(function() {
 
       if (container1 == false) {
+        $("#facttext1").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
+
         $("#factpic1").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" height="500" width="250">');
         $("#parson").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
+          $("#facttext2").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
         $("#factpic2").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" height="500" width="250">');
         $("#parson").css("background", "yellow");
         container2 = true;
