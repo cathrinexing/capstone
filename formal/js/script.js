@@ -86,10 +86,12 @@
     $("#visual").click(function() {
 
       if (container1 == false) {
+          $("#facttext1").html('<a href="https://interactive.miami.edu">University of Washington</a>');
         $("#factpic1").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" height="500" width="500">');
         $("#visual").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
+          $("#facttext2").html('<a href="https://interactive.miami.edu">University of Washington</a>');
         $("#factpic2").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" height="500" width="500">');
         $("#visual").css("background", "yellow");
         container2 = true;
