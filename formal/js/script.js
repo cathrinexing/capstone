@@ -30,12 +30,14 @@
       // what do you want to do when you click um image
 
       if (container1 == false) {
-        
+        $("#facttext1").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
 
         $("#factpic1").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
+        $("#facttext1").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
+
         $("#factpic2").html('<img src="img/UM.png" class="factPicImages" alt="um"  height="500" width="250">');
         $("#um").css("background", "yellow");
         container2 = true;
