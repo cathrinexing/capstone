@@ -73,9 +73,16 @@
             .duration(200)
             .style("opacity", .9);
 
+
+
           div.html(d.university + "<br>" + d.major + "<br>" + d.degree + "<br>" + d.location)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
+                  //
+                  d3.select(this)
+                    .style("fill", "red");
+
+
         })
 
 
@@ -85,6 +92,8 @@
           div.transition()
             .duration(500)
             .style("opacity", 0);
+            d3.select(this)
+              .style("fill", "blue");
         });
 
 
@@ -162,6 +171,7 @@
           d3.selectAll(".circle")
             .style("opacity", "0.5")
             .style("fill", " #4fbba9")
+            // .attr("hover", "yellow")
 
         });
 
