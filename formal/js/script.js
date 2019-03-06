@@ -14,7 +14,7 @@
 
     //reset button functiobn
     $("#reset").click(function() {
-       // $(".factPic").html("click button to show factsheets");
+    
        // $(".hints").html("click button to show factsheets");
  $(".text").html("");
  $(".picture").html("");
