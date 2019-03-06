@@ -231,7 +231,7 @@ for var i in programs.json{
 
 
           // console.log(priv);
-          searchobject.property = "private";
+          // searchobject.property = "private";
 
 
 
