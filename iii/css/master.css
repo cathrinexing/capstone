@@ -177,35 +177,28 @@ div.tooltip {
 
 }
 
-.ms{
+/* .ms{
     background-color: lightgreen;
 }
-
+ */
 
 .factnav h3{
   align-items: center;
   margin: auto;
 }
 
-/* .factbutton p{
-  align-items: center;
-  margin: auto;
-  justify-content: center;
-  display: inline-block;
-  background-color: grey;
-  display: inline;
-} */
+
 
 .factPic{
-  width:290px;
-  height: auto;
+  width:400px;
+height: 700px;
   display: inline-block;
-  background-color: grey;
-  margin:10px;
+background-color: grey;
+  margin:30px;
 }
 
 .factPicImages{
-  width: 290px;
+  width: 400px;
 }
 
 

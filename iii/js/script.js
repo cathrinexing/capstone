@@ -14,11 +14,21 @@
 
     //reset button functiobn
     $("#reset").click(function() {
-      $(".factPic").html("");
+    
+       // $(".hints").html("click button to show factsheets");
+ $(".text").html("");
+ $(".picture").html("");
+
+      // $("#factpic1").html("");
+      // $("#factpic2").html("");
+
+      // $("#facttext1").html("");
+      // $("#facttext2").html("");
+
       container1 = false;
       container2 = false;
       // container3 = false;
-      $(".factbutton").css("background", "green");
+      $(".factbutton").css("background", "grey");
     });
 
 
@@ -30,16 +40,21 @@
       // what do you want to do when you click um image
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+
+        $("#facttext1").html('<a href="https://interactive.miami.edu">University of Miami</a>');
+        $("#factpic1").html('<img src="img/UM.png" class="factPicImages" alt="um"  width="400">');
         $("#um").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
-        $("#um").css("background", "yellow");
+        $("#facttext2").html('<h4 id="facttext1"><a href="https://interactive.miami.edu">University of Miami</h4>');
+
+
+        $("#factpic2").html('<img src="img/UM.png" class="factPicImages" alt="um"  width="400">');
+        $("#um").css("backgrxound", "yellow");
         container2 = true;
       }
       //  else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  height="450" width="250">');
+      //   $("#factpic3").html('<img src="img/um.jpg" class="factPicImages" alt="um"  width="400">');
       //   $("#um").css("background", "yellow");
       //   container3 = true;
       // }
@@ -50,16 +65,19 @@
     $("#parson").click(function() {
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/parson.jpg"  alt="parsons" class="factPicImages" height="450" width="250">');
+        $("#facttext1").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
+
+        $("#factpic1").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" width="400">');
         $("#parson").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="250">');
+        $("#facttext2").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
+        $("#factpic2").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" width="400">');
         $("#parson").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="450" width="250">');
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="500" width="400">');
       //   $("#parson").css("background", "yellow");
       //   container3 = true;
       // }
@@ -71,16 +89,18 @@
     $("#visual").click(function() {
 
       if (container1 == false) {
-        $("#factpic1").html('<img src="img/parson.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+        $("#facttext1").html('<a href="https://interactive.miami.edu">University of Washington</a>');
+        $("#factpic1").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
         $("#visual").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
-        $("#factpic2").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+        $("#facttext2").html('<a href="https://interactive.miami.edu">University of Washington</a>');
+        $("#factpic2").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
         $("#visual").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
-      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" height="450" width="450">');
+      //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" width="500">');
       //   $("#visual").css("background", "yellow");
       //   container3 = true;
       // }

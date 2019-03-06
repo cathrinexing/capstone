@@ -8,76 +8,6 @@
 </head>
 
 <body>
-
-<!--   <section class="header">
-  <h1>Where Can People get UX Graduate Program?</h1>
-</section>
-
-<section id="mapnav">
-  <div class="title">
-    <h1>Geomapping US overview</h1>
-  </div>
-
-  <h1>Select Your Criteria</h1>
-
-  <div id="navigation1">
-
-    <div class="button">
-      <h3>Property</h3>
-      <div class="button1" id="private">private</div>
-      <div class="button1" id="public">public</div>
-    </div>
-
-    <div class="button">
-      <h3>Campus Setting</h3>
-      <div class="button1" id="urban">Urban</div>
-      <div class="button1" id="suburban">Suburban</div>
-      <div class="button1" id="rural">Rural</div>
-    </div>
-
-    <div class="button">
-      <h3>Graduate Programs</h3>
-      <div class="button1" id="master">Master</div>
-      <div class="button1" id="phd">PhD</div>
-    </div>
-
-
-    <div class="button">
-      <h3>Program Length</h3>
-      <div class="button1" id="one">length ≤ 1 year</div>
-      <div class="button1" id="onefive">1 year < length ≤ 1.5 years</div> <div class="button1" id="two">length ≥ 2years</div>
-    </div>
-
-
-    <div class="button nested">
-      <h3>Specilization</h3>
-      <h3>Specilization</h3>
-      <div class="button1" id="ux">UX/Interaction Design</div>
-      <div class="button1" id="hci">HCI</div>
-      <div class="button1" id="dataviz">Data Viz</div>
-      <div class="button1" id="computing">Computing Technology</div>
-      <div class="button1" id="game">Game</div>
-      <div class="button1" id="information">Information Technology</div>
-      <div class="button1" id="congnitive">Congnitive Science</div>
-      <div class="button1" id="human">Human Factor</div>
-    </div>
-
-    <div class="button">
-      <h3>Tuition</h3>
-      <div class="button1" id="five">tutuition ≤ 50,000</div>
-      <div class="button1" id="ten">50,000 < tutuition ≤ 100,000</div> <div class="button1" id="tenmore">tutuition ≥ 100,000</div>
-
-    </div>
-
-
-  </div>
-  end of button grid
-<div class="" id="resetmap" > Reset</div>
-
-</section>
-end of navigatin section -->
-
-
   <section class="header">
     <h1>Where Can People get UX Graduate Program?</h1>
   </section>
@@ -93,13 +23,72 @@ end of navigatin section -->
 
       <div class="button">
         <h3>Property</h3>
+        <div class="button1" id="private">private</div>
+        <div class="button1" id="public">public</div>
+      </div>
+
+      <div class="button">
+        <h3>Campus Setting</h3>
+        <div class="button1" id="urban">Urban</div>
+        <div class="button1" id="suburban">Suburban</div>
+        <div class="button1" id="rural">Rural</div>
+      </div>
+
+
+
+      <div class="button">
+        <h3>Program Length</h3>
+        <div class="button1" id="one">length ≤ 1 year</div>
+        <div class="button1" id="onefive">1 year < length ≤ 1.5 years</div> <div class="button1" id="two">length ≥ 2years</div>
+      </div>
+
+
+      <div class="button nested">
+        <h3>Specilization</h3>
+        <h3>Specilization</h3>
+        <div class="button1" id="ux">UX/Interaction Design</div>
+        <div class="button1" id="hci">HCI</div>
+        <div class="button1" id="dataviz">Data Viz</div>
+        <div class="button1" id="computing">Computing Technology</div>
+        <div class="button1" id="game">Game</div>
+        <div class="button1" id="information">Information Technology</div>
+        <div class="button1" id="congnitive">Congnitive Science</div>
+        <div class="button1" id="human">Human Factor</div>
+      </div>
+
+      <div class="button">
+        <h3>In-State Tuition</h3>
+        <div class="button1" id="fivein">tutuition ≤ 50,000</div>
+        <div class="button1" id="tenin">50,000 < tutuition ≤ 100,000</div> <div class="button1" id="tenmorein">tutuition ≥ 100,000</div>
+
+      </div>
+
+      <div class="button">
+        <h3>Out-of-State Tuition</h3>
+        <div class="button1" id="fiveout">tutuition ≤ 50,000</div>
+        <div class="button1" id="tenout">50,000 < tutuition ≤ 100,000</div> <div class="button1" id="tenmoreout">tutuition ≥ 100,000</div>
+
+      </div>
+
+
+    </div>
+
+    <div class="" id="resetmap"> Reset</div>
+
+  </section>
+
+  <!--
+    <div id="navigation1">
+
+      <div class="button">
+        <h3>Property</h3>
         <div class="button1">
-          <input type="radio" id="private" name="property" value="private" >
+          <input type="checkbox" id="private" name="property" value="private" >
           <label for="private">Private</label>
         </div>
 
         <div class="button1">
-          <input type="radio" id="public" name="property" value="public" >
+          <input type="checkbox" id="public" name="property" value="public" >
           <label for="public">Public</label>
         </div>
 
@@ -108,40 +97,33 @@ end of navigatin section -->
       <div class="button">
         <h3>Campus Setting</h3>
         <div class="button2">
-          <input type="radio" id="urban" name="setting" value="urban" >
+          <input type="checkbox" id="urban" name="setting" value="urban" >
           <label for="urban">Urban</label>
         </div>
         <div class="button2">
-          <input type="radio" id="suburban" name="setting" value="suburban">
+          <input type="checkbox" id="suburban" name="setting" value="suburban">
           <label for="suburban">Suburban</label>
         </div>
         <div class="button2">
-          <input type="radio" id="rural" name="setting" value="rural">
+          <input type="checkbox" id="rural" name="setting" value="rural">
           <label for="rural">Rural</label>
 
         </div>
       </div>
 
-      <!--       <div class="button">
-  <h3>Graduate Programs</h3>
-  <div class="button1" id="master">Master</div>
-  <div class="button1" id="phd">PhD</div>
-</div>
- -->
-
       <div class="button">
         <h3>Program Length</h3>
         <div class="button3">
-          <input type="radio" id="one" name="length" value="oneyear">
+          <input type="checkbox" id="one" name="length" value="oneyear">
           <label for="Lengthone">Length ≤ 1 year</label>
 
         </div>
         <div class="button3">
-          <input type="radio" id="onefive" name="length" value="onefiveyear">
+          <input type="checkbox" id="onefive" name="length" value="onefiveyear">
           <label for="Lengthonefive"> 1 year < Length < 2 years</label> </div>
 
            <div class="button3">
-              <input type="radio" id="two" name="length" value="twoyear">
+              <input type="checkbox" id="two" name="length" value="twoyear">
               <label for="Lengthtwo"> Length ≥ 2years</label>
         </div>
       </div>
@@ -192,18 +174,17 @@ end of navigatin section -->
           <label for="humanfactor">Human Factor </label>
         </div>
       </div>
-
       <div class="button">
         <h3>In-State Tuition</h3>
         <div class="button5">
-          <input type="radio" id="fivein" name="tuitionin" value="fifty">
+          <input type="checkbox" id="fivein" name="tuitionin" value="fifty">
           <label for="fifty"> Tutuition ≤ 50,000</label>
         </div>
         <div class="button5">
-          <input type="radio" id="tenin" name="tuitionin" value="hundred">
+          <input type="checkbox" id="tenin" name="tuitionin" value="hundred">
           <label for="hundred"> 50,000 < Tutuition < 100,000</label> </div>
           <div class="button5">
-              <input type="radio" id="tenmorein" name="tuitionin" value="hundredmore">
+              <input type="checkbox" id="tenmorein" name="tuitionin" value="hundredmore">
               <label for="hundredmore"> Tutuition ≥ 100,000</label>
         </div>
 
@@ -212,14 +193,14 @@ end of navigatin section -->
       <div class="button">
         <h3>Out-of-State Tuition</h3>
         <div class="button6">
-          <input type="radio" id="fiveout" name="tuitionout" value="fifty" checked="true">
+          <input type="checkbox" id="fiveout" name="tuitionout" value="fifty" >
           <label for="fifty"> Tutuition ≤ 50,000</label>
         </div>
         <div class="button6">
-          <input type="radio" id="tenout" name="tuitionout" value="hundred">
+          <input type="checkbox" id="tenout" name="tuitionout" value="hundred">
           <label for="hundred"> 50,000 < Tutuition < 100,000</label> </div>
           <div class="button6">
-              <input type="radio" id="tenmorout" name="tuitionout" value="hundredmore">
+              <input type="checkbox" id="tenmorout" name="tuitionout" value="hundredmore">
               <label for="hundredmore"> Tutuition ≥ 100,000</label>
         </div>
 
@@ -228,12 +209,12 @@ end of navigatin section -->
 
 
     </div>
-    <!-- end of button grid -->
+    end of button grid
     <div class="" id="resetmap"> Reset</div>
 
   </section>
-  <!--     end of navigatin section -->
-
+  end of navigatin section
+ -->
 
 
   <!-- interacitve map -->
@@ -251,18 +232,18 @@ end of navigatin section -->
     </div>
 
     <div class="factnav">
-      <h3>MFA</h3>
+      <h3>Design & Media</h3>
       <!--   <div class="degree"><p>MFA</p></div> -->
       <div class="nested2">
         <div class="factbutton mfa" id="um">UM</div>
-        <div class="factbutton" id="parson">Parson</div>
-        <div class="factbutton" id="visual">Visual</div>
-        <div class="factbutton">UM</div>
+        <div class="factbutton" id="parson">MIT</div>
+        <div class="factbutton" id="visual">UW</div>
+        <div class="factbutton">CMU</div>
         <div class="factbutton">UM</div>
         <div class="factbutton">UM</div>
       </div>
 
-      <h3>MS</h3>
+      <h3>HCI</h3>
       <div class="nested2">
         <div class="factbutton ms">UM</div>
         <div class="factbutton ms">Parson</div>
@@ -272,7 +253,7 @@ end of navigatin section -->
         <div class="factbutton ms">UM</div>
       </div>
 
-      <h3>MA</h3>
+      <h3>Information</h3>
       <div class="nested2">
         <div class="factbutton ma">UM</div>
         <div class="factbutton">Parson</div>
@@ -282,7 +263,7 @@ end of navigatin section -->
         <div class="factbutton">UM</div>
       </div>
 
-      <h3>OTHERS</h3>
+      <h3>Human Factor</h3>
       <div class="nested2 others">
         <div class="factbutton">UM</div>
         <div class="factbutton">Parson</div>
@@ -292,24 +273,24 @@ end of navigatin section -->
         <div class="factbutton">UM</div>
       </div>
     </div><!--   end of factnav div -->
+
     <div class=""> <button class="" id="reset">Reset</button></div>
 
     <div class="comparison">
-      <div id="factpic1" class="factPic">
-        <img src="img/1.jpg" width=290px>
+      <div class="factPic">
+        <h2 class="hints"></h2>
+        <h4 class="text" id="facttext1"><a href="https://interactive.miami.edu">University of Miami</a></h4>
+        <div class="picture" id="factpic1"><img src="img/UM.png" width=400px>
+        </div>
       </div>
 
-      <div id="factpic2" class="factPic">
-        <img src="img/1.jpg" alt="" width=290px>
+      <div class="factPic">
+        <h2 cc="hints"></h2>
+        <h4 class="text" id="facttext2"> <a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a></h4>
+        <div class="picture" id="factpic2"><img src="img/MIT.png" alt="" width=400px>
+        </div>
       </div>
-
-
     </div>
-
-
-
-
-
   </div><!--   end of factsheet div -->
 
   <div id="major">
@@ -333,19 +314,6 @@ end of navigatin section -->
 
 
 
-
-  <!--   <section id="tuitionbar">
-  <h1>tuition details</h1>
-  <p>in state & out of state</p>
-  <div id="buttons_1">
-    <button id="y1960">1960</button>
-    <button id="y1990">1990</button>
-    <button id="y2015">2015</button>
-  </div>
-    <div id="changing_bars">  </div>
-</section>
-
- -->
 
 
   <!-- loding script -->

@@ -14,7 +14,7 @@
 
     //reset button functiobn
     $("#reset").click(function() {
-    
+
        // $(".hints").html("click button to show factsheets");
  $(".text").html("");
  $(".picture").html("");
@@ -28,7 +28,7 @@
       container1 = false;
       container2 = false;
       // container3 = false;
-      $(".factbutton").css("background", "grey");
+      $(".factbutton").css("background", "lightblue");
     });
 
 
