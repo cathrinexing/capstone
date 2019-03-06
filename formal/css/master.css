@@ -197,15 +197,15 @@ div.tooltip {
 } */
 
 .factPic{
-  width:290px;
-  height: 500px;
+  width:400px;
+  height: 800px;
   display: inline-block;
 background-color: grey;
-  margin:10px;
+  margin:30px;
 }
 
 .factPicImages{
-  width: 290px;
+  width: 400px;
 }
 
 
