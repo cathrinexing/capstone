@@ -70,7 +70,7 @@ d3.json('data/tuition.json', function(data) {
       var circ = d3.select(this);
 
       circ.style('stroke', '#56C6D8')
-        .style('stroke-width', 3)
+        .style('stroke-width', 2)
     })
 
 
@@ -111,13 +111,13 @@ d3.json('data/tuition.json', function(data) {
 
   svg.append("g")
     .attr("class", "axis axis--x")
-    .attr("transform", "translate(0,0)")
+    .attr("transform", "translate(0,-1)")
     .call(d3.axisBottom(x).ticks(6, ".0s"))
 
 
   svg.append("g")
     .attr("class", "axis axis--x")
-    .attr("transform", "translate(0,300)")
+    .attr("transform", "translate(0,350)")
     .call(d3.axisTop(x).ticks(6, ".0s"))
 
   //init
