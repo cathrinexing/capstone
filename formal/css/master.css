@@ -1,4 +1,4 @@
-.header {
+.theme {
   margin: auto;
   background-color: pink;
   text-align: center;
@@ -221,4 +221,17 @@ background-color: grey;
 
 align-items: center;
 justify-content: center;
+}
+
+.main_h {
+
+  top: 0px;
+height: 150px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: none;
+
+  padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
 }
