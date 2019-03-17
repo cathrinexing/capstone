@@ -172,7 +172,7 @@ div.tooltip {
 .factbutton{
 
 display: flex;
- vertical-align: middle
+ vertical-align: middle;
    align-items: center;
    justify-content: center;
     vertical-align: middle;
