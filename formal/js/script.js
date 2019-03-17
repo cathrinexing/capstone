@@ -85,23 +85,23 @@
     });
 
 
-    //button uw
-    $("#uw").click(function() {
+    //button uwhcde
+    $("#uwhcde").click(function() {
 
       if (container1 == false) {
         $("#facttext1").html('<a href="https://interactive.miami.edu">University of Washington</a>');
-        $("#factpic1").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
-        $("#uw").css("background", "yellow");
+        $("#factpic1").html('<img src="img/uwhcde.png"  alt="parsons" class="factPicImages" width="500">');
+        $("#uwhcde").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
         $("#facttext2").html('<a href="https://interactive.miami.edu">University of Washington</a>');
-        $("#factpic2").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
-        $("#uw").css("background", "yellow");
+        $("#factpic2").html('<img src="img/uwhcde.png"  alt="parsons" class="factPicImages" width="500">');
+        $("#uwhcde").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
       //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" width="500">');
-      //   $("#uw").css("background", "yellow");
+      //   $("#uwhcde").css("background", "yellow");
       //   container3 = true;
       // }
 
