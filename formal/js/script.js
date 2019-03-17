@@ -61,47 +61,47 @@
     });
 
 
-    //button parson
-    $("#parson").click(function() {
+    //button mit
+    $("#mit").click(function() {
 
       if (container1 == false) {
         $("#facttext1").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
 
         $("#factpic1").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" width="400">');
-        $("#parson").css("background", "yellow");
+        $("#mit").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
         $("#facttext2").html('<a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/">Massachusetts Institute of Technology</a>');
         $("#factpic2").html('<img src="img/MIT.png"  alt="parsons" class="factPicImages" width="400">');
-        $("#parson").css("background", "yellow");
+        $("#mit").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
       //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages"height="500" width="400">');
-      //   $("#parson").css("background", "yellow");
+      //   $("#mit").css("background", "yellow");
       //   container3 = true;
       // }
 
     });
 
 
-    //button visual
-    $("#visual").click(function() {
+    //button uw
+    $("#uw").click(function() {
 
       if (container1 == false) {
         $("#facttext1").html('<a href="https://interactive.miami.edu">University of Washington</a>');
         $("#factpic1").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
-        $("#visual").css("background", "yellow");
+        $("#uw").css("background", "yellow");
         container1 = true;
       } else if (container2 == false) {
         $("#facttext2").html('<a href="https://interactive.miami.edu">University of Washington</a>');
         $("#factpic2").html('<img src="img/UW.png"  alt="parsons" class="factPicImages" width="500">');
-        $("#visual").css("background", "yellow");
+        $("#uw").css("background", "yellow");
         container2 = true;
       }
       // else if (container3 == false) {
       //   $("#factpic3").html('<img src="img/1.jpg"  alt="parsons" class="factPicImages" width="500">');
-      //   $("#visual").css("background", "yellow");
+      //   $("#uw").css("background", "yellow");
       //   container3 = true;
       // }
 
