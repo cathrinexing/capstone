@@ -160,18 +160,23 @@ div.tooltip {
 .factnav{
   display: grid;
   grid-template-columns: 1fr 5fr;
-    text-align: center;
+
 }
 
 .nested2{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-    text-align: center;
+
 }
 
 .factbutton{
-  text-align: center;
-  display: block;
+text-align: center;
+
+display: flex;
+   align-items: center;
+   justify-content: center;
+    vertical-align: middle;
+/*   display: block; */
   height: 40px;
 
 /* width: 200px; */
