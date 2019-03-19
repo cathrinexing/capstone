@@ -1,0 +1,281 @@
+.themetext{
+  font-size: 40px;
+  color:grey;
+  font-family:
+  }
+
+
+  .theme {
+  margin: auto;
+  background-color: #1A2B31;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:150px;
+}
+
+.title{
+font-size: 25px;
+color:lightblue;
+text-align: center;
+font-style: oblique;
+font-weight: 500;
+
+}
+
+
+/* map style */
+#map{
+  text-align: center;
+  height: 700px;
+  margin-top: 0px;
+}
+
+#mapnav{
+  width: 1200px;
+  text-align: center;
+  margin:auto;
+align-items: center;
+justify-content: center;
+  }
+.circle {
+  fill: #4fbba9;
+  opacity: .5;
+}
+
+.circle:hover {
+  fill: darkred;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  padding: 2px;
+  font: 15px sans-serif;
+  background: rgba(153,153,255,.5);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+/* mapnavs */
+#navigation1{
+  grid-template-columns: 1fr 1fr 1fr  2fr 1fr 1fr;
+  display: grid;
+  margin: 30px;
+}
+
+
+#specilizationgrid{
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+  margin: 30px;
+}
+#resetfilter{
+  text-align: center;
+  display: block;
+/* width: 150px; */
+  height: 35px;
+  width:80px;
+}
+.button {
+  text-align: center;
+  display: block;
+/* width: 200px; */
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6 {
+  text-align: center;
+  display: block;
+/* width: 150px; */
+  height: 35px;
+/*   background-color: lightgrey; */
+/*   border: 2px solid red; */
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.nested{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.nested div{
+  margin:5px;
+}
+
+
+/* #y1960, #y1990, #y2015 {
+  display: inline;
+  width: 150px;
+  height: 45px;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+
+/* beeswarm chart */
+
+#beeswarm{
+margin-top: 150px;
+  text-align: center;
+  height: 800px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.cells path {
+  fill: none;
+  pointer-events: all;
+}
+
+ .circ:hover {
+  fill: red;
+}
+
+/* .d_sel{
+  background: grey;
+} */
+
+
+
+.circ {
+  fill: #4fbba9;
+  fill-opacity: 0.3;
+/*   stroke: black; */
+  cursor: pointer;
+}
+
+
+.d_sel{
+  height: 35px;
+  width: 100px;
+  background-color: lightblue;
+  margin: 30px;
+  margin-top: 100px;
+}
+
+/* factsheet chart */
+.factnav{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+
+}
+
+.nested2{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+
+}
+
+.factbutton{
+
+display: flex;
+ vertical-align: middle;
+   align-items: center;
+   justify-content: center;
+
+/*   display: block; */
+  height: 40px;
+
+/* width: 200px; */
+  background-color: lightblue;
+  margin: 10px;
+
+}
+
+/* .ms{
+    background-color: lightgreen;
+}
+ */
+
+.factnav h3{
+  align-items: center;
+  margin: auto;
+}
+
+
+
+.factPic{
+  width:400px;
+/* height: 700px; */
+  display: inline-block;
+/* background-color: grey; */
+  margin:30px;
+}
+
+.factPicImages{
+  width: 400px;
+}
+
+
+#reset,
+#resetmap {
+  height:35px;
+  width:100px;
+  background-color: lightblue;
+  text-align: center;
+   vertical-align: middle;
+  margin: auto;
+}
+
+
+#factsheet,
+#major,
+#track{
+  width: 950px;
+  text-align: center;
+  margin:auto;
+
+align-items: center;
+justify-content: center;
+}
+
+ span.img{
+/* display: none;
+  float:left;
+  margin-left: 10px; */
+}
+
+
+.img{
+display: absolute;
+left: 50px;
+
+}
+
+
+/* .main_h {
+
+top: 0px;
+height: 150px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: none;
+
+  padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
+} */
