@@ -61,6 +61,13 @@ div.tooltip {
   margin: 30px;
 }
 
+button{
+  text-align: center;
+  display: block;
+/* width: 150px; */
+  height: 35px;
+  width:80px;
+}
 .button {
   text-align: center;
   display: block;
