@@ -105,7 +105,6 @@ for var i in programs.json{
             .style("opacity", .9);
 
 
-
           div.html(d.university + "<br>" + d.major + "<br>" + d.degree + "<br>" + d.location)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
@@ -191,6 +190,7 @@ for var i in programs.json{
       //onclick resetmap
       d3.select("#resetmap")
         .on("click", function() {
+
 
           // console.log("wwww");
           d3.selectAll(".button1")
