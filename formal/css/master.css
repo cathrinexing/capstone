@@ -245,14 +245,16 @@ justify-content: center;
 }
 
  span.img{
-display: none;
+/* display: none;
   float:left;
-  margin-left: 10px;
+  margin-left: 10px; */
 }
 
 
-#ssum:hover  span #img1{
-display:relative;
+.img{
+display: absolute;
+left: 50px;
+
 }
 
 

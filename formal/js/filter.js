@@ -34,9 +34,21 @@ $(document).ready(function() {
 
   $('#resetfilter').click(function() {
     // $(":checkbox").attr('checked', false);
-		$('input:checkbox').attr('checked',false);
+		$('input:checkbox').prop('checked',false);
 		$results.show();
 		return;
   });
+
+  $('.img').hide();
+
+
+  $('#ssum').mouseenter(function(){
+$('#img1').show();
+  });
+
+  $('#ssum').mouseleave(function(){
+    $('#img1').hide();
+  });
+
 
 });
