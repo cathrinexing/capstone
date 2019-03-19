@@ -61,7 +61,7 @@ div.tooltip {
   margin: 30px;
 }
 
-button{
+#resetfilter{
   text-align: center;
   display: block;
 /* width: 150px; */
