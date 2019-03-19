@@ -79,7 +79,7 @@ div.tooltip {
   display: block;
 /* width: 150px; */
   height: 35px;
-  background-color: lightgrey;
+/*   background-color: lightgrey; */
 /*   border: 2px solid red; */
   border-radius: 5px;
   margin: 10px;
@@ -199,9 +199,9 @@ display: flex;
 
 .factPic{
   width:400px;
-height: 700px;
+/* height: 700px; */
   display: inline-block;
-background-color: grey;
+/* background-color: grey; */
   margin:30px;
 }
 
