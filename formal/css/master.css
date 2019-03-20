@@ -59,6 +59,11 @@ div.tooltip {
   grid-template-columns: 1fr 1fr 1fr  2fr 1fr 1fr;
   display: grid;
   margin: 30px;
+  max-width: 1200px
+  text-align: center;
+  margin-left:250px;
+  margin-right:250px;
+
 }
 
 
