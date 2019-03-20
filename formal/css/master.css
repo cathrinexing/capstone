@@ -1,4 +1,4 @@
-.theme {
+.headline {
   margin: auto;
   background-color: pink;
   text-align: center;
@@ -62,17 +62,34 @@ div.tooltip {
 }
 
 
+.results{
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  /* display:inline-block; */
+  margin: 10px;
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+
+}
+
 #specilizationgrid{
   grid-template-columns: 1fr 3fr;
   display: grid;
   margin: 30px;
 }
+
 #resetfilter{
   text-align: center;
   display: block;
+  margin:auto;
+align-items: center;
+justify-content: center;
 /* width: 150px; */
   height: 35px;
   width:80px;
+  margin-bottom: 40px;
 }
 .button {
   text-align: center;
