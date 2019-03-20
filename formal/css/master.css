@@ -54,6 +54,14 @@ div.tooltip {
   pointer-events: none;
 }
 
+form{
+
+  padding:0;
+  margin: 0;
+}
+
+
+
 /* mapnavs */
 #navigation1{
   grid-template-columns: 1fr 1fr 1fr  2fr 1fr 1fr;
@@ -97,12 +105,12 @@ justify-content: center;
   margin-bottom: 40px;
 }
 .button {
-  text-align: center;
   display: block;
 /* width: 200px; */
   background-color: lightblue;
   margin: 10px;
 }
+
 
 .button1,
 .button2,
@@ -110,7 +118,7 @@ justify-content: center;
 .button4,
 .button5,
 .button6 {
-  text-align: center;
+
   display: block;
 /* width: 150px; */
   height: 35px;
