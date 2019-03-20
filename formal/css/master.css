@@ -21,7 +21,7 @@ font-weight: 500;
 /* map style */
 #map{
   text-align: center;
-  height: 700px;
+  height: 620px;
   margin-top: 0px;
 }
 
@@ -247,6 +247,7 @@ display: flex;
   background-color: red;
   text-align: center;
   margin: auto;
+
 }
 
 
