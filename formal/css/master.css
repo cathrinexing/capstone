@@ -102,17 +102,8 @@ form{
   margin: 30px;
 }
 
-#resetfilter{
-  text-align: center;
-  display: block;
-  margin:auto;
-align-items: center;
-justify-content: center;
-/* width: 150px; */
-  height: 35px;
-  width:80px;
-  margin-bottom: 40px;
-}
+
+
 .button {
   display: block;
 /* width: 200px; */
@@ -267,12 +258,15 @@ display: flex;
 
 
 #reset,
-#resetmap {
-  height:50px;
+#resetmap,
+#resetfilter {
+  height:40px;
   width:100px;
-  background-color: lightgreen;
+  background-color: #BE6A64;
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
+
 
 }
 
