@@ -13,10 +13,18 @@ font-size: 25px;
 color:lightblue;
 text-align: center;
 font-style: oblique;
-font-weight: 500;
+font-weight: 550;
 
 }
+#twocol{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+/*   margin: 30px; */
+  max-width: 950px;
+margin: auto;
+text-align: center;
 
+}
 
 /* map style */
 #map{
@@ -28,6 +36,7 @@ font-weight: 500;
 #mapnav{
   width: 1200px;
   text-align: center;
+
   margin:auto;
 align-items: center;
 justify-content: center;
@@ -245,7 +254,7 @@ display: flex;
 
 }
 .factPic{
-  width:400px;
+  width:550px;
 /* height: 700px; */
   display: inline-block;
 /* background-color: grey; */
@@ -436,10 +445,11 @@ label{
   font-size: 18px;
 }
 
-/* .comparison{
-  width:1200px;
-} */
-
+.comparison{
+  width:1300px;
+  text-align: center;
+  margin: auto;
+}
 /* .CheckboxStyle input[type="checkbox"]:checked+label:after {
 
   border:2px solid #009688;
