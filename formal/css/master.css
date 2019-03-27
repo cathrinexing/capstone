@@ -164,7 +164,7 @@ justify-content: center;
 #beeswarm{
 
   text-align: center;
-  height: 800px;
+  height: auto;
 }
 
 .axis path,
