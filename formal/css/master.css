@@ -270,7 +270,7 @@ display: flex;
 #resetmap {
   height:50px;
   width:100px;
-  background-color: red;
+  background-color: lightblue;
   text-align: center;
   margin: auto;
 
@@ -452,7 +452,7 @@ label{
 }
 
 section{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 /* .CheckboxStyle input[type="checkbox"]:checked+label:after {
