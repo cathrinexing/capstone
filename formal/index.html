@@ -97,41 +97,44 @@
       <div class="button">
         <p><strong>Program Length</strong></p>
         <form class="CheckboxStyle">
-          <label><input type="checkbox" name="fl-3" value="oneyear" id="oneyear" /> Length ≤ 1 year</label>
+          <label class="labelcontainer"><input type="checkbox" name="fl-3" value="oneyear" id="oneyear" /> ≤ 1 Year
+            <span class="checkmark"></span>
+          </label>
+
 
         </form>
         <form class="" action="index.html" method="post">
-          <label><input type="checkbox" name="fl-3" value="onehalfyear" id="onehalfyear" /> 1 year < Length < 2 years</label> </form> <form class="" action="index.html" method="post">
-              <label><input type="checkbox" name="fl-3" value="twoyear" id="twoyear" /> Length ≥ 2years</label>
+          <label><input type="checkbox" name="fl-3" value="onehalfyear" id="onehalfyear" /> 1-2 Years</label> </form> <form class="" action="index.html" method="post">
+              <label><input type="checkbox" name="fl-3" value="twoyear" id="twoyear" /> ≥ 2 Years</label>
         </form>
 
       </div>
 
 
       <div class="button nested">
-        <p><strong>Specilization</strong></p>
-        <p><strong>Specilization</strong></p>
+        <p><strong>Curriculum</strong></p>
+        <p id="hides"><strong>Specilization</strong></p>
 
         <form>
 
-          <label><input type="checkbox" name="fl-4" value="ux" id="ux" /> UX/IXD</label></form>
+          <label><input type="checkbox" name="fl-4" value="ux" id="ux" /> UX/HCD/IXD</label></form>
         <form>
           <label><input type="checkbox" name="fl-4" value="data" id="data" /> Datan Viz</label></form>
         </form>
         <form> <label><input type="checkbox" name="fl-4" value="hci" id="hci" />HCI</label></form>
         <form>
-          <label><input type="checkbox" name="fl-4" value="computing" id="computing" />Computing Technology</label></form>
+          <label><input type="checkbox" name="fl-4" value="computing" id="computing" />Coding </label></form>
         <form class="" action="index.html" method="post">
           <label><input type="checkbox" name="fl-4" value="game" id="game" /> Game</label>
 
         </form>
         <form class="" action="index.html" method="post">
-          <label><input type="checkbox" name="fl-4" value="information" id="information" /> Information Technology</label>
+          <label><input type="checkbox" name="fl-4" value="information" id="information" /> Information </label>
 
 
         </form>
         <form class="" action="index.html" method="post">
-          <label><input type="checkbox" name="fl-4" value="congnitive" id="congnitive" /> Congnitive Science</label>
+          <label><input type="checkbox" name="fl-4" value="congnitive" id="congnitive" />Cognitive-Sci</label>
 
         </form>
 
@@ -142,16 +145,16 @@
 
       </div>
 
-      <div class="button">
-        <p><strong>In-State Tuition</strong></p>
-        <form>
-          <label><input type="checkbox" name="fl-5" value="infive" id="infive" /> Tuition ≤ 50,000</label>
-          <label><input type="checkbox" name="fl-5" value="infivemore" id="infivemore" /> Tuition > 50,000</label>
-        </form>
-      </div>
+<!--       <div class="button">
+  <p><strong>In-State Tuition</strong></p>
+  <form>
+    <label><input type="checkbox" name="fl-5" value="infive" id="infive" /> Tuition ≤ 50,000</label>
+    <label><input type="checkbox" name="fl-5" value="infivemore" id="infivemore" /> Tuition > 50,000</label>
+  </form>
+</div> -->
 
       <div class="button">
-        <p><strong>Out-of-State Tuition</strong></p>
+        <p><strong>Tuition</strong></p>
         <form>
           <label><input type="checkbox" name="fl-5" value="outfive" id="outfive" /> Tuition ≤ 50,000</label>
           <label><input type="checkbox" name="fl-5" value="outfivemore" id="outfivemore" /> Tuition > 50,000</label>
@@ -164,20 +167,30 @@
     <button id="resetfilter">Reset </button>
 
     <div class="results">
-      <div class="result" data-id="result1" data-category="private suburban twoyear ux data computing game infivemore outfivemore"><a href="https://interactive.miami.edu">University of Miami (MFA)</a></div>
-      <div class="result" data-id="result2" data-category="private urban twoyear ux hci computing game check11 infive outfive ">MIT(MAS)</div>
-      <div class="result" data-id="result3" data-category="public check4 check6 check8 check10 check12 check14 check16 check18 check20">University of Washington (HCDE)</div>
-      <div class="result" data-id="result4" data-category="public check6 check7 check8 check9 check10">Result4</div>
-      <div class="result" data-id="result5" data-category="check15">Result5</div>
-      <div class="result" data-id="result6" data-category="check3 check13 check20">Result6</div>
-      <div class="result" data-id="result7" data-category="check11 check12 check13 check14 check15 check16">Result7</div>
-      <div class="result" data-id="result8" data-category="check4 check8 check12 check16 check20">Result8</div>
-      <div class="result" data-id="result9" data-category="check2 check3 check5 check7 check11 check13 check17 check19">Result9</div>
-      <div class="result" data-id="result10" data-category="check3 check6 check9 check12 check15 check18">Result10</div>
-      <div class="result" data-id="result11" data-category="check5 check10 check15 check20">Result11</div>
-      <div class="result" data-id="result12" data-category="check6 check12 check18">Result12</div>
-      <div class="result" data-id="result13" data-category="check7 check14">Result13</div>
-      <div class="result" data-id="result14" data-category="check8 check16">Result14</div>
+      <div class="result" data-id="result1" data-category="private suburban twoyear ux data computing game infivemore outfivemore"><a href="https://interactive.miami.edu" target="_blank">University of Miami (MFA)</a></div>
+      <div class="result" data-id="result2" data-category="private urban twoyear ux hci computing game infive outfive "><a href="https://www.media.mit.edu/graduate-program/about-media-arts-sciences/" target="_blank">MIT(MAS)</a></div>
+      <div class="result" data-id="result3" data-category="public urban twoyear ux data infive outfive"> <a href="https://www.hcde.washington.edu/ms"  target="_blank">University of Washington (HCDE)</a></div>
+      <div class="result" data-id="result4" data-category="public urban oneyear ux computing infive outfive"> <a href="https://mhcid.washington.edu/"  target="_blank">University of Washington (HCID)</a></div>
+
+        <div class="result" data-id="result5" data-category="public urban twoyear ux data information infive outfive"> <a href="https://www.ischool.berkeley.edu/programs/mims"  target="_blank">UC Berkeley (MIMS)</a></div>
+
+        <div class="result" data-id="result6" data-category="public urban twoyear ux data hci information computing infive outfive"> <a href="https://www.si.umich.edu/content/msi"  target="_blank">University of Michigan (MIMS)</a></div>
+        <div class="result" data-id="result7" data-category="public suburban twoyear ux data hci information computing infive outfive"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">University of Maryland (HCI)</a></div>
+          <div class="result" data-id="result8" data-category="private urban oneyear ux data hci computing congnitive infivemore outfivemore"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">Carnegie Mellon University (MHCI)</a></div>
+
+          <div class="result" data-id="result9" data-category="private urban twoyear ux  infivemore outfivemore"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">Carnegie Mellon University (MDes)</a></div>
+                <div class="result" data-id="result10" data-category="private urban oneyear ux  infive outfive"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">Carnegie Mellon University (MA)</a></div>
+                <div class="result" data-id="result11" data-category="private urban oneyear ux  infive outfive"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">Carnegie Mellon University (MPA)</a></div>
+                <div class="result" data-id="result12" data-category="private suburban onehalfyear ux  infive outfive"> <a href="https://ischool.umd.edu/graduate-admissions"  target="_blank">Northwestern University (EDI)</a></div>
+    <div class="result" data-id="result13" data-category="public suburban twoyear ux hci infive outfive"> <a href="https://www.sice.indiana.edu/graduate/degrees/informatics/hcid/"  target="_blank">Indiana Univeristy (HCID)</a></div>
+        <div class="result" data-id="result14" data-category="private urban onehalfyear ux hci computing infivemore outfivemore"> <a href="https://www.sice.indiana.edu/graduate/degrees/informatics/hcid/"  target="_blank">New York Univeristy (IDM)</a></div>
+            <div class="result" data-id="result15" data-category="public suburban oneyear ux hci infive outfive"> <a href="https://www.sice.indiana.edu/graduate/degrees/informatics/hcid/"  target="_blank">UC Irivine (HCID)</a></div>
+
+
+
+
+
+
 
     </div>
 

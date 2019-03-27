@@ -221,7 +221,7 @@ display: flex;
    justify-content: center;
 
 /*   display: block; */
-  height: 40px;
+  height: 35px;
 
 /* width: 200px; */
   background-color: lightblue;
@@ -240,7 +240,10 @@ display: flex;
 }
 
 
+#hides{
+  color:white;
 
+}
 .factPic{
   width:400px;
 /* height: 700px; */
@@ -425,7 +428,13 @@ left: 7px;
   transform: rotate(45deg);
 }
 
+P{
+  font-size: 20px;
+}
 
+label{
+  font-size: 18px;
+}
 
 /* .CheckboxStyle input[type="checkbox"]:checked+label:after {
 
