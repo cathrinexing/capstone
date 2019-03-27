@@ -88,9 +88,12 @@ for var i in programs.json{
         .attr("cy", function(d) {
           return projection([d.lon, d.lat])[1];
         })
-        .attr("r", "5")
+        .attr("r", "8")
         .attr("opacity", "0.2")
-        .attr("fill", "purple")
+        // .attr("fill", "purple")
+        .style("stroke", "purple")
+        .style("stroke-width", "1")
+
         .attr("id", function(d) {
           return d.id;
 
