@@ -107,6 +107,17 @@
 
     });
 
+$("#tuitionbutton").click(function() {
+  $("#beeswarm").show();
+  $("#mapwhole").hide();
+  $("#majorwhole").hide();
+});
+
+$("#locationbutton").click(function() {
+  $("#beeswarm").hide();
+  $("#mapwhole").show();
+  $("#majorwhole").hide();
+});
 
 
 
