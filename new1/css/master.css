@@ -22,6 +22,36 @@ nav{
   float:right;
 }
 
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+
+}
+
+nav li{
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+    margin-right: 50px;
+
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover{
+  color:#9F4646;
+}
+
+
 .title{
 font-size: 25px;
 color:lightblue;
