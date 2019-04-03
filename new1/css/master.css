@@ -7,44 +7,38 @@
   align-items: center;
   justify-content: center;
 }
-header{
+
+header {
   background: #152C32;
-  width:100%;
-/*   height: 50px; */
+  width: 100%;
+  /*   height: 50px; */
   position: fixed;
   top: 0;
   z-index: 5;
 }
 
-header::after{
-  content:'';
+header::after {
+  content: '';
   display: table;
-  clear:both;
-
+  clear: both;
 }
 
-nav{
-  float:right;
-
-
+nav {
+  float: right;
 }
 
-
-nav ul{
-  margin:0;
-  padding:0;
+nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-
 }
 
-nav li{
+nav li {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 0px;
   margin-right: 100px;
-
-
 }
 
 nav a {
@@ -54,44 +48,42 @@ nav a {
   font-size: 18px;
 }
 
-nav a:hover{
-  color:#9F4646;
+nav a:hover {
+  color: #9F4646;
 }
 
-
-.title{
-font-size: 25px;
-color:lightblue;
-text-align: center;
-font-style: oblique;
-font-weight: 550;
-
+.title {
+  font-size: 25px;
+  color: lightblue;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 550;
 }
-#twocol{
+
+#twocol {
   grid-template-columns: 1fr 1fr;
   display: grid;
-/*   margin: 30px; */
+  /*   margin: 30px; */
   max-width: 950px;
-margin: auto;
-text-align: center;
-
+  margin: auto;
+  text-align: center;
 }
 
 /* map style */
-#map{
+#map {
   text-align: center;
   height: 620px;
   margin-top: 0px;
 }
 
-#mapnav{
+#mapnav {
   width: 1200px;
   text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
 
-  margin:auto;
-align-items: center;
-justify-content: center;
-  }
 .circle {
   fill: #4fbba9;
   opacity: .5;
@@ -108,7 +100,7 @@ div.tooltip {
   height: 100px;
   padding: 2px;
   font: 15px sans-serif;
-  background: rgba(153,153,255,.5);
+  background: rgba(153, 153, 255, .5);
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
@@ -123,13 +115,13 @@ div.tooltip {
 .tooltip1 .tooltiptext {
   visibility: hidden;
   width: 400px;
-  background-color: rgba(153,153,255);
+  background-color: rgba(153, 153, 255);
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
+  margin: auto;
   border-radius: 2px;
   padding: 5px 0;
-
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -138,29 +130,23 @@ div.tooltip {
 .tooltip1:hover .tooltiptext {
   visibility: visible;
 }
-form{
 
-  padding:0;
+form {
+  padding: 0;
   margin: 0;
 }
 
-
-
 /* mapnavs */
-#navigation1{
-  grid-template-columns: 1fr 1fr 1fr  1fr;
+#navigation1 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
   margin: 30px;
-  max-width: 1200px
-  text-align: center;
-  margin-left:250px;
-  margin-right:250px;
-
+  max-width: 1200px text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
-
-.results{
-
+.results {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
   /* display:inline-block; */
@@ -168,33 +154,25 @@ form{
   text-align: center;
   margin: auto;
   max-width: 1000px;
-
 }
 
-#specilizationgrid{
+#specilizationgrid {
   grid-template-columns: 1fr 3fr;
   display: grid;
   margin: 30px;
 }
 
-
-
 .button {
   display: block;
-/* width: 200px; */
-/*   background-color: lightblue; */
+  /* width: 200px; */
+  /*   background-color: lightblue; */
   margin: 10px;
-/*   border: 1px solid grey; */
+  /*   border: 1px solid grey; */
   text-align: left;
 }
 
 .buttoncareer {
-  display:inline-block;
-  width:300px;
-width: 200px;
-/* background-color: lightblue; */
-  margin: 10px;
-/*   border: 1px solid grey; */
+  display: inline-block;
   text-align: center;
 }
 
@@ -204,25 +182,23 @@ width: 200px;
 .button4,
 .button5,
 .button6 {
-
   display: block;
-/* width: 150px; */
+  /* width: 150px; */
   height: 35px;
-/*   background-color: lightgrey; */
-/*   border: 2px solid red; */
+  /*   background-color: lightgrey; */
+  /*   border: 2px solid red; */
   border-radius: 5px;
   margin: 10px;
 }
 
-.nested{
+.nested {
   display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-.nested div{
-  margin:5px;
+  grid-template-columns: 1fr 1fr;
 }
 
+.nested div {
+  margin: 5px;
+}
 
 /* #y1960, #y1990, #y2015 {
   display: inline;
@@ -236,9 +212,7 @@ width: 200px;
 
 
 /* beeswarm chart */
-
-#beeswarm{
-
+#beeswarm {
   text-align: center;
   height: auto;
 }
@@ -259,25 +233,21 @@ width: 200px;
   pointer-events: all;
 }
 
- .circ:hover {
+.circ:hover {
   fill: red;
 }
 
 /* .d_sel{
   background: grey;
 } */
-
-
-
 .circ {
   fill: #bc53ff;
   fill-opacity: 0.3;
-/*   stroke: black; */
+  /*   stroke: black; */
   cursor: pointer;
 }
 
-
-.d_sel{
+.d_sel {
   height: 35px;
   width: 100px;
   background-color: lightblue;
@@ -286,101 +256,86 @@ width: 200px;
 }
 
 /* factsheet chart */
-.factnav{
+.factnav {
   display: grid;
   grid-template-columns: 1fr 5fr;
-
 }
 
-.nested2{
+.nested2 {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.factbutton{
-
-display: flex;
- vertical-align: middle;
-   align-items: center;
-   justify-content: center;
-
-/*   display: block; */
+.factbutton {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  /*   display: block; */
   height: 35px;
-
-/* width: 200px; */
+  /* width: 200px; */
   background-color: lightblue;
   margin: 10px;
-
 }
 
 /* .ms{
     background-color: lightgreen;
 }
  */
-
-.factnav h3{
+.factnav h3 {
   align-items: center;
   margin: auto;
 }
 
-
-#hides{
-  color:white;
-
+#hides {
+  color: white;
 }
-.factPic{
-  width:550px;
-/* height: 700px; */
+
+.factPic {
+  width: 550px;
+  /* height: 700px; */
   display: inline-block;
-/* background-color: grey; */
-  margin:30px;
+  /* background-color: grey; */
+  margin: 30px;
 }
 
-.factPicImages{
+.factPicImages {
   width: 400px;
 }
-
 
 #reset,
 #resetmap,
 #resetfilter {
-  height:40px;
-  width:100px;
+  height: 40px;
+  width: 100px;
   background-color: #BE6A64;
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
-
-
+  display: block;
 }
-
 
 #factsheet,
 #major,
-#track{
+#track,
+#programoverview {
   width: 950px;
   text-align: center;
-  margin:auto;
-
-align-items: center;
-justify-content: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
- span.img{
-/* display: none;
+span.img {
+  /* display: none;
   float:left;
   margin-left: 10px; */
 }
 
-
-.img{
-display: absolute;
-left: 50px;
-
+.img {
+  display: absolute;
+  left: 50px;
 }
-
-
 
 .CheckboxStyle input[type="checkbox"] {
   position: absolute;
@@ -388,7 +343,6 @@ left: 50px;
   cursor: pointer;
   height: 0;
   width: 0;
-
 }
 
 
@@ -450,40 +404,35 @@ Show the checkmark when checked
   transform: rotate(45deg);
 }
  */
-
-
 .CheckboxStyle label {
-  display:block;
-  position:relative;
-  padding:10px 5px 10px 35px;
+  display: block;
+  position: relative;
+  padding: 10px 5px 10px 35px;
   font-size: 18px;
-  color:pink;
-  cursor:pointer;
+  color: pink;
+  cursor: pointer;
 }
-
 
 .checkmark {
   position: absolute;
- vertical-align: middle;
- text-align: center;
- margin:auto;
-/* top: 0px; */
-left: 0;
- height: 20px;
- width: 20px;
- background-color: pink;
-  border:2px solid #ddd;
-
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  /* top: 0px; */
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: pink;
+  border: 2px solid #ddd;
 }
 
-
 /* On mouse-over, add a grey background color */
-.labelcontainer:hover input ~ .checkmark {
+.labelcontainer:hover input~.checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.labelcontainer input:checked ~ .checkmark {
+.labelcontainer input:checked~.checkmark {
   background-color: #2196F3;
 }
 
@@ -495,20 +444,19 @@ left: 0;
 }
 
 /* Show the checkmark when checked */
-.labelcontainer input:checked ~ .checkmark:after {
+.labelcontainer input:checked~.checkmark:after {
   display: block;
 }
 
-
 .labelcontainer .checkmark:after {
-/*   left: 9px;
+  /*   left: 9px;
 top: 5px;
 width: 5px;
 height: 10px; */
-width: 6px;
-height: 12px;
-top:0px;
-left: 7px;
+  width: 6px;
+  height: 12px;
+  top: 0px;
+  left: 7px;
   border: solid white;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -516,28 +464,29 @@ left: 7px;
   transform: rotate(45deg);
 }
 
-P{
+P {
   font-size: 20px;
 }
 
-label{
+label {
   font-size: 18px;
 }
 
-.comparison{
-  width:1300px;
+.comparison {
+  width: 1300px;
   text-align: center;
   margin: auto;
 }
 
-section{
+section {
   margin-top: 100px;
   text-align: center;
 }
 
-#designer{
+#designer {
   display: block;
 }
+
 /* .CheckboxStyle input[type="checkbox"]:checked+label:after {
 
   border:2px solid #009688;
