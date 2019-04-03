@@ -101,7 +101,7 @@ justify-content: center;
   fill: darkred;
 }
 
-/* div.tooltip {
+div.tooltip {
   position: absolute;
   text-align: center;
   width: 250px;
@@ -112,20 +112,21 @@ justify-content: center;
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
-} */
-.tooltip {
+}
+
+.tooltip1 {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
 
-.tooltip .tooltiptext {
+.tooltip1 .tooltiptext {
   visibility: hidden;
   width: 400px;
   background-color: rgba(153,153,255);
   color: #fff;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 2px;
   padding: 5px 0;
 
   /* Position the tooltip */
@@ -133,7 +134,7 @@ justify-content: center;
   z-index: 1;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip1:hover .tooltiptext {
   visibility: visible;
 }
 form{
