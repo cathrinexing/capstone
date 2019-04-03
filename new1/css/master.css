@@ -84,10 +84,13 @@ nav a:hover {
   justify-content: center;
 }
 
-/* #mapwhole,
-#beeswarm{
-  visibility: hidden;
-} */
+#mapwhole,
+#beeswarm,
+#majorwhole{
+  display: none;
+  /* visibility: hidden; */
+}
+
 
 .circle {
   fill: #4fbba9;

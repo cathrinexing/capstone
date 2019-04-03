@@ -107,6 +107,8 @@
 
     });
 
+    
+
 $("#tuitionbutton").click(function() {
   $("#beeswarm").show();
   $("#mapwhole").hide();
@@ -119,6 +121,10 @@ $("#locationbutton").click(function() {
   $("#majorwhole").hide();
 });
 
-
+$("#majorbutton").click(function() {
+  $("#beeswarm").hide();
+  $("#mapwhole").hide();
+  $("#majorwhole").show();
+});
 
   }); //end of document ready
