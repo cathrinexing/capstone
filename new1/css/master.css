@@ -8,6 +8,20 @@
   justify-content: center;
 }
 
+header{
+  background: #152C32;
+}
+
+header::after{
+  content:'';
+  display: table;
+  clear:both;
+}
+
+nav{
+  float:right;
+}
+
 .title{
 font-size: 25px;
 color:lightblue;
