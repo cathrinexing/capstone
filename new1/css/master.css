@@ -125,6 +125,7 @@ div.tooltip {
   width: 400px;
   background-color: rgba(153,153,255);
   color: #fff;
+  font-size: 14px;
   text-align: center;
   border-radius: 2px;
   padding: 5px 0;
