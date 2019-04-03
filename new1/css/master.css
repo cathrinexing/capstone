@@ -183,8 +183,18 @@ form{
 /*   background-color: lightblue; */
   margin: 10px;
   border: 1px solid grey;
+  text-align: left;
 }
 
+.buttoncareer {
+  display:inline-block;
+  width:300px;
+width: 200px;
+/* background-color: lightblue; */
+  margin: 10px;
+/*   border: 1px solid grey; */
+  text-align: center;
+}
 
 .button1,
 .button2,
