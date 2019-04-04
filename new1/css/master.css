@@ -46,6 +46,8 @@ nav a {
   text-decoration: none;
 /*   text-transform: uppercase; */
   font-size: 18px;
+
+  font-family: 'Righteous';
 }
 
 nav a:hover {
@@ -58,16 +60,20 @@ nav a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30PX;
+  font-size: 50PX;
+  font-family: 'Righteous';
+  color: white;
+
+
 }
 
-.title {
+/* .title {
   font-size: 25px;
   color: lightblue;
   text-align: center;
   font-style: oblique;
   font-weight: 550;
-}
+} */
 
 #twocol {
   grid-template-columns: 1fr 1fr;
@@ -523,6 +529,16 @@ label {
 #designer {
   display: block;
 }
+
+
+h1{
+  font-family: 'Righteous';
+  font-size: 40px;
+  text-align: center;
+  color:#9F4646;
+
+}
+
 
 /* .CheckboxStyle input[type="checkbox"]:checked+label:after {
 
