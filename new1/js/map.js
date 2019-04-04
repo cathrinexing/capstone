@@ -30,7 +30,7 @@ for var i in programs.json{
 (function() {
 
   //Width and height of map
-  var width = 1145;
+  var width = 900;
   var height = 600;
   var selected;
   var college=[];
@@ -40,7 +40,7 @@ for var i in programs.json{
   // D3 Projection
   var projection = d3.geoAlbers()
     .translate([width / 2, height / 2])
-    .scale(1300);
+    .scale(1100);
 
   // Define path generator
   var path = d3.geoPath()
