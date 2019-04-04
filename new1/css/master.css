@@ -350,6 +350,18 @@ form {
   display: block;
 }
 
+#tuitionbutton,
+#locationbutton,
+#majorbutton{
+  height: 40px;
+  width: 100px;
+  background-color: #BE6A64;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
 #factsheet,
 #major,
 #track,
@@ -493,6 +505,12 @@ p{
   font-family: 'Quicksand';
   font-size: 20px;
 text-align: left;
+  color:#000000;
+}
+.centerp{
+  font-family: 'Quicksand';
+  font-size: 20px;
+text-align: center;
   color:#000000;
 }
 .twocol_1{
