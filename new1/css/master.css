@@ -67,13 +67,7 @@ nav a:hover {
 
 }
 
-/* .title {
-  font-size: 25px;
-  color: lightblue;
-  text-align: center;
-  font-style: oblique;
-  font-weight: 550;
-} */
+
 
 #twocol {
   grid-template-columns: 1fr 1fr;
@@ -120,12 +114,15 @@ opacity: 0.5;
 }
 
 .circle {
-  fill: #4fbba9;
-  opacity: .5;
+fill: #79C5B6;
+
+/*   fill:#CEEBE5; */
+/*   opacity: .5; */
 }
 
 .circle:hover {
-  fill: darkred;
+    fill:  #9F4646;
+    opacity: 1;
 }
 
 div.tooltip {
@@ -135,7 +132,8 @@ div.tooltip {
   height: 100px;
   padding: 2px;
   font: 15px sans-serif;
-  background: rgba(153, 153, 255, .5);
+/*   background: rgba(149, 192, 253, .7); */
+    background: rgba(255, 255, 255, .9);
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
@@ -150,7 +148,8 @@ div.tooltip {
 .tooltip1 .tooltiptext {
   visibility: hidden;
   width: 400px;
-  background-color: rgba(153, 153, 255);
+/*   background-color: #CEEBE5; */
+    background: rgba(255, 255, 255, .9);
   color: #fff;
   font-size: 12px;
   text-align: center;
@@ -223,7 +222,7 @@ form {
   /* width: 150px; */
   height: 35px;
   /*   background-color: lightgrey; */
-  /*   border: 2px solid red; */
+
   border-radius: 5px;
   margin: 10px;
 }
@@ -271,15 +270,15 @@ form {
 }
 
 .circ:hover {
-  fill: red;
+  fill: #BE6A64;
 }
 
 /* .d_sel{
   background: grey;
 } */
 .circ {
-  fill: #bc53ff;
-  fill-opacity: 0.3;
+  fill: #CEEBE5;
+/*   fill-opacity: 0.3; */
   /*   stroke: black; */
   cursor: pointer;
 }
@@ -287,7 +286,7 @@ form {
 .d_sel {
   height: 35px;
   width: 100px;
-  background-color: lightblue;
+  background-color:#BE6A64;
   margin: 30px;
   margin-top: 100px;
 }
@@ -415,7 +414,7 @@ span.img {
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: pink;
+  background-color: #white;
   border: 2px solid #ddd;
 }
 
@@ -426,7 +425,7 @@ span.img {
 
 /* When the checkbox is checked, add a blue background */
 .labelcontainer input:checked~.checkmark {
-  background-color: #2196F3;
+  background-color: #CEEBE5;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -502,7 +501,12 @@ h2{
   text-align: center;
   color:#152C32;
 }
-
+h4{
+  font-family: 'Righteous';
+  font-size: 20px;
+  text-align: center;
+  color:black;
+}
 p{
   font-family: 'Quicksand';
   font-size: 20px;
@@ -527,19 +531,23 @@ text-align:left;
   color:#000000;
   text-decoration: none;
 }
+
 a{
 text-decoration: none;
+color: grey;
 }
 
 th, td {
   font-family: 'Quicksand';
-  font-size: 12px;
+  font-size: 14px;
+  color:grey;
 text-align:left;
   border: 1px solid #ddd;
 }
 th{
   font-family:  'Righteous';
   font-size: 14px;
+  color:black;
   font-weight: 400;
 
 }

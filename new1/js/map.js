@@ -71,7 +71,8 @@ for var i in programs.json{
       .attr("d", path)
       .style("stroke", "#fff")
       .style("stroke-width", "1")
-      .style("fill", "rgb(213,222,217)");
+      .style("fill", "lightblue")
+      .attr("opacity", "0.4");
 
 
     //project circles
@@ -88,11 +89,14 @@ for var i in programs.json{
         .attr("cy", function(d) {
           return projection([d.lon, d.lat])[1];
         })
-        .attr("r", "8")
-        .attr("opacity", "0.2")
+        .attr("r", "10")
+        // .attr("fill","#79C5B6")
+        .attr("opacity", "0.6")
         // .attr("fill", "purple")
-        .style("stroke", "purple")
-        .style("stroke-width", "1")
+        .style("stroke", "grey")
+        // .attr("opacity", "1")
+
+        .style("stroke-width", "2")
 
         .attr("id", function(d) {
           return d.id;
@@ -113,7 +117,7 @@ for var i in programs.json{
             .style("top", (d3.event.pageY - 28) + "px");
                   //
                   d3.select(this)
-                    .style("fill", "red");
+                    .style("fill", "#BE6A64");
 
 
         })
@@ -127,7 +131,7 @@ for var i in programs.json{
             .style("opacity", 0);
 
             d3.select(this)
-              .style("fill", "blue");
+              .style("fill", "");
         });
 
 
