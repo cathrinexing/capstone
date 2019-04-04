@@ -107,7 +107,18 @@
 
     });
 
-    
+    $(".careerchoose").click(function() {
+      $("#otherfactors").show();
+      $("#no").show();
+    });
+
+
+    $(".choosetwo").click(function() {
+      $("#allresult").show();
+
+    });
+
+
 
 $("#tuitionbutton").click(function() {
   $("#beeswarm").show();

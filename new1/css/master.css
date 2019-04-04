@@ -44,12 +44,21 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+/*   text-transform: uppercase; */
   font-size: 18px;
 }
 
 nav a:hover {
   color: #9F4646;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30PX;
 }
 
 .title {
@@ -83,6 +92,19 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+#cover{
+  max-height: 300px;
+width: 100%;
+opacity: 0.5;
+}
+
+#allresult,
+#no,
+#otherfactors,
+#resetfilter{
+    display: none;
+
+}
 
 #mapwhole,
 #beeswarm,
@@ -90,7 +112,6 @@ nav a:hover {
   display: none;
   /* visibility: hidden; */
 }
-
 
 .circle {
   fill: #4fbba9;
@@ -487,10 +508,14 @@ label {
 }
 
 section {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 
+#programoverview{
+    margin-top: 50px;
+
+}
 #designer {
   display: block;
 }

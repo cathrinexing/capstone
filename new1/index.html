@@ -15,9 +15,9 @@
 
       <nav>
         <ul>
-          <li><a href="#mapnav">UX Overview </a></li>
-          <li><a href="#filter">Find your Own</a></li>
-          <li><a href="#factsheet">Factsheet</a></li>
+          <li><a href="#uxoverview">UX Overview </a></li>
+          <li><a href="#yourown">Find Your Own</a></li>
+          <li><a href="#programoverview">Programs Overview</a></li>
         </ul>
       </nav>
     </div>
@@ -28,9 +28,13 @@
 
 
   <section class="headline">
-    <img src="img/headimg.png" alt="" height=300px>
+    <img id="cover" src="img/headimg.png" alt="">
+    <div class="centered">
+        Where to Get a UX-related Graduate Program in the U.S.?
 
-    <h1>Where to Get a UX-related Graduate Program in the U.S.?</h1>
+    </div>
+
+
   </section>
 
 
@@ -58,9 +62,12 @@
 
 
 
-  <section id="filter">
-    <div class="title">
-      <h1>Find Your Programs</h1>
+  <section id ="yourown">
+    <div  class="title">
+        <h1>Find Your Programs</h1>
+
+    </div>
+
       <p>according to my research from UX professional in industry.</p>
     </div>
 
@@ -71,8 +78,8 @@
 
         <p><strong>What do I want to be?</strong></p>
         <form>
-          <label><input type="checkbox" name="fl-1" value="uxdesigner" id="uxdesigner" />UX Designer</label>
-          <label><input type="checkbox" name="fl-1" value="uxresearcher" id="uxresearcher" /> UX Researcher</label>
+          <label class= "careerchoose"><input type="checkbox" name="fl-1" value="uxdesigner" id="uxdesigner" />UX Designer</label>
+          <label class= "careerchoose"><input type="checkbox" name="fl-1" value="uxresearcher" id="uxresearcher" /> UX Researcher</label>
         </form>
       </div>
 
@@ -84,11 +91,11 @@
         <div class="button">
           <p><strong>Institute Type</strong></p>
           <form>
-            <label><input type="checkbox" name="fl-1" value="private" id="private" />Private</label>
+            <label class= "choosetwo"><input type="checkbox" name="fl-1" value="private" id="private" />Private</label>
 
           </form>
           <form class="" action="index.html" method="post">
-            <label><input type="checkbox" name="fl-1" value="public" id="public" /> Public</label>
+            <label class= "choosetwo"><input type="checkbox" name="fl-1" value="public" id="public" /> Public</label>
           </form>
         </div>
 
@@ -154,12 +161,12 @@
 
 
     </div>
-<button class="button buttoncareer" type="button" name="button"> I donot consider these factors</button>
+<!-- <button  id ="no" class="button buttoncareer" type="button" name="button"> I donot consider these factors</button> -->
 
     <button id="resetfilter">Reset </button>
 
     <div class="" id="allresult">
-      <div class="result" data-category="uxdesigner">
+      <div class="result" data-category="uxdesigner private">
         <h2>UX Designer</h2>
       </div>
 
