@@ -147,24 +147,28 @@ div.tooltip {
 
 .tooltip1 .tooltiptext {
   visibility: hidden;
-  width: 400px;
-/*   background-color: #CEEBE5; */
-    background: rgba(255, 255, 255, .9);
+  width: 380px;
+background-color: #CEEBE5;
+  /*   background: rgba(255, 255, 255, .9); */
   color: #fff;
   font-size: 12px;
   text-align: center;
   margin: auto;
   border-radius: 2px;
   padding: 5px 0;
+
   /* Position the tooltip */
   position: absolute;
 
-
   z-index: 1;
 }
-
+.tooltip1{
+      border-bottom: 0px dotted black;
+}
 .tooltip1:hover .tooltiptext {
   visibility: visible;
+top:20px;
+left:20px;
 }
 
 form {
