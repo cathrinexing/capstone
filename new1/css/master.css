@@ -556,19 +556,3 @@ th{
   font-weight: 400;
 
 }
-/* .CheckboxStyle input[type="checkbox"]:checked+label:after {
-
-  border:2px solid #009688;
-  border-width:0 2px 2px 0;
-  width: 8px;
-  height: 16px;
-  top:7px;
-  left: 7px;
-    background:pink;
-
-
-  -moz-transform: rotate(31deg);
-  -ms-transform: rotate(31deg);
-  -webkit-transform: rotate(31deg);
-  transform: rotate(31deg);
-} */
