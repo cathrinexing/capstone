@@ -93,9 +93,9 @@ nav a:hover {
   justify-content: center;
 }
 #cover{
-  max-height: 300px;
+/*   max-height: 300px; */
 width: 100%;
-opacity: 0.5;
+opacity: 0.8;
 }
 
 #allresult,
