@@ -507,13 +507,17 @@ label {
   margin: auto;
 }
 
-section {
-  margin-top: 50px;
+/* section {
+  margin-top: 100px;
   text-align: center;
+} */
+#uxoverview{
+  margin-top: 20px;
 }
-
-#programoverview{
-    margin-top: 50px;
+#programoverview,
+#yourown{
+    margin-top: 100px;
+    text-align: center;
 
 }
 #designer {
