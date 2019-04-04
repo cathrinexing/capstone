@@ -357,12 +357,13 @@ form {
 
 #tuitionbutton,
 #locationbutton,
-#majorbutton{
+#majorbutton,
+#degreebutton{
   height: 40px;
   width: 100px;
   background-color: #BE6A64;
   text-align: center;
-  margin: 30px;
+  margin: 0px;
   margin-bottom: 30px;
   display: inline-block;
 }
