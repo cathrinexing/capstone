@@ -134,14 +134,14 @@ for var i in programs.json{
       //click functions
 
 
-      var priv = [];
-      var public = [];
-      var urban = [];
-      var suburban = [];
-      var hci = [];
-      var tuitiontenmorein = [];
-      var humanfactor = [];
-      var game = [];
+      // var priv = [];
+      // var public = [];
+      // var urban = [];
+      // var suburban = [];
+      // var hci = [];
+      // var tuitiontenmorein = [];
+      // var humanfactor = [];
+      // var game = [];
 
 
 
