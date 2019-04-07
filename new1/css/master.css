@@ -108,7 +108,8 @@ opacity: 0.8;
 
 #mapwhole,
 #beeswarm,
-#majorwhole{
+#majorwhole,
+#degreewhole{
   display: none;
   /* visibility: hidden; */
 }
