@@ -69,9 +69,9 @@ for var i in programs.json{
       .enter()
       .append("path")
       .attr("d", path)
-      .style("stroke", "#fff")
+      .style("stroke", "grey")
       .style("stroke-width", "1")
-      .style("fill", "lightblue")
+      .style("fill", "white")
       .attr("opacity", "0.4");
 
 
