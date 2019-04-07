@@ -115,6 +115,7 @@
 
     $(".choosetwo").click(function() {
       $("#allresult").show();
+      $("#resetfilter").show();
 
     });
 

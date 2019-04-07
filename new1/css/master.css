@@ -113,6 +113,14 @@ opacity: 0.8;
   /* visibility: hidden; */
 }
 
+.title{
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+
+}
 .circle {
 fill: #79C5B6;
 
@@ -345,7 +353,8 @@ form {
 
 #reset,
 #resetmap,
-#resetfilter {
+#resetfilter,
+ {
   height: 40px;
   width: 100px;
   background-color: #BE6A64;
@@ -353,6 +362,20 @@ form {
   margin: auto;
   margin-bottom: 30px;
   display: block;
+}
+
+.linktofilter{
+
+/*   margin: auto; */
+  text-align: center;
+  display:inline-block;
+  height: 40px;
+  width: 150px;
+  background-color: #BE6A64;
+  text-align: center;
+  margin: 30px;
+
+
 }
 
 #tuitionbutton,
@@ -366,6 +389,7 @@ form {
   margin: 0px;
   margin-bottom: 30px;
   display: inline-block;
+
 }
 
 #factsheet,
@@ -506,6 +530,12 @@ h2{
   text-align: center;
   color:#152C32;
 }
+h3{
+  font-family: 'Righteous';
+  font-size: 23px;
+  text-align: center;
+  color:#6E8B87;
+}
 h4{
   font-family: 'Righteous';
   font-size: 20px;
@@ -539,7 +569,7 @@ text-align:left;
 
 a{
 text-decoration: none;
-color: grey;
+color: black;
 }
 
 th, td {
