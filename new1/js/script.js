@@ -125,18 +125,26 @@ $("#tuitionbutton").click(function() {
   $("#beeswarm").show();
   $("#mapwhole").hide();
   $("#majorwhole").hide();
+  $("#degreewhole").hide();
 });
 
 $("#locationbutton").click(function() {
   $("#beeswarm").hide();
   $("#mapwhole").show();
   $("#majorwhole").hide();
+    $("#degreewhole").hide();
 });
 
 $("#majorbutton").click(function() {
   $("#beeswarm").hide();
   $("#mapwhole").hide();
   $("#majorwhole").show();
+    $("#degreewhole").hide();
 });
-
+$("#degreebutton").click(function() {
+  $("#beeswarm").hide();
+  $("#mapwhole").hide();
+  $("#majorwhole").hide();
+    $("#degreewhole").show();
+});
   }); //end of document ready
