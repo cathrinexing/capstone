@@ -67,7 +67,9 @@ nav a:hover {
 
 }
 
-
+.tooltiptitle{
+  color: yellow;
+}
 
 #twocol {
   grid-template-columns: 1fr 1fr;
