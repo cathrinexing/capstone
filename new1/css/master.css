@@ -592,6 +592,7 @@ text-align:left;
 a{
 text-decoration: none;
 color: black;
+font-size: 14px;
 }
 
 th, td {
