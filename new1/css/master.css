@@ -596,8 +596,8 @@ color: black;
 
 th, td {
   font-family: 'Quicksand';
-  font-size: 14px;
-  color:grey;
+  font-size: 12px;
+  color:black;
 text-align:left;
   border: 1px solid #ddd;
 }
