@@ -112,7 +112,7 @@ for var i in programs.json{
             .style("opacity", .9);
 
 
-          div.html("<div class='tooltiptitle'>"+d.university + "</div><br>" + d.major + "<br>" + d.degree + "<br>" + d.location)
+          div.html("<div class='tooltiptitle'>"+d.university + "</div>" + d.major + "<br>" + d.degree + "<br>" + d.location)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
                   //

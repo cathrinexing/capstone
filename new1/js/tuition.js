@@ -162,7 +162,7 @@ d3.json('data/tuition.json', function(data) {
             .duration(200)
             .style("opacity", .9);
 
-          div.html(d.id + "<br>" +d.major+"<br>" + "Instate" + d.one)
+          div.html("<div class='tooltiptitle'>"+d.id + "</div>" +d.major+"<br>" + "Instate" + d.one)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
         })
