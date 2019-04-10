@@ -91,12 +91,12 @@ for var i in programs.json{
         })
         .attr("r", "10")
         // .attr("fill","#79C5B6")
-        .attr("opacity", "0.6")
+        .attr("opacity", "0.4")
         // .attr("fill", "purple")
-        .style("stroke", "grey")
-        // .attr("opacity", "1")
-
-        .style("stroke-width", "2")
+        // .style("stroke", "grey")
+        // // .attr("opacity", "1")
+        //
+        // .style("stroke-width", "2")
 
         .attr("id", function(d) {
           return d.id;
