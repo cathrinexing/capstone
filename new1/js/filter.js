@@ -44,16 +44,16 @@ $(document).ready(function() {
 
 
 //hove show factsheet
-  $('.img').hide();
-
-
-  $('#ssum').mouseenter(function(){
-$('#img1').show();
-  });
-
-  $('#ssum').mouseleave(function(){
-    $('#img1').hide();
-  });
+//   $('.img').hide();
+//
+//
+//   $('#ssum').mouseenter(function(){
+// $('#img1').show();
+//   });
+//
+//   $('#ssum').mouseleave(function(){
+//     $('#img1').hide();
+//   });
 
 
 });

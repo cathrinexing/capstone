@@ -15,9 +15,9 @@
     //reset button functiobn
     $("#reset").click(function() {
 
-       // $(".hints").html("click button to show factsheets");
- $(".text").html("");
- $(".picture").html("");
+      // $(".hints").html("click button to show factsheets");
+      $(".text").html("");
+      $(".picture").html("");
 
       // $("#factpic1").html("");
       // $("#factpic2").html("");
@@ -119,32 +119,38 @@
 
     });
 
+    $("#tuitionbutton").click(function() {
+      $("#beeswarm").show();
+      $("#mapwhole").hide();
+      $("#majorwhole").hide();
+      $("#degreewhole").hide();
+    });
+
+    $("#locationbutton").click(function() {
+      $("#beeswarm").hide();
+      $("#mapwhole").show();
+      $("#majorwhole").hide();
+      $("#degreewhole").hide();
+    });
+
+    $("#majorbutton").click(function() {
+      $("#beeswarm").hide();
+      $("#mapwhole").hide();
+      $("#majorwhole").show();
+      $("#degreewhole").hide();
+    });
+    $("#degreebutton").click(function() {
+      $("#beeswarm").hide();
+      $("#mapwhole").hide();
+      $("#majorwhole").hide();
+      $("#degreewhole").show();
+    });
+
+    $("#buttonr9").click(function(){
+      $(".tr9").show();
+
+    });
 
 
-$("#tuitionbutton").click(function() {
-  $("#beeswarm").show();
-  $("#mapwhole").hide();
-  $("#majorwhole").hide();
-  $("#degreewhole").hide();
-});
 
-$("#locationbutton").click(function() {
-  $("#beeswarm").hide();
-  $("#mapwhole").show();
-  $("#majorwhole").hide();
-    $("#degreewhole").hide();
-});
-
-$("#majorbutton").click(function() {
-  $("#beeswarm").hide();
-  $("#mapwhole").hide();
-  $("#majorwhole").show();
-    $("#degreewhole").hide();
-});
-$("#degreebutton").click(function() {
-  $("#beeswarm").hide();
-  $("#mapwhole").hide();
-  $("#majorwhole").hide();
-    $("#degreewhole").show();
-});
   }); //end of document ready
