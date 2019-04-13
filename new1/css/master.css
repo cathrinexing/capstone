@@ -331,7 +331,7 @@ display: grid;
   margin-top: 100px;
 }
 
-/* factsheet chart */
+/* factsheet chart
 .factnav {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -341,23 +341,20 @@ display: grid;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-
-.factbutton {
+ */
+/* .factbutton {
   display: flex;
   vertical-align: middle;
   align-items: center;
   justify-content: center;
-  /*   display: block; */
+  display: block;
   height: 35px;
-  /* width: 200px; */
+  width: 200px;
   background-color: lightblue;
   margin: 10px;
 }
-
-/* .ms{
-    background-color: lightgreen;
-}
  */
+
 .factnav h3 {
   align-items: center;
   margin: auto;
@@ -498,10 +495,6 @@ span.img {
 }
 
 .labelcontainer .checkmark:after {
-  /*   left: 9px;
-top: 5px;
-width: 5px;
-height: 10px; */
   width: 6px;
   height: 12px;
   top: 0px;
@@ -604,6 +597,7 @@ text-align: left;
 }
 .result{
   font-family: 'Quicksand';
+  margin-top: 10px;
 /*   grid-template-columns: 1fr 1fr; */
   display: block;
   font-size: 14px;
@@ -624,7 +618,7 @@ display: none;
 .filterb{
   width:180px;
   background: #9F4646;
-  height: 30px;
+  height: 25px;
   color:white;
 }
 
@@ -633,10 +627,14 @@ text-decoration: none;
 color: black;
 font-size: 16px;
 font-weight:700;
-margin:10px;
+margin:5px;
 }
 
-th, td {
+a:hover{
+  color:  #9F4646;
+  font-weight:1000;
+}
+/* th, td {
   font-family: 'Quicksand';
   font-size: 12px;
   color:black;
@@ -649,4 +647,4 @@ th{
   color:black;
   font-weight: 400;
 
-}
+} */
