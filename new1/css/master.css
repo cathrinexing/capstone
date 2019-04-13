@@ -394,11 +394,12 @@ display: grid;
 /*   margin: auto; */
   text-align: center;
   display:inline-block;
+  font-family: Quicksand;
 /*   height: 40px;
 width: 150px;
 background-color: #BE6A64; */
   text-align: center;
-  margin: 30px;
+  margin: 40px;
 font-size: 20px;
 
 
