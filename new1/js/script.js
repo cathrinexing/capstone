@@ -151,6 +151,10 @@
 
     });
 
+    $("#buttonr22").click(function(){
+      $(".tr22").show();
+    });
+
 
 
   }); //end of document ready

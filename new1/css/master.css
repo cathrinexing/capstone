@@ -394,11 +394,12 @@ display: grid;
 /*   margin: auto; */
   text-align: center;
   display:inline-block;
-  height: 40px;
-  width: 150px;
-  background-color: #BE6A64;
+/*   height: 40px;
+width: 150px;
+background-color: #BE6A64; */
   text-align: center;
   margin: 30px;
+font-size: 20px;
 
 
 }
@@ -632,7 +633,7 @@ margin:5px;
 
 a:hover{
   color:  #9F4646;
-  font-weight:1000;
+
 }
 /* th, td {
   font-family: 'Quicksand';
