@@ -614,11 +614,18 @@ text-align:left;
 }
 
 .detailedtable{
-  padding-left: 50px;
+  padding-left: 15px;
   font-family: "Avenir";
   color:grey;
-  display: none;
+/*   display: none; */
 
+}
+
+.filterb{
+  width:180px;
+  background: #9F4646;
+  height: 30px;
+  color:white;
 }
 
 a{
@@ -626,6 +633,7 @@ text-decoration: none;
 color: black;
 font-size: 16px;
 font-weight:700;
+margin:10px;
 }
 
 th, td {

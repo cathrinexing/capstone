@@ -39,6 +39,9 @@ $(document).ready(function() {
 		return;
   });
 
+//click button to show detailed table
+
+
 
 //hove show factsheet
   $('.img').hide();
