@@ -650,12 +650,14 @@ a:hover{
   color:  #9F4646;
 
 }
-
-.axis,
-.axis--x{
+.axis text{
+  fill:grey;
   font-family: "Avenir";
-  color:grey;
   font-size: 14px;
+}
+.axis line{
+  stroke:grey;
+/*    y2:500; */
 }
 /* th, td {
   font-family: 'Quicksand';
