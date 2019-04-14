@@ -261,7 +261,119 @@ $("#buttonr8").click(function(){
       $("#buttonr34").click(function(){
         $(".tr34").show();
       });
-      
 
+      $("#buttonr1_").click(function(){
+        $(".tr1_").show();
+      });
+      $("#buttonr2_").click(function(){
+        $(".tr2_").show();
+      });
+
+      $("#buttonr3_").click(function(){
+        $(".tr3_").show();
+      });
+      $("#buttonr4_").click(function(){
+        $(".tr4_").show();
+      });
+      $("#buttonr5__").click(function(){
+        $(".tr5__").show();
+      });
+      $("#buttonr6__").click(function(){
+        $(".tr6__").show();
+      });
+      $("#buttonr7__").click(function(){
+        $(".tr7__").show();
+      });
+
+      $("#buttonr8_").click(function(){
+        $(".tr8_").show();
+      });
+          $("#buttonr9_").click(function(){
+            $(".tr9_").show();
+          });
+          $("#buttonr10_").click(function(){
+            $(".tr10_").show();
+          });
+
+          $("#buttonr11_").click(function(){
+            $(".tr11_").show();
+          });
+          $("#buttonr12_").click(function(){
+            $(".tr12_").show();
+          });
+
+          $("#buttonr13_").click(function(){
+            $(".tr13_").show();
+          });
+          $("#buttonr14_").click(function(){
+            $(".tr14_").show();
+          });
+          $("#buttonr15_").click(function(){
+            $(".tr15_").show();
+          });
+          $("#buttonr16_").click(function(){
+            $(".tr16_").show();
+          });
+          $("#buttonr17_").click(function(){
+            $(".tr17_").show();
+          });
+
+          $("#buttonr18_").click(function(){
+            $(".tr18_").show();
+          });
+          $("#buttonr19_").click(function(){
+            $(".tr19_").show();
+          });
+          $("#buttonr20_").click(function(){
+            $(".tr20_").show();
+          });
+
+          $("#buttonr21_").click(function(){
+            $(".tr21_").show();
+          });
+
+          $("#buttonr22_").click(function(){
+            $(".tr22_").show();
+          });
+
+          $("#buttonr23__").click(function(){
+            $(".tr23__").show();
+          });
+
+          $("#buttonr24__").click(function(){
+            $(".tr24__").show();
+          });
+          $("#buttonr25_").click(function(){
+            $(".tr25_").show();
+          });
+
+          $("#buttonr26_").click(function(){
+            $(".tr26_").show();
+          });
+          $("#buttonr27_").click(function(){
+            $(".tr27_").show();
+          });
+            $("#buttonr28_").click(function(){
+              $(".tr28_").show();
+            });
+            $("#buttonr29_").click(function(){
+              $(".tr29_").show();
+            });
+            $("#buttonr30_").click(function(){
+              $(".tr30_").show();
+            });
+
+            $("#buttonr31_").click(function(){
+              $(".tr31_").show();
+            });
+            $("#buttonr32_").click(function(){
+              $(".tr32_").show();
+            });
+            $("#buttonr33_").click(function(){
+              $(".tr33_").show();
+            });
+            $("#buttonr34_").click(function(){
+              $(".tr34_").show();
+            });
 
   }); //end of document ready
