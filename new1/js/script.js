@@ -210,10 +210,57 @@ $("#buttonr8").click(function(){
     $("#buttonr19").click(function(){
       $(".tr19").show();
     });
+    $("#buttonr20").click(function(){
+      $(".tr20").show();
+    });
+
+    $("#buttonr21").click(function(){
+      $(".tr21").show();
+    });
+
     $("#buttonr22").click(function(){
       $(".tr22").show();
     });
 
+    $("#buttonr23").click(function(){
+      $(".tr23").show();
+    });
+
+    $("#buttonr24").click(function(){
+      $(".tr24").show();
+    });
+    $("#buttonr25").click(function(){
+      $(".tr25").show();
+    });
+
+    $("#buttonr26").click(function(){
+      $(".tr26").show();
+    });
+    $("#buttonr27").click(function(){
+      $(".tr27").show();
+    });
+      $("#buttonr28").click(function(){
+        $(".tr28").show();
+      });
+      $("#buttonr29").click(function(){
+        $(".tr29").show();
+      });
+      $("#buttonr30").click(function(){
+        $(".tr30").show();
+      });
+
+      $("#buttonr31").click(function(){
+        $(".tr31").show();
+      });
+      $("#buttonr32").click(function(){
+        $(".tr32").show();
+      });
+      $("#buttonr33").click(function(){
+        $(".tr33").show();
+      });
+      $("#buttonr34").click(function(){
+        $(".tr34").show();
+      });
 
 
   }); //end of document ready
