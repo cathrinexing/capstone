@@ -261,6 +261,7 @@ $("#buttonr8").click(function(){
       $("#buttonr34").click(function(){
         $(".tr34").show();
       });
+      
 
 
   }); //end of document ready
