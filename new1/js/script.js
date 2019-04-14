@@ -146,11 +146,70 @@
       $("#degreewhole").show();
     });
 
+
+//SHOW DETAILED TABLE
+$("#buttonr1").click(function(){
+  $(".tr1").show();
+});
+$("#buttonr2").click(function(){
+  $(".tr2").show();
+});
+
+$("#buttonr3").click(function(){
+  $(".tr3").show();
+});
+$("#buttonr4").click(function(){
+  $(".tr4").show();
+});
+$("#buttonr5").click(function(){
+  $(".tr5").show();
+});
+$("#buttonr6").click(function(){
+  $(".tr6").show();
+});
+$("#buttonr7").click(function(){
+  $(".tr7").show();
+});
+
+$("#buttonr8").click(function(){
+  $(".tr8").show();
+});
     $("#buttonr9").click(function(){
       $(".tr9").show();
-
+    });
+    $("#buttonr10").click(function(){
+      $(".tr10").show();
     });
 
+    $("#buttonr11").click(function(){
+      $(".tr11").show();
+    });
+    $("#buttonr12").click(function(){
+      $(".tr12").show();
+    });
+
+    $("#buttonr13").click(function(){
+      $(".tr13").show();
+    });
+    $("#buttonr14").click(function(){
+      $(".tr14").show();
+    });
+    $("#buttonr15").click(function(){
+      $(".tr15").show();
+    });
+    $("#buttonr16").click(function(){
+      $(".tr16").show();
+    });
+    $("#buttonr17").click(function(){
+      $(".tr17").show();
+    });
+
+    $("#buttonr18").click(function(){
+      $(".tr18").show();
+    });
+    $("#buttonr19").click(function(){
+      $(".tr19").show();
+    });
     $("#buttonr22").click(function(){
       $(".tr22").show();
     });
