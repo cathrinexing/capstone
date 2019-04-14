@@ -122,7 +122,7 @@ d3.json('data/tuition.json', function(data) {
     .attr("class", "axis axis--x")
     .attr("transform", "translate(0,350)")
     .call(d3.axisTop(x).ticks(6, ".0s"))
-    .selectAll(".tick line").attr("y2", "500").attr("stroke-dasharray", "2,2");
+    .selectAll(".tick line").attr("y2", 0).attr("stroke-dasharray", "2,2");
 
   //init
   var init_decay;
