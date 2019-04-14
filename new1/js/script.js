@@ -275,14 +275,14 @@ $("#buttonr8").click(function(){
       $("#buttonr4_").click(function(){
         $(".tr4_").show();
       });
-      $("#buttonr5__").click(function(){
-        $(".tr5__").show();
+      $("#buttonr5_").click(function(){
+        $(".tr5_").show();
       });
-      $("#buttonr6__").click(function(){
-        $(".tr6__").show();
+      $("#buttonr6_").click(function(){
+        $(".tr6_").show();
       });
-      $("#buttonr7__").click(function(){
-        $(".tr7__").show();
+      $("#buttonr7_").click(function(){
+        $(".tr7_").show();
       });
 
       $("#buttonr8_").click(function(){
@@ -336,12 +336,12 @@ $("#buttonr8").click(function(){
             $(".tr22_").show();
           });
 
-          $("#buttonr23__").click(function(){
-            $(".tr23__").show();
+          $("#buttonr23_").click(function(){
+            $(".tr23_").show();
           });
 
-          $("#buttonr24__").click(function(){
-            $(".tr24__").show();
+          $("#buttonr24_").click(function(){
+            $(".tr24_").show();
           });
           $("#buttonr25_").click(function(){
             $(".tr25_").show();
