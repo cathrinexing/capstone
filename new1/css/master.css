@@ -68,7 +68,11 @@ nav a:hover {
 }
 
 .tooltiptitle{
-  color: yellow;
+  color:   #79C5B6;
+  font-family: 'Avenir';
+  font-size: 16px;
+  font-weight: 700;
+
 }
 /* .tooltiptitle1{
   color: blue;
@@ -145,8 +149,8 @@ div.tooltip {
   width: 200px;
   height: 120px;
   padding: 2px;
-  font: 12px;
-/*  font-family:Avenir; */
+font-size: 14px;
+font-family:Avenir;
 
 /*   background: rgba(149, 192, 253, .7); */
 /*     background: rgba(255, 255, 255, .9); */
@@ -155,7 +159,11 @@ background-color: grey;
   border-radius: 2px;
   pointer-events: none;
 }
-
+.tooltipmajor,
+.tooltiplocation{
+  color:white;
+  font-size: 14px;
+}
 .tooltip1 {
   position: relative;
   display: inline-block;
@@ -179,6 +187,7 @@ background-color: lightgrey;
 
   z-index: 1;
 }
+
 .tooltip1{
       border-bottom: 0px dotted black;
 }
@@ -210,7 +219,7 @@ display: grid; */
   margin: 10px;
   text-align: center;
   margin: auto;
-  max-width: 600px;
+  max-width: 700px;
 
 }
 .twocol_2{
@@ -245,8 +254,13 @@ display: grid;
   margin: 10px;
   /*   border: 1px solid grey; */
   text-align: left;
-}
 
+}
+button{
+  font-family: Avenir;
+  font-size: 14px;
+  color:white;
+}
 .buttoncareer {
   display: inline-block;
   text-align: center;
@@ -602,7 +616,7 @@ text-align: left;
   margin-top: 10px;
 /*   grid-template-columns: 1fr 1fr; */
   display: block;
-  font-size: 14px;
+  font-size: 18px;
 text-align:left;
   color:#000000;
   text-decoration: none;
@@ -610,9 +624,9 @@ text-align:left;
 }
 
 .detailedtable{
-  padding-left: 14px;
+  padding-left: 16px;
   font-family: "Avenir";
-  color:grey;
+  color:orange;
 display: none;
 
 }
@@ -627,7 +641,7 @@ display: none;
 a{
 text-decoration: none;
 color: black;
-font-size: 16px;
+font-size: 20px;
 font-weight:700;
 margin:5px;
 }
@@ -635,6 +649,13 @@ margin:5px;
 a:hover{
   color:  #9F4646;
 
+}
+
+.axis,
+.axis--x{
+  font-family: "Avenir";
+  color:grey;
+  font-size: 14px;
 }
 /* th, td {
   font-family: 'Quicksand';
