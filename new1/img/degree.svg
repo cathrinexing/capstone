@@ -3,93 +3,87 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 700 520" style="enable-background:new 0 0 700 520;" xml:space="preserve">
 <style type="text/css">
-	.st0{font-family:'Avenir-Roman';}
-	.st1{font-size:16px;}
-	.st2{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:3,3,3,3;}
+	.st0{fill:none;}
+	.st1{font-family:'Avenir-Roman';}
+	.st2{font-size:16px;}
 	.st3{fill:#CEE9E4;}
-	.st4{fill:none;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:3,3,3,3;}
 </style>
+<line class="st0" x1="93" y1="632.8" x2="675.2" y2="632.8"/>
 <g>
-	<text transform="matrix(1 0 0 1 84.1198 492.976)" class="st0 st1">0</text>
-	<text transform="matrix(1 0 0 1 229.6783 492.976)" class="st0 st1">5</text>
-	<text transform="matrix(1 0 0 1 366.3409 492.976)" class="st0 st1">10</text>
-	<text transform="matrix(1 0 0 1 511.899 492.976)" class="st0 st1">15</text>
-	<text transform="matrix(1 0 0 1 657.4576 492.976)" class="st0 st1">20</text>
-</g>
-<line x1="93" y1="632.8" x2="675.2" y2="632.8"/>
-<g>
-	<g>
-		<line class="st2" x1="93" y1="457.9" x2="93" y2="28.4"/>
-		<line class="st2" x1="238.6" y1="457.9" x2="238.6" y2="28.4"/>
-		<line class="st2" x1="384.1" y1="457.9" x2="384.1" y2="28.4"/>
-		<line class="st2" x1="529.7" y1="457.9" x2="529.7" y2="28.4"/>
-		<line class="st2" x1="675.2" y1="457.9" x2="675.2" y2="28.4"/>
-	</g>
-	<g>
-	</g>
+	<text transform="matrix(1 0 0 1 77.4753 487.5935)" class="st1 st2">0</text>
+	<text transform="matrix(1 0 0 1 223.0339 487.5935)" class="st1 st2">5</text>
+	<text transform="matrix(1 0 0 1 359.6965 487.5935)" class="st1 st2">10</text>
+	<text transform="matrix(1 0 0 1 505.2546 487.5935)" class="st1 st2">15</text>
+	<text transform="matrix(1 0 0 1 650.8132 487.5935)" class="st1 st2">20</text>
 </g>
 <g>
-	<g>
-		<g>
-			<rect x="93" y="44.7" class="st3" width="465.8" height="34.2"/>
-			<rect x="93" y="92.2" class="st3" width="145.6" height="34.2"/>
-			<rect x="93" y="139.7" class="st3" width="116.4" height="34.2"/>
-			<rect x="93" y="187.3" class="st3" width="58.2" height="34.2"/>
-			<rect x="93" y="234.8" class="st3" width="58.2" height="34.2"/>
-			<rect x="93" y="282.3" class="st3" width="29.1" height="34.2"/>
-			<rect x="93" y="329.9" class="st3" width="29.1" height="34.2"/>
-			<rect x="93" y="377.4" class="st3" width="29.1" height="34.2"/>
-			<rect x="93" y="424.9" class="st3" width="29.1" height="34.2"/>
-		</g>
-	</g>
+	<rect x="86.4" y="39.3" class="st3" width="465.8" height="34.2"/>
+	<rect x="86.4" y="86.8" class="st3" width="116.4" height="34.2"/>
+	<rect x="86.4" y="134.4" class="st3" width="145.1" height="34.2"/>
+	<rect x="86.4" y="181.9" class="st3" width="58.2" height="34.2"/>
+	<rect x="86.4" y="229.4" class="st3" width="58.2" height="34.2"/>
+	<rect x="86.4" y="277" class="st3" width="29.1" height="34.2"/>
+	<rect x="86.4" y="324.5" class="st3" width="29.1" height="34.2"/>
+	<rect x="86.4" y="372" class="st3" width="29.1" height="34.2"/>
+	<rect x="86.4" y="419.6" class="st3" width="29.1" height="34.2"/>
 </g>
 <g>
 	<g>
-		<text transform="matrix(1 0 0 1 30.5748 452.2905)" class="st0 st1">MHCID</text>
-		<text transform="matrix(1 0 0 1 42.4303 404.7573)" class="st0 st1">MHCI</text>
-		<text transform="matrix(1 0 0 1 50.4303 357.2251)" class="st0 st1">MBS</text>
-		<text transform="matrix(1 0 0 1 49.2462 309.6919)" class="st0 st1">MAS</text>
-		<text transform="matrix(1 0 0 1 41.8385 262.1596)" class="st0 st1">MDes</text>
-		<text transform="matrix(1 0 0 1 58.1422 214.6264)" class="st0 st1">MA</text>
-		<text transform="matrix(1 0 0 1 49.2462 167.0932)" class="st0 st1">MFA</text>
-		<text transform="matrix(1 0 0 1 51.0221 119.561)" class="st0 st1">MPS</text>
-		<text transform="matrix(1 0 0 1 60.5104 72.0278)" class="st0 st1">MS</text>
+		<text transform="matrix(1 0 0 1 23.9304 446.9079)" class="st1 st2">MHCID</text>
+		<text transform="matrix(1 0 0 1 35.7858 399.3747)" class="st1 st2">MHCI</text>
+		<text transform="matrix(1 0 0 1 43.7858 351.8425)" class="st1 st2">MBS</text>
+		<text transform="matrix(1 0 0 1 42.6017 304.3093)" class="st1 st2">MAS</text>
+		<text transform="matrix(1 0 0 1 35.194 256.7771)" class="st1 st2">MDes</text>
+		<text transform="matrix(1 0 0 1 51.4977 209.2439)" class="st1 st2">MA</text>
+		<text transform="matrix(1 0 0 1 42.6017 161.7107)" class="st1 st2">MFA</text>
+		<text transform="matrix(1 0 0 1 44.3776 114.1784)" class="st1 st2">MPS</text>
+		<text transform="matrix(1 0 0 1 53.8659 66.6452)" class="st1 st2">MS</text>
 	</g>
 </g>
 <g>
-	<rect x="573.3" y="57.4" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 573.2911 69.4544)" class="st0 st1">16</text>
+	<rect x="566.6" y="52" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 566.6466 64.0719)" class="st1 st2">16</text>
 </g>
 <g>
-	<rect x="252.4" y="103.6" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 252.3828 115.7355)" class="st0 st1">5</text>
+	<rect x="242.7" y="140.6" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 242.6706 152.6871)" class="st1 st2">5</text>
 </g>
 <g>
-	<rect x="220.5" y="148.2" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 220.4796 160.3382)" class="st0 st1">4</text>
+	<rect x="213.5" y="98.4" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 213.4595 110.4511)" class="st1 st2">4</text>
 </g>
 <g>
-	<rect x="160.9" y="195.6" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 160.9017 207.6786)" class="st0 st1">2</text>
+	<rect x="154.3" y="190.2" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 154.2572 202.2961)" class="st1 st2">2</text>
 </g>
 <g>
-	<rect x="161.3" y="244.2" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 161.3237 256.2751)" class="st0 st1">2</text>
+	<rect x="154.7" y="238.8" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 154.6792 250.8926)" class="st1 st2">2</text>
 </g>
 <g>
-	<rect x="133.4" y="291.3" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 133.4139 303.3465)" class="st0 st1">1</text>
+	<rect x="126.8" y="285.9" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 126.7694 297.9639)" class="st1 st2">1</text>
 </g>
 <g>
-	<rect x="133.4" y="338.8" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 133.4139 350.9323)" class="st0 st1">1</text>
+	<rect x="126.8" y="333.5" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 126.7694 345.5497)" class="st1 st2">1</text>
 </g>
 <g>
-	<rect x="133.4" y="387.1" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 133.4139 399.1884)" class="st0 st1">1</text>
+	<rect x="126.8" y="381.7" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 126.7694 393.8058)" class="st1 st2">1</text>
 </g>
 <g>
-	<rect x="133.4" y="435.3" class="st4" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 133.4139 447.4444)" class="st0 st1">1</text>
+	<rect x="126.8" y="430" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 126.7694 442.0618)" class="st1 st2">1</text>
+</g>
+<g>
+	<g>
+		<line class="st4" x1="86.4" y1="452.6" x2="86.4" y2="23"/>
+		<line class="st4" x1="231.9" y1="452.6" x2="231.9" y2="23"/>
+		<line class="st4" x1="377.5" y1="452.6" x2="377.5" y2="23"/>
+		<line class="st4" x1="523" y1="452.6" x2="523" y2="23"/>
+		<line class="st4" x1="668.6" y1="452.6" x2="668.6" y2="23"/>
+	</g>
 </g>
 </svg>
