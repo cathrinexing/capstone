@@ -34,7 +34,7 @@ var x = d3.scaleLinear()
   .domain([0, 120000]);
 
 
-var data_set = 'one';
+var data_set = 'two';
 
 d3.json('data/tuition.json', function(data) {
 
@@ -156,7 +156,6 @@ d3.json('data/tuition.json', function(data) {
           div.transition()
             .duration(200)
             .style("opacity", 0);
-
             div.html("");
         })
 
