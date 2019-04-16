@@ -592,6 +592,8 @@ h3{
   font-size: 23px;
   text-align: center;
   color:#6E8B87;
+  margin-top: 50px;
+     margin-bottom: 20px;
 }
 h4{
   font-family: 'Righteous';
@@ -605,6 +607,8 @@ h5{
   font-size: 15px;
   text-align: center;
   color:grey;
+   margin-top: 15px;
+
 }
 
 p{
