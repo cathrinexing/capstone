@@ -9,7 +9,7 @@ $(document).ready(function() {
   })
 
 
-  var $checks = $(':checkbox[name^=fl]').change(function() {
+  var $checks = $(':radio[name^=fl]').change(function() {
     var $checked = $checks.filter(':checked');
     /* show all when nothing checked*/
     if (!$checked.length) {
@@ -27,14 +27,14 @@ $(document).ready(function() {
         return $.inArray(val, cats) > -1;
       });
       return checkMatches.length === checkedVals.length;
-      /* show resultas that match all checkboxes */
+      /* show resultas that match all radioes */
     }).show();
   });
 
 
   $('#resetfilter').click(function() {
-    // $(":checkbox").attr('checked', false);
-		$('input:checkbox').prop('checked',false);
+    // $(":radio").attr('checked', false);
+		$('input:radio').prop('checked',false);
 		$results.show();
 		return;
   });

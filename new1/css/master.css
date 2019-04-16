@@ -72,6 +72,8 @@ nav a:hover {
   font-family: 'Avenir';
   font-size: 16px;
   font-weight: 700;
+/*   padding-left: 5px;
+padding-right: 5px; */
 
 }
 /* .tooltiptitle1{
@@ -147,8 +149,8 @@ div.tooltip {
   position: absolute;
   text-align:left;
   width: 200px;
-  height: 120px;
-  padding: 2px;
+  height: 115px;
+  padding: 15px;
 font-size: 14px;
 font-family:Avenir;
 
@@ -159,6 +161,24 @@ background-color: grey;
   border-radius: 2px;
   pointer-events: none;
 }
+
+.tooltip2 {
+  position: absolute;
+  text-align:left;
+  width: 200px;
+  height: 100px;
+  padding: 15px;
+font-size: 14px;
+font-family:Avenir;
+
+/*   background: rgba(149, 192, 253, .7); */
+/*     background: rgba(255, 255, 255, .9); */
+background-color: grey;
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
 .tooltipmajor,
 .tooltiplocation{
   color:white;
@@ -219,7 +239,7 @@ display: grid; */
   margin: 10px;
   text-align: center;
   margin: auto;
-  max-width: 700px;
+  max-width: 800px;
 
 }
 .twocol_2{
@@ -624,7 +644,8 @@ text-align:left;
 }
 
 .detailedtable{
-  padding-left: 16px;
+  padding-left: 12px;
+  padding-right: 20px;
   font-family: "Avenir";
   color:#79C5B6;
 display: none;
@@ -638,6 +659,15 @@ display: none;
   background: #9F4646;
   height: 25px;
   color:white;
+}
+.hideb{
+  width:180px;
+  background: #79C5B6;
+  height: 25px;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  border-radius: 5px;
 }
 
 a{
@@ -669,6 +699,10 @@ a:hover{
 #majorbar{
   text-align: center;
   margin: auto;
+}
+
+.hideb{
+  display:none;
 }
 /* th, td {
   font-family: 'Quicksand';

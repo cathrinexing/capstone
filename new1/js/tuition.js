@@ -48,7 +48,8 @@ d3.json('data/tuition.json', function(data) {
     .attr('height', height)
 
   var div = d3.select("body").append("div")
-    .attr("class", "tooltip")
+    .attr("class", "tooltip2")
+
     .style("opacity", 0);
 
 

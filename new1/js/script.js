@@ -376,4 +376,9 @@ $("#buttonr8").click(function(){
               $(".tr34_").show();
             });
 
+
+            $("#buttonh9").click(function(){
+              $(".tr9").hide();
+            });
+
   }); //end of document ready
