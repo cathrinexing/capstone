@@ -376,7 +376,7 @@ $("#buttonr8").click(function(){
               $(".tr34_").show();
             });
 
-
+//hidebutton function
             $("#buttonh9").click(function(){
               $(".tr9").hide();
             });
