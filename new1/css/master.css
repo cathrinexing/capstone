@@ -653,7 +653,7 @@ a:hover{
 
 }
 .axis text{
-  fill:grey;
+
   font-family: "Avenir";
   font-size: 14px;
 }
@@ -664,6 +664,11 @@ a:hover{
 
 #what{
   margin-top: 80px;
+}
+
+#majorbar{
+  text-align: center;
+  margin: auto;
 }
 /* th, td {
   font-family: 'Quicksand';

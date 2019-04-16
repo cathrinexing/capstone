@@ -1,42 +1,63 @@
-var width = 900,
-  height = 350,
-  radius = 13;
-var circ;
-
-var svg = d3.select('#beeswarm').append('svg')
-  .attr('width', width)
-  .attr('height', height)
-
-var div = d3.select("body").append("div")
-  .attr("class", "tooltip")
-  .style("opacity", 0);
-
-
-// svg.append("line", 'svg')
-// 	.classed('main_line', true)
-// 	.attr("x1", 0)
-// 	.attr("y1", height/2)
-// 	.attr("x2", width)
-// 	.attr("y2", height/2)
-// 	.attr("stroke-width", 1.5)
-// 	.attr("stroke", "#A3A0A6");
-
-
-
-// var scale = d3.scaleLinear()
-//                 .domain([d3.min(data), d3.max(data)])
-//                 .range([height/2, 0]);
-
-
-
-var x = d3.scaleLinear()
-  .range([100, width * 0.95])
-  .domain([0, 120000]);
-
-
-var data_set = 'two';
+// var width = 900,
+//   height = 350,
+//   radius = 13;
+// var circ;
+//
+// var svg = d3.select('#beeswarm').append('svg')
+//   .attr('width', width)
+//   .attr('height', height)
+//
+// var div = d3.select("body").append("div")
+//   .attr("class", "tooltip")
+//   .style("opacity", 0);
+//
+//
+// // svg.append("line", 'svg')
+// // 	.classed('main_line', true)
+// // 	.attr("x1", 0)
+// // 	.attr("y1", height/2)
+// // 	.attr("x2", width)
+// // 	.attr("y2", height/2)
+// // 	.attr("stroke-width", 1.5)
+// // 	.attr("stroke", "#A3A0A6");
+//
+//
+//
+// // var scale = d3.scaleLinear()
+// //                 .domain([d3.min(data), d3.max(data)])
+// //                 .range([height/2, 0]);
+//
+//
+//
+// var x = d3.scaleLinear()
+//   .range([100, width * 0.95])
+//   .domain([0, 120000]);
+//
+//
+// var data_set = 'two';
 
 d3.json('data/tuition.json', function(data) {
+
+  var width = 900,
+    height = 350,
+    radius = 13;
+  var circ;
+
+  var svg = d3.select('#beeswarm').append('svg')
+    .attr('width', width)
+    .attr('height', height)
+
+  var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+
+  var x = d3.scaleLinear()
+    .range([100, width * 0.95])
+    .domain([0, 120000]);
+
+
+  var data_set = 'two';
 
 
   // console.log(data);
