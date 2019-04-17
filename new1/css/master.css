@@ -248,6 +248,8 @@ display: grid;
     margin: 10px;
     text-align: left;
     margin: auto;
+  background-color: lightgrey;
+  pading:5px;
 }
 
 .threecol{
@@ -644,6 +646,7 @@ text-align:left;
   text-decoration: none;
   display: grid;
   margin-top: 15px;
+padding: 15px;
 }
 
 .detailedtable{
@@ -676,14 +679,15 @@ font-size: 16px;
   background: #9F4646;
   height: 25px;
   color:white;
+
 }
 .hideb{
   width:180px;
   background: #79C5B6;
   height: 25px;
   color:white;
-  margin-top: 10px;
-  margin-bottom: 35px;
+/*   margin-top: 10px;
+margin-bottom: 35px; */
   border-radius: 5px;
 }
 
