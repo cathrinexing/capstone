@@ -378,7 +378,235 @@ $("#buttonr8").click(function(){
             });
 
 //hidebutton function
-            $("#buttonh9").click(function(){
+
+$("#buttonh1").click(function(){
+  $(".tr1").hide();
+});
+$("#buttonh2").click(function(){
+  $(".tr2").hide();
+});
+
+$("#buttonh3").click(function(){
+  $(".tr3").hide();
+});
+$("#buttonh4").click(function(){
+  $(".tr4").hide();
+});
+$("#buttonh5").click(function(){
+  $(".tr5").hide();
+});
+$("#buttonh6").click(function(){
+  $(".tr6").hide();
+});
+$("#buttonh7").click(function(){
+  $(".tr7").hide();
+});
+
+$("#buttonh8").click(function(){
+  $(".tr8").hide();
+});
+    $("#buttonh9").click(function(){
+      $(".tr9").hide();
+    });
+    $("#buttonh10").click(function(){
+      $(".tr10").hide();
+    });
+
+    $("#buttonh11").click(function(){
+      $(".tr11").hide();
+    });
+    $("#buttonh12").click(function(){
+      $(".tr12").hide();
+    });
+
+    $("#buttonh13").click(function(){
+      $(".tr13").hide();
+    });
+    $("#buttonh14").click(function(){
+      $(".tr14").hide();
+    });
+    $("#buttonh15").click(function(){
+      $(".tr15").hide();
+    });
+    $("#buttonh16").click(function(){
+      $(".tr16").hide();
+    });
+    $("#buttonh17").click(function(){
+      $(".tr17").hide();
+    });
+
+    $("#buttonh18").click(function(){
+      $(".tr18").hide();
+    });
+    $("#buttonh19").click(function(){
+      $(".tr19").hide();
+    });
+    $("#buttonh20").click(function(){
+      $(".tr20").hide();
+    });
+
+    $("#buttonh21").click(function(){
+      $(".tr21").hide();
+    });
+
+    $("#buttonh22").click(function(){
+      $(".tr22").hide();
+    });
+
+    $("#buttonh23").click(function(){
+      $(".tr23").hide();
+    });
+
+    $("#buttonh24").click(function(){
+      $(".tr24").hide();
+    });
+    $("#buttonh25").click(function(){
+      $(".tr25").hide();
+    });
+
+    $("#buttonh26").click(function(){
+      $(".tr26").hide();
+    });
+    $("#buttonh27").click(function(){
+      $(".tr27").hide();
+    });
+      $("#buttonh28").click(function(){
+        $(".tr28").hide();
+      });
+      $("#buttonh29").click(function(){
+        $(".tr29").hide();
+      });
+      $("#buttonh30").click(function(){
+        $(".tr30").hide();
+      });
+
+      $("#buttonh31").click(function(){
+        $(".tr31").hide();
+      });
+      $("#buttonh32").click(function(){
+        $(".tr32").hide();
+      });
+      $("#buttonh33").click(function(){
+        $(".tr33").hide();
+      });
+      $("#buttonh34").click(function(){
+        $(".tr34").hide();
+      });
+
+      $("#buttonh1_").click(function(){
+        $(".tr1_").hide();
+      });
+      $("#buttonh2_").click(function(){
+        $(".tr2_").hide();
+      });
+
+      $("#buttonh3_").click(function(){
+        $(".tr3_").hide();
+      });
+      $("#buttonh4_").click(function(){
+        $(".tr4_").hide();
+      });
+      $("#buttonh5_").click(function(){
+        $(".tr5_").hide();
+      });
+      $("#buttonh6_").click(function(){
+        $(".tr6_").hide();
+      });
+      $("#buttonh7_").click(function(){
+        $(".tr7_").hide();
+      });
+
+      $("#buttonh8_").click(function(){
+        $(".tr8_").hide();
+      });
+          $("#buttonh9_").click(function(){
+            $(".tr9_").hide();
+          });
+          $("#buttonh10_").click(function(){
+            $(".tr10_").hide();
+          });
+
+          $("#buttonh11_").click(function(){
+            $(".tr11_").hide();
+          });
+          $("#buttonh12_").click(function(){
+            $(".tr12_").hide();
+          });
+
+          $("#buttonh13_").click(function(){
+            $(".tr13_").hide();
+          });
+          $("#buttonh14_").click(function(){
+            $(".tr14_").hide();
+          });
+          $("#buttonh15_").click(function(){
+            $(".tr15_").hide();
+          });
+          $("#buttonh16_").click(function(){
+            $(".tr16_").hide();
+          });
+          $("#buttonh17_").click(function(){
+            $(".tr17_").hide();
+          });
+
+          $("#buttonh18_").click(function(){
+            $(".tr18_").hide();
+          });
+          $("#buttonh19_").click(function(){
+            $(".tr19_").hide();
+          });
+          $("#buttonh20_").click(function(){
+            $(".tr20_").hide();
+          });
+
+          $("#buttonh21_").click(function(){
+            $(".tr21_").hide();
+          });
+
+          $("#buttonh22_").click(function(){
+            $(".tr22_").hide();
+          });
+
+          $("#buttonh23_").click(function(){
+            $(".tr23_").hide();
+          });
+
+          $("#buttonh24_").click(function(){
+            $(".tr24_").hide();
+          });
+          $("#buttonh25_").click(function(){
+            $(".tr25_").hide();
+          });
+
+          $("#buttonh26_").click(function(){
+            $(".tr26_").hide();
+          });
+          $("#buttonh27_").click(function(){
+            $(".tr27_").hide();
+          });
+            $("#buttonh28_").click(function(){
+              $(".tr28_").hide();
+            });
+            $("#buttonh29_").click(function(){
+              $(".tr29_").hide();
+            });
+            $("#buttonh30_").click(function(){
+              $(".tr30_").hide();
+            });
+
+            $("#buttonh31_").click(function(){
+              $(".tr31_").hide();
+            });
+            $("#buttonh32_").click(function(){
+              $(".tr32_").hide();
+            });
+            $("#buttonh33_").click(function(){
+              $(".tr33_").hide();
+            });
+            $("#buttonh34_").click(function(){
+              $(".tr34_").hide();
+            });
+$("#buttonh9").click(function(){
               $(".tr9").hide();
             });
 
