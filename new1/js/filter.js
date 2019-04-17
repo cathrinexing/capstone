@@ -5,7 +5,6 @@ $(document).ready(function() {
     return $(this).div
 		// return $(this).data('category')
 
-
   })
 
 
