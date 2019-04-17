@@ -109,6 +109,7 @@
 
     $(".careerchoose").click(function() {
       $("#otherfactors").show();
+        $("#allresult").show();
       $("#no").show();
     });
 

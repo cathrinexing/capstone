@@ -708,6 +708,13 @@ a:hover{
 .hideb{
   display:none;
 }
+
+.careerform{
+/*   display: inline-block; */
+grid-template-columns: 1fr 1fr;
+display: grid;
+}
+
 /* th, td {
   font-family: 'Quicksand';
   font-size: 12px;
