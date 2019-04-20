@@ -62,7 +62,7 @@ nav a:hover {
   transform: translate(-50%, -50%);
   font-size: 45PX;
   font-family: 'Righteous';
-  color: white;
+  color: black;
 
 
 }
@@ -428,14 +428,15 @@ button{
 /*   margin: auto; */
   text-align: center;
   display:inline-block;
-  font-family: Quicksand;
-/*   height: 40px;
-width: 150px;
-background-color: #BE6A64; */
+  font-family: Avenir;
+  font-size: 18px;
+/* height: 40px;
+width: 150px; */
+/* background-color: #BE6A64; */
   text-align: center;
   margin: 40px;
 font-size: 20px;
-
+background-color: #79C5B6;
 
 }
 
@@ -586,6 +587,7 @@ h2{
   font-size: 25px;
   text-align: center;
   color:#152C32;
+  margin-top: 50px;
 }
 h3{
   font-family: 'Righteous';
@@ -610,7 +612,16 @@ h5{
    margin-top: 15px;
 
 }
+h6{
+  font-family: 'Avenir';
+  font-size: 24px;
+  text-align: left;
+/*   color:grey; */
+color:black;
+   margin-top: 80px;
+   margin-bottom: 150px;
 
+}
 p{
   font-family: 'Quicksand';
   font-size: 18px;
@@ -735,6 +746,11 @@ display: grid;
   font-family: "Righteous";
   font-size: 18px;
   margin-top: 5px;
+}
+
+.rightal{
+  text-align: right;
+  margin: auto;
 }
 /* th, td {
   font-family: 'Quicksand';
