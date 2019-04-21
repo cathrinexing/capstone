@@ -768,6 +768,10 @@ display: grid;
 /*   color:grey; */
    color: #79C5B6;
 }
+
+.smallt{
+  font-size: 12px;
+}
 /* th, td {
   font-family: 'Quicksand';
   font-size: 12px;
