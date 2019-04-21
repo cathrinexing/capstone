@@ -250,7 +250,8 @@ display: grid;
     margin: 10px;
     text-align: left;
     margin: auto;
-  background-color: lightgrey;
+    border:1px solid  lightgrey ;
+/* background-color: lightgrey; */
   pading:5px;
 }
 
@@ -760,10 +761,12 @@ display: grid;
 }
 
 .tablegreen{
-  color: #79C5B6;
+  /* color: #79C5B6; */
+    color:grey;
 }
 .titleuni{
-  color:orange;
+/*   color:grey; */
+   color: #79C5B6;
 }
 /* th, td {
   font-family: 'Quicksand';
