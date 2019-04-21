@@ -758,6 +758,13 @@ display: grid;
   text-align: right;
   margin: auto;
 }
+
+.tablegreen{
+  color: #79C5B6;
+}
+.titleuni{
+  color:orange;
+}
 /* th, td {
   font-family: 'Quicksand';
   font-size: 12px;
