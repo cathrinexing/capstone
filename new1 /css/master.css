@@ -229,10 +229,12 @@ form {
 #navigation1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
-  margin: 30px;
-  max-width: 1200px text-align: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: auto;
+
+  max-width: 900px ;
+  text-align: center;
+/*   margin-left: 250px;
+margin-right: 250px; */
 }
 
 .results {
