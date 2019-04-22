@@ -496,7 +496,7 @@ span.img {
 .CheckboxStyle label {
   display: block;
   position: relative;
-  padding: 10px 5px 10px 35px;
+  padding: 10px 10px 10px 10px;
   font-family: Quicksand;
   font-size: 16px;
   color: black;
@@ -509,7 +509,8 @@ span.img {
   text-align: center;
   margin: auto;
   /* top: 0px; */
-  left: 0;
+
+  left: 0px;
   height: 20px;
   width: 20px;
   background-color: #white;
@@ -533,6 +534,13 @@ span.img {
   display: none;
 }
 
+input {
+/* position: absolute; */
+postion:relative;
+
+  opacity: 0;
+  cursor: pointer;
+}
 /* Show the checkmark when checked */
 .labelcontainer input:checked~.checkmark:after {
   display: block;
@@ -556,6 +564,7 @@ P {
 
 label {
   font-size: 18px;
+
 }
 
 .comparison {
@@ -776,6 +785,10 @@ display: grid;
    color: #79C5B6;
    font-family: Righteous;
 }
+/* .fititle{
+  left:-30px;
+  position: relative;
+} */
 /* th, td {
   font-family: 'Quicksand';
   font-size: 12px;
