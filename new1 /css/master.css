@@ -786,6 +786,20 @@ display: grid;
    color: #79C5B6;
    font-family: Righteous;
 }
+
+#resetfilter{
+  text-align: center;
+  margin: auto;
+
+  font-family: Avenir;
+  font-size: 18px;
+height: 40px;
+width: 200px;
+background-color: #BE6A64;
+ text-align: center;
+  margin: 40px;
+
+}
 /* .fititle{
   left:-30px;
   position: relative;

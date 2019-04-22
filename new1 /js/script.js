@@ -111,12 +111,13 @@
       $("#otherfactors").show();
       $("#allresult").show();
       $("#no").show();
+        $("#resetfilter").show();
     });
 
 
     $(".choosetwo").click(function() {
       $("#allresult").show();
-      $("#resetfilter").show();
+
 
     });
 
