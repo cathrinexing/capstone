@@ -11,6 +11,7 @@
 header {
   background: #152C32;
   width: 100%;
+
   /*   height: 50px; */
   position: fixed;
   top: 0;
@@ -40,7 +41,7 @@ nav li {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 0px;
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 nav a {
@@ -808,23 +809,24 @@ background-color: #BE6A64;
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
 /*   body {
   background-color: lightgreen;
 } */
 p{font-size: 12px;}
-a{
+
+a {
   font-size: 12px;
 }
 h1{
   font-size: 20px;
 }
 h2{
-  font-size: 20px;
+  font-size: 18px;
 }
 h3{
   font-family: 'Righteous';
-  font-size: 18px;
+  font-size: 16px;
 
 }
 h4{
@@ -848,12 +850,51 @@ h5{
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 300px;
+  top: 220px;
+
+
+
 /*   left: 100px;
 right: 100px; */
 /*   transform: translate(-50%, -50%); */
 }
+/* header{
+
 }
+ */
+ nav li {
+   display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 0px;
+   margin-right: 25px;
+   font-size: 8px;
+
+ }
+nav a {
+   font-size: 10px;
+}
+
+}
+
+
+/* @media screen and (max-width: 1200px) {
+
+.centered{
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+
+}
+  p{
+    font-size: 12px;
+  }
+
+  .cover{
+    height: 1000px;
+  }
+} */
 /* .fititle{
   left:-30px;
   position: relative;
