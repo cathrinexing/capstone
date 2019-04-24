@@ -124,7 +124,9 @@ opacity: 0.8;
   display: none;
   /* visibility: hidden; */
 }
-
+#mapwhole{
+  height: 650px
+}
 .title{
   text-align: center;
   margin: auto;
