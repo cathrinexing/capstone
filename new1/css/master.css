@@ -25,7 +25,8 @@ header::after {
 }
 
 nav {
-  float: right;
+/*   float:right; */
+text-align: center;
 
 
 }
@@ -38,10 +39,11 @@ nav ul {
 
 nav li {
   display: inline-block;
+text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 0px;
-  margin-right: 60px;
+  margin-left: 50px;
+/*   margin-right: 50px; */
 }
 
 nav a {
