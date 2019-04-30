@@ -17,17 +17,15 @@
 	<text transform="matrix(1 0 0 1 505.2546 487.5935)" class="st1 st2">15</text>
 	<text transform="matrix(1 0 0 1 650.8132 487.5935)" class="st1 st2">20</text>
 </g>
-<g>
-	<rect x="86.4" y="39.3" class="st3" width="465.8" height="34.2"/>
-	<rect x="86.4" y="86.8" class="st3" width="116.4" height="34.2"/>
-	<rect x="86.4" y="134.4" class="st3" width="145.1" height="34.2"/>
-	<rect x="86.4" y="181.9" class="st3" width="58.2" height="34.2"/>
-	<rect x="86.4" y="229.4" class="st3" width="58.2" height="34.2"/>
-	<rect x="86.4" y="277" class="st3" width="29.1" height="34.2"/>
-	<rect x="86.4" y="324.5" class="st3" width="29.1" height="34.2"/>
-	<rect x="86.4" y="372" class="st3" width="29.1" height="34.2"/>
-	<rect x="86.4" y="419.6" class="st3" width="29.1" height="34.2"/>
-</g>
+<rect x="86.4" y="39.3" class="st3" width="465.8" height="34.2"/>
+<rect x="86.4" y="86.8" class="st3" width="145.3" height="34.2"/>
+<rect x="86.4" y="134.4" class="st3" width="116.3" height="34.2"/>
+<rect x="86.4" y="181.9" class="st3" width="58.2" height="34.2"/>
+<rect x="86.4" y="229.4" class="st3" width="58.2" height="34.2"/>
+<rect x="86.4" y="277" class="st3" width="29.1" height="34.2"/>
+<rect x="86.4" y="324.5" class="st3" width="29.1" height="34.2"/>
+<rect x="86.4" y="372" class="st3" width="29.1" height="34.2"/>
+<rect x="86.4" y="419.6" class="st3" width="29.1" height="34.2"/>
 <g>
 	<g>
 		<text transform="matrix(1 0 0 1 23.9304 446.9079)" class="st1 st2">MHCID</text>
@@ -36,8 +34,8 @@
 		<text transform="matrix(1 0 0 1 42.6017 304.3093)" class="st1 st2">MAS</text>
 		<text transform="matrix(1 0 0 1 35.194 256.7771)" class="st1 st2">MDes</text>
 		<text transform="matrix(1 0 0 1 51.4977 209.2439)" class="st1 st2">MA</text>
-		<text transform="matrix(1 0 0 1 42.6017 161.7107)" class="st1 st2">MFA</text>
-		<text transform="matrix(1 0 0 1 44.3776 114.1784)" class="st1 st2">MPS</text>
+		<text transform="matrix(1 0 0 1 42.6017 161.7107)" class="st1 st2">MPS</text>
+		<text transform="matrix(1 0 0 1 44.3776 114.1784)" class="st1 st2">MFA</text>
 		<text transform="matrix(1 0 0 1 53.8659 66.6452)" class="st1 st2">MS</text>
 	</g>
 </g>
@@ -46,12 +44,12 @@
 	<text transform="matrix(1 0 0 1 566.6466 64.0719)" class="st1 st2">16</text>
 </g>
 <g>
-	<rect x="242.7" y="140.6" class="st0" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 242.6706 152.6871)" class="st1 st2">5</text>
+	<rect x="242.7" y="96.2" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 242.6706 108.2572)" class="st1 st2">5</text>
 </g>
 <g>
-	<rect x="213.5" y="98.4" class="st0" width="32.4" height="25.1"/>
-	<text transform="matrix(1 0 0 1 213.4595 110.4511)" class="st1 st2">4</text>
+	<rect x="213.5" y="143.7" class="st0" width="32.4" height="25.1"/>
+	<text transform="matrix(1 0 0 1 213.4595 155.7699)" class="st1 st2">4</text>
 </g>
 <g>
 	<rect x="154.3" y="190.2" class="st0" width="32.4" height="25.1"/>
