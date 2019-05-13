@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 700 520" style="enable-background:new 0 0 700 520;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Avenir-Roman';}
+	.st1{font-size:16px;}
+	.st2{fill:#CEE9E4;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:3,3,3,3;}
+	.st4{fill:none;}
+</style>
+<g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 264.0611 411.4479)" class="st0 st1">0</text>
+			<text transform="matrix(1 0 0 1 353.5943 411.4479)" class="st0 st1">5</text>
+			<text transform="matrix(1 0 0 1 434.2325 411.4479)" class="st0 st1">10</text>
+			<text transform="matrix(1 0 0 1 523.7657 411.4479)" class="st0 st1">15</text>
+			<text transform="matrix(1 0 0 1 613.2999 411.4479)" class="st0 st1">20</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<rect x="268" y="126.3" class="st2" width="322.3" height="50"/>
+				<rect x="268" y="195.7" class="st2" width="143.3" height="50"/>
+				<rect x="268" y="265.2" class="st2" width="71.6" height="50"/>
+				<rect x="268" y="334.7" class="st2" width="53.7" height="50"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 164.8116 366.0602)" class="st0 st1">Human factor</text>
+		<text transform="matrix(1 0 0 1 179.3233 296.5602)" class="st0 st1">Information</text>
+		<text transform="matrix(1 0 0 1 60.7486 227.0641)" class="st0 st1">Human Compter Interaction</text>
+		<text transform="matrix(1 0 0 1 161.0352 157.566)" class="st0 st1">Design/Media</text>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="268" y1="395.9" x2="268" y2="101.1"/>
+			<line class="st3" x1="357.5" y1="395.9" x2="357.5" y2="101.1"/>
+			<line class="st3" x1="447" y1="395.9" x2="447" y2="101.1"/>
+			<line class="st3" x1="536.6" y1="395.9" x2="536.6" y2="101.1"/>
+			<line class="st3" x1="626.1" y1="395.9" x2="626.1" y2="101.1"/>
+		</g>
+		<g>
+		</g>
+	</g>
+	<g>
+		<rect x="597.9" y="143" class="st4" width="32.4" height="25.1"/>
+		<text transform="matrix(1 0 0 1 597.8833 155.0477)" class="st0 st1">18</text>
+	</g>
+	<g>
+		<rect x="418.5" y="215.1" class="st4" width="32.4" height="25.1"/>
+		<text transform="matrix(1 0 0 1 418.4936 227.2343)" class="st0 st1">8</text>
+	</g>
+	<g>
+		<rect x="346.3" y="282.5" class="st4" width="32.4" height="25.1"/>
+		<text transform="matrix(1 0 0 1 346.3385 294.5558)" class="st0 st1">4</text>
+	</g>
+	<g>
+		<rect x="330.7" y="354.8" class="st4" width="32.4" height="25.1"/>
+		<text transform="matrix(1 0 0 1 330.731 366.8716)" class="st0 st1">3</text>
+	</g>
+</g>
+</svg>
