@@ -1,32 +1,4 @@
 
-// any time you press button, adds to jsonobject,  loop through json file, check vs array
-// searchobject = {property:Private, campus: urban}
-// loop through jsonfile
-// loop through selection array
-/*
-
-for var i in programs.json{
-    for var i in college{
-      for var objectKey in searchobject{
-            if(searchobject[objectkey] == college[objectKey]){
-            addCollege = true;
-          }else{
-
-          addCollege = false;
-          break;
-        }
-      }
-      if(addCollege == true){
-      add to a array/object
-      addCollege = false;
-    }
-    }
-
-  }
-}
-
-*/
-
 (function() {
 
   //Width and height of map
