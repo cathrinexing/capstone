@@ -23,5 +23,11 @@ if (true) {
 
 }
 else {
-  
+
 }
+
+
+circles. attr('cx', function(d,i){
+  return(i*60)+width/3;
+
+});

@@ -79,16 +79,16 @@
         // mouse hover function
 
         .on("mouseover", function(d) {
+
           div.transition()
             .duration(200)
             .style("opacity", .9);
 
-
           div.html("<div class='tooltiptitle'>"+d.university + "</div>" + "<div class='tooltipmajor'>"+"Major:"+" "+d.major + "</div>"+"Degree:"+" " + d.degree + "<div class='tooltiplocation'>" +"Location:"+" "+ d.location+"</div>")
             .style("left", (d3.event.pageX+10) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
-                  //
-                  d3.select(this)
+
+         d3.select(this)
                     .style("fill", "#BE6A64");
 
 
