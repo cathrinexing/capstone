@@ -882,7 +882,7 @@ margin-bottom: 3px;
     position: absolute;
     text-align: center;
     margin: auto;
-    top: 220px;
+/*     top: 220px; */
   }
 
   nav li {
@@ -902,17 +902,24 @@ margin-bottom: 3px;
     font-size: 6px;
   }
 
-  .centered {
-    font-size: 10px;
+  .centered h4{
+    font-size: 14px;
+  }
+  .centered
+ {
+    font-size: 16px;
     position: absolute;
     text-align: center;
     margin: auto;
-    top: 50%;
+    /* top: 50%; */
   }
+.coverp{
+  font-size: 12px !important;
+}
 
   nav li {
     display: inline-block;
-    margin:20px;
+    margin:10px;
     font-size: 10px;
   }
 
