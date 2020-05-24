@@ -948,17 +948,17 @@ margin-bottom: 3px;
 @media screen and (max-width: 600px) {
 
   .centered h4{
-    font-size: 12px;
+    font-size: 12px !important;
     margin-top: 5px;
   }
   .centered
  {
-font-size: 14px;
+font-size: 14px!important;
     position: absolute;
     text-align: center;
     margin: auto;
-    width:95%;
-    top:55%
+    width:95%!important;
+    top:55%!important;
   }
 
 .coverp{
@@ -974,7 +974,7 @@ font-size: 14px;
   .imgp1 {
     margin-top: 0px;
       margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 12px!important;
     line-height: 1;
     font-weight: 400;
   }
