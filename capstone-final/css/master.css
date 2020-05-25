@@ -3,6 +3,12 @@ html {
 }
 
 .headline {
+/*   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("headimg.png"); */
+
+    background-image: url("/img/headimgcopy.png");
+      background-size: cover;
+        background-repeat: no-repeat;
+
   margin: auto;
   background-color: grey;
   text-align: center;
@@ -10,8 +16,10 @@ html {
   display: block;
   align-items: center;
   justify-content: center;
-  width: 102%;
+  width: 105%;
 left: -8px;
+height:100vh !important;
+overflow: hidden;
 }
 
 header {
@@ -907,11 +915,11 @@ margin-bottom: 3px;
 @media screen and (max-width: 800px) {
 
   .centered h4{
-    font-size: 14px;
+    font-size: 16px;
   }
   .centered
  {
-  /*   font-size: 16px; */
+font-size: 20px;
     position: absolute;
     text-align: center;
     margin: auto;
@@ -919,7 +927,7 @@ margin-bottom: 3px;
   }
 
 .coverp{
-  font-size: 12px !important;
+  font-size: 16px !important;
 }
 
   nav li {
@@ -929,8 +937,8 @@ margin-bottom: 3px;
   }
 
   .imgp1 {
-    margin-top: 15px;
-      margin-bottom: 15px;
+/*     margin-top: 15px;
+  margin-bottom: 15px; */
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
@@ -940,32 +948,32 @@ margin-bottom: 3px;
   }
 
   a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   h4 {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 600px) {
 
   .centered h4{
-    font-size: 12px !important;
-    margin-top: 5px;
+    font-size: 14px !important;
+/*     margin-top: 5px; */
   }
   .centered
  {
-font-size: 14px!important;
+font-size: 16px!important;
     position: absolute;
     text-align: center;
     margin: auto;
-    width:95%!important;
-    top:55%!important;
+    width:85%!important;
+  /*   top:55%!important; */
   }
 
 .coverp{
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
   nav li {
@@ -977,8 +985,8 @@ font-size: 14px!important;
   .imgp1 {
     margin-top: 0px;
       margin-bottom: 0px;
-    font-size: 12px!important;
-    line-height: 1;
+    font-size: 14px!important;
+    line-height: 1.5;
     font-weight: 400;
   }
   nav a {
@@ -991,7 +999,7 @@ font-size: 14px!important;
 
   .centered h4,
     .centered h5{
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -1009,9 +1017,9 @@ button:active{
     color:white!important;
 }
 
-h5{
+/* h5{
   margin-top: 0 !important
-}
+} */
 .centered,
 .centered h4,
 .centered p,
@@ -1019,6 +1027,7 @@ h5{
 .centered a{
   color:white !important
 }
-.scroll2{
+/* .scroll2{
   margin-bottom: 3px
 }
+ */
