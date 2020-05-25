@@ -3,12 +3,10 @@ html {
 }
 
 .headline {
-/*   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("headimg.png"); */
-
-    background-image: url("/img/headimgcopy.png");
-      background-size: cover;
-        background-repeat: no-repeat;
-
+  /*   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("headimg.png"); */
+  background-image: url("/img/headimgcopy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
   background-color: grey;
   text-align: center;
@@ -17,18 +15,17 @@ html {
   align-items: center;
   justify-content: center;
   width: 105%;
-left: -8px;
-height:100vh !important;
-overflow: hidden;
+  left: -8px;
+  height: 100vh !important;
+  overflow: hidden;
 }
 
 header {
   background: #152C32;
-
   position: fixed;
-   top: 0;
-   width: 101%;
-left:-1px;
+  top: 0;
+  width: 101%;
+  left: -1px;
   z-index: 5;
 }
 
@@ -53,7 +50,7 @@ nav li {
   display: inline-block;
   text-align: center;
   margin: 20px;
-/*   margin-top: 20px;
+  /*   margin-top: 20px;
 margin-bottom: 20px;
 margin-right: 50px; */
   /*   margin-right: 50px; */
@@ -82,8 +79,8 @@ nav a:hover {
   /*   font-family: 'Righteous'; */
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   color: black;
-  width:70%
-  /*   max-width: 900px; */
+  width: 70%
+    /*   max-width: 900px; */
 }
 
 .tooltiptitle {
@@ -296,7 +293,7 @@ display: grid; */
 .button {
   display: block;
   border-color: #BE6A64;
- background-color: white;
+  background-color: white;
   /* width: 200px; */
   /*   background-color: lightblue; */
   margin: 0 auto;
@@ -306,11 +303,11 @@ display: grid; */
 
 button {
   border-color: #BE6A64;
- background-color: white;
+  background-color: white;
   /*   font-family: Avenir; */
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-size: 14px;
-  color:black;
+  color: black;
 }
 
 .buttoncareer {
@@ -331,7 +328,7 @@ button {
   border-radius: 5px;
   margin: 10px;
   border-color: #BE6A64;
- background-color: white;
+  background-color: white;
 }
 
 .nested {
@@ -393,7 +390,7 @@ button {
 .d_sel {
   height: 35px;
   width: 100px;
-/*   background-color: #BE6A64; */
+  /*   background-color: #BE6A64; */
   margin: 30px;
   margin-top: 100px;
 }
@@ -478,8 +475,8 @@ button {
 #degreebutton {
   height: 40px;
   width: 100px;
- border-color: #BE6A64;
-background-color: white;
+  border-color: #BE6A64;
+  background-color: white;
   text-align: center;
   margin: 0px;
   margin: 10px;
@@ -753,7 +750,7 @@ font-size: 16px; */
 .hideb {
   width: 180px;
   background: #79C5B6;
-  border:none;
+  border: none;
   height: 25px;
   color: white;
   /*   margin-top: 10px;
@@ -843,30 +840,34 @@ a:hover {
   text-align: center;
   margin: 40px;
 }
-#resetfilter:hove{
+
+#resetfilter:hove {
   background-color: red;
 }
+
 .imgp {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 50px;
 }
+
 .imgp1 {
   margin-top: 50px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
 }
 
-.scroll{
+.scroll {
   margin-top: 0px !important;
-margin-bottom: 3px;
+  margin-bottom: 3px;
   color: black;
   font-weight: 300
-  /* border-bottom: 1px solid grey; */
+    /* border-bottom: 1px solid grey; */
 }
+
 @media screen and (max-width: 1000px) {
 
   /*   body {
@@ -875,7 +876,6 @@ margin-bottom: 3px;
   /* imgp {
     font-size: 12px;
   } */
-
   a {
     font-size: 12px;
   }
@@ -896,14 +896,12 @@ margin-bottom: 3px;
     position: absolute;
     text-align: center;
     margin: auto;
-    width:70%
-
+    width: 70%
   }
 
   nav li {
     display: inline-block;
     margin: 20px;
-
     font-size: 8px;
   }
 
@@ -913,36 +911,36 @@ margin-bottom: 3px;
 }
 
 @media screen and (max-width: 800px) {
-
-  .centered h4{
+  .centered h4 {
     font-size: 16px;
   }
-  .centered
- {
-font-size: 20px;
+
+  .centered {
+    font-size: 20px;
     position: absolute;
     text-align: center;
     margin: auto;
-    width:80%
+    width: 80%
   }
 
-.coverp{
-  font-size: 16px !important;
-}
+  .coverp {
+    font-size: 16px !important;
+  }
 
   nav li {
     display: inline-block;
-    margin:10px;
+    margin: 10px;
     font-size: 10px;
   }
 
   .imgp1 {
-/*     margin-top: 15px;
+    /*     margin-top: 15px;
   margin-bottom: 15px; */
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
   }
+
   nav a {
     font-size: 10px;
   }
@@ -957,38 +955,38 @@ font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
-
-  .centered h4{
+  .centered h4 {
     font-size: 14px !important;
-/*     margin-top: 5px; */
+    /*     margin-top: 5px; */
   }
-  .centered
- {
-font-size: 16px!important;
+
+  .centered {
+    font-size: 16px !important;
     position: absolute;
     text-align: center;
     margin: auto;
-    width:85%!important;
-  /*   top:55%!important; */
+    width: 85% !important;
+    /*   top:55%!important; */
   }
 
-.coverp{
-  font-size: 14px !important;
-}
+  .coverp {
+    font-size: 14px !important;
+  }
 
   nav li {
     display: inline-block;
-    margin:10px;
+    margin: 10px;
     font-size: 10px;
   }
 
   .imgp1 {
     margin-top: 0px;
-      margin-bottom: 0px;
-    font-size: 14px!important;
+    margin-bottom: 0px;
+    font-size: 14px !important;
     line-height: 1.5;
     font-weight: 400;
   }
+
   nav a {
     font-size: 10px;
   }
@@ -998,23 +996,22 @@ font-size: 16px!important;
   }
 
   .centered h4,
-    .centered h5{
+  .centered h5 {
     font-size: 14px;
   }
 }
 
-
 button:hover {
   background-color: #BE6A64 !important;
-  color:white!important;
+  color: white !important;
 }
 
 button:focus,
-button:active{
+button:active {
   background-color: #BE6A64 !important;
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-    color:white!important;
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+  color: white !important;
 }
 
 /* h5{
@@ -1024,9 +1021,10 @@ button:active{
 .centered h4,
 .centered p,
 .centered h5,
-.centered a{
-  color:white !important
+.centered a {
+  color: white !important
 }
+
 /* .scroll2{
   margin-bottom: 3px
 }
